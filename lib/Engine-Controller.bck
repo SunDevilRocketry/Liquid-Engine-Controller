@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP C_Polarized_US
+D Polarized capacitor, US symbol
+K cap capacitor
+F ~
+$ENDCMP
+#
 $CMP UKL1C220KDDANATD
 D Polarized capacitor, US symbol
 K cap capacitor
