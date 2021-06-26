@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
-Title "Engine Controller Microcontroller Board"
-Date "2021-06-26"
+Sheet 2 2
+Title "Engine Microcontroller Power Supply"
+Date ""
 Rev "1.0"
 Comp "Sun Devil Rocketry"
 Comment1 "Author: Colton Acosta"
