@@ -1,4 +1,18 @@
-19486343870289
+27610912938289
+Engine-Controller
+CAP_0603
+<b>CAPACITOR</b>
+
+0
+2
+2
+Engine-Controller
+CBC3225T220KR
+
+
+0
+2
+2
 Engine-Controller
 LM22672MRE-5.0_NOPB
 
@@ -8,6 +22,13 @@ LM22672MRE-5.0_NOPB
 17
 Engine-Controller
 LTST-C150GKT
+
+
+0
+2
+2
+Engine-Controller
+RB160VAM-60TR
 
 
 0
@@ -27,6 +48,20 @@ STM32L443VCT6
 0
 100
 100
+Engine-Controller
+UHE2A121MHD6
+
+
+0
+2
+2
+Engine-Controller
+UKL1C220KDDANATD
+
+
+0
+2
+2
 Instrumentation-Amplifier
 AD623ARZ-R7
 
