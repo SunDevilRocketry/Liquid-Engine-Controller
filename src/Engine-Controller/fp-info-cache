@@ -1,4 +1,4 @@
-27610912938289
+29235645630289
 Engine-Controller
 CAP_0603
 <b>CAPACITOR</b>
@@ -37,6 +37,13 @@ RB160VAM-60TR
 Engine-Controller
 RES_0603
 <b>RESISTOR</b>
+
+0
+2
+2
+Engine-Controller
+RES_0805
+
 
 0
 2
