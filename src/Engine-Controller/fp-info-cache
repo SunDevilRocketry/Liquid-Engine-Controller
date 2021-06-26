@@ -1,4 +1,4 @@
-29235645630289
+32485933944289
 Engine-Controller
 CAP_0603
 <b>CAPACITOR</b>
@@ -8,6 +8,13 @@ CAP_0603
 2
 Engine-Controller
 CBC3225T220KR
+
+
+0
+2
+2
+Engine-Controller
+CWR11HH106KB
 
 
 0
@@ -48,6 +55,13 @@ RES_0805
 0
 2
 2
+Engine-Controller
+SOT-223
+
+
+0
+4
+4
 Engine-Controller
 STM32L443VCT6
 
