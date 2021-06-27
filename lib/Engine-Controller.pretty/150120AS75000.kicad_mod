@@ -1,4 +1,4 @@
-(module LTST-C150GKT (layer F.Cu) (tedit 60D80F4F)
+(module 150120AS75000 (layer F.Cu) (tedit 60D80F4F)
   (fp_text reference REF** (at 0.0762 -4.0386) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
