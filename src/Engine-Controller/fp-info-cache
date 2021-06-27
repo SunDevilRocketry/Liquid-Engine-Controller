@@ -1,4 +1,11 @@
-32485933944289
+35735430158289
+Engine-Controller
+12V_powerjack
+
+
+0
+3
+3
 Engine-Controller
 CAP_0603
 <b>CAPACITOR</b>
@@ -83,6 +90,13 @@ UKL1C220KDDANATD
 0
 2
 2
+Engine-Controller
+USB-TypeB
+
+
+0
+6
+6
 Instrumentation-Amplifier
 AD623ARZ-R7
 
