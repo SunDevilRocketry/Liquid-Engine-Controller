@@ -8,7 +8,7 @@
 <p>
    doc: documentation
    
-   src: source design files, e.g. schematic and board files
+   src: source design files, e.g. schematic and PCB layout files
 
    lib: libraries for schematic symbols and footprints
 
