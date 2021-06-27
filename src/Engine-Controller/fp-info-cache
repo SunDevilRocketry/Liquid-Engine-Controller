@@ -1,4 +1,4 @@
-42234527979289
+43859300088289
 Engine-Controller
 12V_power_jack
 
@@ -104,6 +104,13 @@ STM32L443VCT6
 0
 100
 100
+Engine-Controller
+TP
+
+
+0
+1
+1
 Engine-Controller
 UHE2A121MHD6
 
