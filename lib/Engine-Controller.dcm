@@ -6,10 +6,4 @@ K cap capacitor
 F ~
 $ENDCMP
 #
-$CMP SBH11-PBPC-D05-RA-BK
-D Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)
-K connector
-F ~
-$ENDCMP
-#
 #End Doc Library

@@ -1,11 +1,25 @@
-35735430158289
+42234527979289
 Engine-Controller
-12V_powerjack
+12V_power_jack
 
 
 0
 3
 3
+Engine-Controller
+66953-005LF
+
+
+0
+10
+10
+Engine-Controller
+0901471110
+
+
+0
+10
+10
 Engine-Controller
 CAP_0603
 <b>CAPACITOR</b>
@@ -42,6 +56,13 @@ LTST-C150GKT
 2
 2
 Engine-Controller
+MPD_EJ508A
+
+
+0
+3
+3
+Engine-Controller
 RB160VAM-60TR
 
 
@@ -62,6 +83,13 @@ RES_0805
 0
 2
 2
+Engine-Controller
+SBH11-PBPC-D05-RA-BK
+
+
+0
+10
+10
 Engine-Controller
 SOT-223
 
