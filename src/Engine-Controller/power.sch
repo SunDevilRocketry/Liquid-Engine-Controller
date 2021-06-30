@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 4
+Sheet 2 5
 Title "Engine Microcontroller Power Supply"
 Date ""
 Rev "1.0"
@@ -13,4 +13,398 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L Engine-Controller:LTST-C150GKT D?
+U 1 1 60EB9E6E
+P 9300 4350
+F 0 "D?" H 9529 4453 60  0000 L CNN
+F 1 "LTST-C150GKT" H 9529 4347 60  0001 L CNN
+F 2 "" H 9500 3990 60  0001 C CNN
+F 3 "" V 9300 4600 60  0000 C CNN
+	1    9300 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Engine-Controller:CBC3225T220KR L?
+U 1 1 60EBAB6D
+P 6150 4000
+F 0 "L?" H 6150 4181 50  0000 C CNN
+F 1 "22uH" H 6150 4100 50  0000 C CNN
+F 2 "" H 6000 3800 50  0001 L BNN
+F 3 "" H 6150 4000 50  0001 L BNN
+	1    6150 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Engine-Controller:Schottky D?
+U 1 1 60EBB138
+P 5650 4250
+F 0 "D?" V 5650 4330 50  0000 L CNN
+F 1 "Schottky" V 5695 4330 50  0001 L CNN
+F 2 "" H 5650 4250 50  0001 C CNN
+F 3 "" H 5650 4250 50  0001 C CNN
+	1    5650 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L Engine-Controller:LMS8117AMP-3.3_NOPB U?
+U 1 1 60EBB9CF
+P 8100 4050
+F 0 "U?" H 8100 4365 50  0000 C CNN
+F 1 "LMS8117AMP-3.3_NOPB" H 8100 4274 50  0000 C CNN
+F 2 "" H 8100 4050 50  0001 C CNN
+F 3 "" H 8100 4050 50  0001 C CNN
+	1    8100 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Engine-Controller:4840.2201 J?
+U 1 1 60EBBEC5
+P 2450 3500
+F 0 "J?" H 2692 3787 60  0000 C CNN
+F 1 "4840.2201" H 2692 3681 60  0000 C CNN
+F 2 "CONN_4840.2201_SCH" H 2850 2900 60  0001 C CNN
+F 3 "" H 2450 3500 60  0000 C CNN
+	1    2450 3500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 60EC7BCD
+P 2600 3950
+F 0 "#PWR?" H 2600 3700 50  0001 C CNN
+F 1 "Earth" H 2600 3800 50  0001 C CNN
+F 2 "" H 2600 3950 50  0001 C CNN
+F 3 "~" H 2600 3950 50  0001 C CNN
+	1    2600 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 3600 2600 3600
+Wire Wire Line
+	2600 3600 2600 3950
+Text GLabel 2850 3150 1    50   Input ~ 0
+VIN
+Wire Wire Line
+	2850 3150 2850 3500
+Connection ~ 2850 3500
+Wire Wire Line
+	2850 3500 2450 3500
+$Comp
+L Engine-Controller:UKL1C220KDDANATD C?
+U 1 1 60EDB6C2
+P 2850 3900
+F 0 "C?" H 2965 3946 50  0000 L CNN
+F 1 "22uF" H 2965 3855 50  0000 L CNN
+F 2 "" H 2850 3900 50  0001 C CNN
+F 3 "~" H 2850 3900 50  0001 C CNN
+	1    2850 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 3750 2850 3500
+$Comp
+L power:Earth #PWR?
+U 1 1 60EE05FF
+P 2850 4200
+F 0 "#PWR?" H 2850 3950 50  0001 C CNN
+F 1 "Earth" H 2850 4050 50  0001 C CNN
+F 2 "" H 2850 4200 50  0001 C CNN
+F 3 "~" H 2850 4200 50  0001 C CNN
+	1    2850 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 4050 2850 4200
+$Comp
+L Engine-Controller:CAP_0603 C?
+U 1 1 60EE1F59
+P 3300 3900
+F 0 "C?" V 3254 4003 50  0000 L CNN
+F 1 "2.2uF" V 3345 4003 50  0000 L CNN
+F 2 "" H 3200 3500 50  0001 L BNN
+F 3 "" H 3250 3900 50  0001 L BNN
+	1    3300 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 60EE39C4
+P 3300 4200
+F 0 "#PWR?" H 3300 3950 50  0001 C CNN
+F 1 "Earth" H 3300 4050 50  0001 C CNN
+F 2 "" H 3300 4200 50  0001 C CNN
+F 3 "~" H 3300 4200 50  0001 C CNN
+	1    3300 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 4050 3300 4200
+Wire Wire Line
+	3300 3750 3300 3500
+$Comp
+L Engine-Controller:RES_0805 R?
+U 1 1 60EEF47A
+P 3900 3600
+F 0 "R?" H 4050 3700 50  0000 C CNN
+F 1 "470k" H 3800 3700 50  0000 C CNN
+F 2 "" H 3950 3100 50  0001 L BNN
+F 3 "" H 3900 3600 50  0001 L BNN
+	1    3900 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Engine-Controller:CAP_0603 C?
+U 1 1 60EF8CF7
+P 4900 4050
+F 0 "C?" V 4854 4153 50  0000 L CNN
+F 1 "1 uF" V 4945 4153 50  0000 L CNN
+F 2 "" H 4800 3650 50  0001 L BNN
+F 3 "" H 4850 4050 50  0001 L BNN
+	1    4900 4050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3500 3600 3500 3500
+Wire Wire Line
+	4900 3800 4900 3900
+$Comp
+L power:Earth #PWR?
+U 1 1 60F2A939
+P 4900 4650
+F 0 "#PWR?" H 4900 4400 50  0001 C CNN
+F 1 "Earth" H 4900 4500 50  0001 C CNN
+F 2 "" H 4900 4650 50  0001 C CNN
+F 3 "~" H 4900 4650 50  0001 C CNN
+	1    4900 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 3700 5400 3700
+$Comp
+L Engine-Controller:CAP_0603 C?
+U 1 1 60F34E40
+P 5650 3750
+F 0 "C?" V 5604 3853 50  0000 L CNN
+F 1 "10 nF" V 5695 3853 50  0000 L CNN
+F 2 "" H 5550 3350 50  0001 L BNN
+F 3 "" H 5600 3750 50  0001 L BNN
+	1    5650 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4900 3600 5650 3600
+Wire Wire Line
+	2850 3500 3300 3500
+Connection ~ 3300 3500
+Wire Wire Line
+	3300 3500 3500 3500
+Wire Wire Line
+	4300 3800 4300 3950
+$Comp
+L power:Earth #PWR?
+U 1 1 60F261A1
+P 4300 3950
+F 0 "#PWR?" H 4300 3700 50  0001 C CNN
+F 1 "Earth" H 4300 3800 50  0001 C CNN
+F 2 "" H 4300 3950 50  0001 C CNN
+F 3 "~" H 4300 3950 50  0001 C CNN
+	1    4300 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Engine-Controller:LM22672MRE-5.0_NOPB U?
+U 1 1 60F0F687
+P 4600 3700
+F 0 "U?" H 4600 4115 50  0000 C CNN
+F 1 "LM22672MRE-5.0_NOPB" H 4600 4024 50  0000 C CNN
+F 2 "" H 4550 3700 50  0001 C CNN
+F 3 "" H 4550 3700 50  0001 C CNN
+	1    4600 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 3500 3500 3500
+Connection ~ 3500 3500
+Wire Wire Line
+	5400 3700 5400 4000
+Wire Wire Line
+	5400 4000 5650 4000
+Wire Wire Line
+	5650 4000 5650 3900
+Wire Wire Line
+	5650 4000 5850 4000
+Connection ~ 5650 4000
+$Comp
+L Engine-Controller:UHE2A121MHD6 C?
+U 1 1 60F87FD5
+P 6650 4250
+F 0 "C?" H 6765 4296 50  0000 L CNN
+F 1 "120uF" H 6765 4205 50  0000 L CNN
+F 2 "" H 6650 4250 50  0001 C CNN
+F 3 "~" H 6650 4250 50  0001 C CNN
+	1    6650 4250
+	1    0    0    -1  
+$EndComp
+Connection ~ 4900 4550
+Wire Wire Line
+	4900 4550 4900 4650
+Wire Wire Line
+	4900 4200 4900 4550
+Wire Wire Line
+	6450 4000 6650 4000
+Wire Wire Line
+	6650 4000 6650 4100
+Wire Wire Line
+	6650 4400 6650 4550
+$Comp
+L Engine-Controller:RES_0805 R?
+U 1 1 60F97080
+P 6650 3700
+F 0 "R?" V 6604 3769 50  0000 L CNN
+F 1 "1.54k" V 6695 3769 50  0000 L CNN
+F 2 "" H 6700 3200 50  0001 L BNN
+F 3 "" H 6650 3700 50  0001 L BNN
+	1    6650 3700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6650 3900 6650 4000
+Connection ~ 6650 4000
+Wire Wire Line
+	6650 3500 5300 3500
+Wire Wire Line
+	3500 3600 3700 3600
+Wire Wire Line
+	4100 3600 4300 3600
+$Comp
+L Engine-Controller:RES_0603 R?
+U 1 1 60E5E8D9
+P 5300 4150
+F 0 "R?" V 5254 4219 50  0000 L CNN
+F 1 "976" V 5345 4219 50  0000 L CNN
+F 2 "" H 5350 3650 50  0001 L BNN
+F 3 "" H 5300 4150 50  0001 L BNN
+	1    5300 4150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4900 4550 5300 4550
+Wire Wire Line
+	5650 4100 5650 4000
+Wire Wire Line
+	5650 4550 5650 4400
+Connection ~ 5650 4550
+Wire Wire Line
+	5650 4550 6650 4550
+Wire Wire Line
+	5300 3950 5300 3500
+Connection ~ 5300 3500
+Wire Wire Line
+	5300 3500 4900 3500
+Wire Wire Line
+	5300 4350 5300 4550
+Connection ~ 5300 4550
+Wire Wire Line
+	5300 4550 5650 4550
+Wire Wire Line
+	7800 4000 7550 4000
+Text GLabel 7300 3550 1    50   Input ~ 0
+5V
+Wire Wire Line
+	7300 3550 7300 4000
+Connection ~ 7300 4000
+Wire Wire Line
+	7300 4000 6650 4000
+$Comp
+L power:Earth #PWR?
+U 1 1 60E947DB
+P 8100 4600
+F 0 "#PWR?" H 8100 4350 50  0001 C CNN
+F 1 "Earth" H 8100 4450 50  0001 C CNN
+F 2 "" H 8100 4600 50  0001 C CNN
+F 3 "~" H 8100 4600 50  0001 C CNN
+	1    8100 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Engine-Controller:CWR11HH106KB C?
+U 1 1 60E95869
+P 7550 4100
+F 0 "C?" V 7647 4205 60  0000 L CNN
+F 1 "10uF" V 7753 4205 60  0000 L CNN
+F 2 "CWR11C_KEM" H 7700 3740 60  0001 C CNN
+F 3 "" H 7550 4100 60  0001 C CNN
+	1    7550 4100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7550 4100 7550 4000
+Connection ~ 7550 4000
+Wire Wire Line
+	7550 4000 7300 4000
+Wire Wire Line
+	8100 4250 8100 4550
+Wire Wire Line
+	7550 4400 7550 4550
+Wire Wire Line
+	7550 4550 8100 4550
+Connection ~ 8100 4550
+Wire Wire Line
+	8100 4550 8100 4600
+$Comp
+L Engine-Controller:CWR11HH106KB C?
+U 1 1 60E9E341
+P 8700 4100
+F 0 "C?" V 8797 4205 60  0000 L CNN
+F 1 "10uF" V 8903 4205 60  0000 L CNN
+F 2 "CWR11C_KEM" H 8850 3740 60  0001 C CNN
+F 3 "" H 8700 4100 60  0001 C CNN
+	1    8700 4100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8400 4000 8700 4000
+Wire Wire Line
+	8700 4000 8700 4100
+Wire Wire Line
+	8700 4400 8700 4550
+Wire Wire Line
+	8700 4550 8100 4550
+Text GLabel 9800 4000 2    50   Input ~ 0
+3.3V
+Connection ~ 8700 4000
+Wire Wire Line
+	8700 4000 9300 4000
+Wire Wire Line
+	9300 4000 9300 4100
+Connection ~ 9300 4000
+Wire Wire Line
+	9300 4000 9800 4000
+$Comp
+L Engine-Controller:RES_0603 R?
+U 1 1 60ED1BD1
+P 9300 4800
+F 0 "R?" V 9254 4869 50  0000 L CNN
+F 1 "240" V 9345 4869 50  0000 L CNN
+F 2 "" H 9350 4300 50  0001 L BNN
+F 3 "" H 9300 4800 50  0001 L BNN
+	1    9300 4800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9300 4500 9300 4600
+$Comp
+L power:Earth #PWR?
+U 1 1 60ED92F3
+P 9300 5100
+F 0 "#PWR?" H 9300 4850 50  0001 C CNN
+F 1 "Earth" H 9300 4950 50  0001 C CNN
+F 2 "" H 9300 5100 50  0001 C CNN
+F 3 "~" H 9300 5100 50  0001 C CNN
+	1    9300 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 5000 9300 5100
 $EndSCHEMATC
