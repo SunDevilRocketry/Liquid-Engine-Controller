@@ -252,4 +252,6 @@ Wire Wire Line
 	6000 5900 5400 5900
 Wire Wire Line
 	5950 6000 5400 6000
+Text Label 2550 1450 0    50   ~ 0
+3.3V
 $EndSCHEMATC

@@ -6,4 +6,16 @@ K cap capacitor
 F ~
 $ENDCMP
 #
+$CMP UHE2A121MHD6
+D Polarized capacitor, US symbol
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP UKL1C220KDDANATD
+D Polarized capacitor, US symbol
+K cap capacitor
+F ~
+$ENDCMP
+#
 #End Doc Library

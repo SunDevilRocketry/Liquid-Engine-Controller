@@ -13,17 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Engine-Controller:SBH11-PBPC-D05-RA-BK J3
-U 1 1 60FC47DC
-P 5450 3600
-F 0 "J3" H 5692 3887 60  0000 C CNN
-F 1 "SBH11-PBPC-D05-RA-BK" H 5692 3781 60  0000 C CNN
-F 2 "Engine-Controller:SBH11-PBPC-D05-RA-BK" H 5600 2400 60  0001 C CNN
-F 3 "" H 5450 3600 60  0000 C CNN
-	1    5450 3600
-	-1   0    0    -1  
-$EndComp
 Text GLabel 6450 3600 2    50   Input ~ 0
 RST
 Text GLabel 6350 4100 2    50   Input ~ 0
@@ -78,4 +67,15 @@ Wire Wire Line
 Connection ~ 6050 4000
 Wire Wire Line
 	6050 4000 5450 4000
+$Comp
+L Engine-Controller:SBH11-PBPC-D05-RA-BK J3
+U 1 1 6128428C
+P 5450 3600
+F 0 "J3" H 5692 3887 60  0000 C CNN
+F 1 "SBH11-PBPC-D05-RA-BK" H 5692 3781 60  0000 C CNN
+F 2 "Engine-Controller:SBH11-PBPC-D05-RA-BK" H 5600 2400 60  0001 C CNN
+F 3 "" H 5450 3600 60  0000 C CNN
+	1    5450 3600
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC

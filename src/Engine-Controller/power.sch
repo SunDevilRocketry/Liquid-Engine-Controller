@@ -36,17 +36,6 @@ F 3 "" H 6150 4000 50  0001 L BNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Engine-Controller:Schottky D2
-U 1 1 60EBB138
-P 5650 4250
-F 0 "D2" V 5650 4330 50  0000 L CNN
-F 1 "Schottky" V 5695 4330 50  0001 L CNN
-F 2 "Engine-Controller:RB160VAM-60TR" H 5650 4250 50  0001 C CNN
-F 3 "" H 5650 4250 50  0001 C CNN
-	1    5650 4250
-	0    1    1    0   
-$EndComp
-$Comp
 L Engine-Controller:LMS8117AMP-3.3_NOPB U3
 U 1 1 60EBB9CF
 P 8100 4050
@@ -56,17 +45,6 @@ F 2 "Engine-Controller:SOT-223" H 8100 4050 50  0001 C CNN
 F 3 "" H 8100 4050 50  0001 C CNN
 	1    8100 4050
 	1    0    0    -1  
-$EndComp
-$Comp
-L Engine-Controller:4840.2201 J1
-U 1 1 60EBBEC5
-P 2450 3500
-F 0 "J1" H 2692 3787 60  0000 C CNN
-F 1 "4840.2201" H 2692 3681 60  0000 C CNN
-F 2 "Engine-Controller:12V_power_jack" H 2850 2900 60  0001 C CNN
-F 3 "" H 2450 3500 60  0000 C CNN
-	1    2450 3500
-	-1   0    0    -1  
 $EndComp
 $Comp
 L power:Earth #PWR0103
@@ -212,17 +190,6 @@ F 3 "~" H 4300 3950 50  0001 C CNN
 	1    4300 3950
 	1    0    0    -1  
 $EndComp
-$Comp
-L Engine-Controller:LM22672MRE-5.0_NOPB U2
-U 1 1 60F0F687
-P 4600 3700
-F 0 "U2" H 4600 4115 50  0000 C CNN
-F 1 "LM22672MRE-5.0_NOPB" H 4600 4024 50  0000 C CNN
-F 2 "Engine-Controller:LM22672MRE-5.0_NOPB" H 4550 3700 50  0001 C CNN
-F 3 "" H 4550 3700 50  0001 C CNN
-	1    4600 3700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4300 3500 3500 3500
 Connection ~ 3500 3500
@@ -327,17 +294,6 @@ F 3 "~" H 8100 4600 50  0001 C CNN
 	1    8100 4600
 	1    0    0    -1  
 $EndComp
-$Comp
-L Engine-Controller:CWR11HH106KB C6
-U 1 1 60E95869
-P 7550 4100
-F 0 "C6" V 7647 4205 60  0000 L CNN
-F 1 "10uF" V 7753 4205 60  0000 L CNN
-F 2 "Engine-Controller:CWR11HH106KB" H 7700 3740 60  0001 C CNN
-F 3 "" H 7550 4100 60  0001 C CNN
-	1    7550 4100
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	7550 4100 7550 4000
 Connection ~ 7550 4000
@@ -352,17 +308,6 @@ Wire Wire Line
 Connection ~ 8100 4550
 Wire Wire Line
 	8100 4550 8100 4600
-$Comp
-L Engine-Controller:CWR11HH106KB C7
-U 1 1 60E9E341
-P 8700 4100
-F 0 "C7" V 8797 4205 60  0000 L CNN
-F 1 "10uF" V 8903 4205 60  0000 L CNN
-F 2 "Engine-Controller:CWR11HH106KB" H 8850 3740 60  0001 C CNN
-F 3 "" H 8700 4100 60  0001 C CNN
-	1    8700 4100
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	8400 4000 8700 4000
 Wire Wire Line
@@ -407,4 +352,59 @@ F 3 "~" H 9300 5100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9300 5000 9300 5100
+$Comp
+L Engine-Controller:LM22672MRE-5.0_NOPB U2
+U 1 1 611B83F2
+P 4600 3700
+F 0 "U2" H 4600 4115 50  0000 C CNN
+F 1 "LM22672MRE-5.0_NOPB" H 4600 4024 50  0000 C CNN
+F 2 "Engine-Controller:LM22672MRE-5.0_NOPB" H 4550 3700 50  0001 C CNN
+F 3 "" H 4550 3700 50  0001 C CNN
+	1    4600 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Engine-Controller:Schottky D2
+U 1 1 611BBBEC
+P 5650 4250
+F 0 "D2" V 5650 4330 50  0000 L CNN
+F 1 "Schottky" V 5695 4330 50  0001 L CNN
+F 2 "Engine-Controller:RB160VAM-60TR" H 5650 4250 50  0001 C CNN
+F 3 "" H 5650 4250 50  0001 C CNN
+	1    5650 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L Engine-Controller:CWR11HH106KB C6
+U 1 1 611C3D38
+P 7550 4100
+F 0 "C6" V 7647 4205 60  0000 L CNN
+F 1 "10uF" V 7753 4205 60  0000 L CNN
+F 2 "Engine-Controller:CWR11HH106KB" H 7700 3740 60  0001 C CNN
+F 3 "" H 7550 4100 60  0000 C CNN
+	1    7550 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L Engine-Controller:CWR11HH106KB C7
+U 1 1 611C7D2A
+P 8700 4100
+F 0 "C7" V 8797 4205 60  0000 L CNN
+F 1 "10uF" V 8903 4205 60  0000 L CNN
+F 2 "Engine-Controller:CWR11HH106KB" H 8850 3740 60  0001 C CNN
+F 3 "" H 8700 4100 60  0000 C CNN
+	1    8700 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L Engine-Controller:4840.2201 J1
+U 1 1 61252962
+P 2450 3500
+F 0 "J1" H 2692 3787 60  0000 C CNN
+F 1 "4840.2201" H 2692 3681 60  0000 C CNN
+F 2 "Engine-Controller:12V_power_jack" H 2850 2900 60  0001 C CNN
+F 3 "" H 2450 3500 60  0000 C CNN
+	1    2450 3500
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
