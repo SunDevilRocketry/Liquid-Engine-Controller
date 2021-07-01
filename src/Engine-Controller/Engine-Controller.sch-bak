@@ -165,14 +165,12 @@ Text GLabel 2550 4750 0    50   Input ~ 0
 SWCLK
 Text GLabel 2550 4650 0    50   Input ~ 0
 SWDIO
-Text GLabel 6000 3100 2    50   Input ~ 0
+Text GLabel 6850 3100 2    50   Input ~ 0
 RST
 Wire Wire Line
 	3000 4650 2550 4650
 Wire Wire Line
 	3000 4750 2550 4750
-Wire Wire Line
-	6000 3100 5400 3100
 $Comp
 L Engine-Controller:150120AS75000 D1
 U 1 1 61009279
@@ -254,4 +252,35 @@ Wire Wire Line
 	5950 6000 5400 6000
 Text Label 2550 1450 0    50   ~ 0
 3.3V
+Wire Wire Line
+	5400 3100 6650 3100
+$Comp
+L Engine-Controller:CAP_0603 C8
+U 1 1 60DE014C
+P 6650 3450
+F 0 "C8" V 6604 3553 50  0000 L CNN
+F 1 "0.1uF" V 6695 3553 50  0000 L CNN
+F 2 "Engine-Controller:CAP_0603" H 6550 3050 50  0001 L BNN
+F 3 "" H 6600 3450 50  0001 L BNN
+	1    6650 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L power:Earth #PWR01
+U 1 1 60DE602C
+P 6650 3750
+F 0 "#PWR01" H 6650 3500 50  0001 C CNN
+F 1 "Earth" H 6650 3600 50  0001 C CNN
+F 2 "" H 6650 3750 50  0001 C CNN
+F 3 "~" H 6650 3750 50  0001 C CNN
+	1    6650 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 3300 6650 3100
+Connection ~ 6650 3100
+Wire Wire Line
+	6650 3100 6850 3100
+Wire Wire Line
+	6650 3750 6650 3600
 $EndSCHEMATC
