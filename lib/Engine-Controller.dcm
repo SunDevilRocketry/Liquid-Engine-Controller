@@ -12,6 +12,12 @@ K DC power barrel jack connector
 F ~
 $ENDCMP
 #
+$CMP Jumper_NO
+D Jumper, 2-pole, open
+K Jumper SPST
+F ~
+$ENDCMP
+#
 $CMP UHE2A121MHD6
 D Polarized capacitor, US symbol
 K cap capacitor

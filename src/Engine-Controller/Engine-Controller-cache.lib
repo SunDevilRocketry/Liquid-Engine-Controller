@@ -249,6 +249,27 @@ X MountPin MP 0 -300 120 U 50 50 1 1 N
 ENDDRAW
 ENDDEF
 #
+# Engine-Controller_Jumper_NO
+#
+DEF Engine-Controller_Jumper_NO J 0 0 N N 1 F N
+F0 "J" 0 110 50 H V C CNN
+F1 "Engine-Controller_Jumper_NO" 0 -90 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Jumper*
+ TestPoint*2Pads*
+ TestPoint*Bridge*
+$ENDFPLIST
+DRAW
+A 0 -30 100 1269 531 0 1 0 N -60 50 60 50
+C -80 0 20 0 0 0 N
+C 80 0 20 0 0 0 N
+X A 1 -200 0 100 R 50 50 1 1 P
+X B 2 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Engine-Controller_LM22672MRE-5.0_NOPB
 #
 DEF Engine-Controller_LM22672MRE-5.0_NOPB U 0 40 Y Y 1 F N

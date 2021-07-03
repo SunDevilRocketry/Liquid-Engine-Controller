@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text Notes 7500 1000 0    50   ~ 0
-IO Connector\n
+Port D GPIO Connector\n
 Text Notes 8450 3800 0    50   ~ 0
 Serial Connector
 Wire Wire Line
