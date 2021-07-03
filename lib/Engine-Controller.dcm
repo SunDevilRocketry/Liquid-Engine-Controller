@@ -6,6 +6,12 @@ K cap capacitor
 F ~
 $ENDCMP
 #
+$CMP EJ508A
+D DC Barrel Jack with a mounting pin
+K DC power barrel jack connector
+F ~
+$ENDCMP
+#
 $CMP UHE2A121MHD6
 D Polarized capacitor, US symbol
 K cap capacitor

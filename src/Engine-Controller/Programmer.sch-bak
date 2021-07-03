@@ -13,69 +13,65 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 6450 3600 2    50   Input ~ 0
-RST
-Text GLabel 6350 4100 2    50   Input ~ 0
+Text GLabel 6950 4800 2    50   Input ~ 0
 SWCLK
-Text GLabel 6350 4200 2    50   Input ~ 0
+Text GLabel 6950 5000 2    50   Input ~ 0
 SWDIO
-Text GLabel 6400 3900 2    50   Input ~ 0
+Text GLabel 7000 4200 2    50   Input ~ 0
 3.3V
-Text GLabel 6500 4000 2    50   Input ~ 0
+Text GLabel 7050 4100 2    50   Input ~ 0
 5V
-Wire Wire Line
-	5450 3600 6450 3600
 $Comp
 L power:Earth #PWR0111
 U 1 1 60FCD9C3
-P 5750 4700
-F 0 "#PWR0111" H 5750 4450 50  0001 C CNN
-F 1 "Earth" H 5750 4550 50  0001 C CNN
-F 2 "" H 5750 4700 50  0001 C CNN
-F 3 "~" H 5750 4700 50  0001 C CNN
-	1    5750 4700
+P 5950 5150
+F 0 "#PWR0111" H 5950 4900 50  0001 C CNN
+F 1 "Earth" H 5950 5000 50  0001 C CNN
+F 2 "" H 5950 5150 50  0001 C CNN
+F 3 "~" H 5950 5150 50  0001 C CNN
+	1    5950 5150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5450 3800 5750 3800
-Wire Wire Line
-	5750 3800 5750 4300
-Wire Wire Line
-	6400 3900 5900 3900
-Wire Wire Line
-	6500 4000 6050 4000
-Wire Wire Line
-	6350 4100 5450 4100
-Wire Wire Line
-	6350 4200 5450 4200
-Wire Wire Line
-	5450 4300 5750 4300
-Connection ~ 5750 4300
-Wire Wire Line
-	5750 4300 5750 4700
-Wire Wire Line
-	5450 4400 5900 4400
-Wire Wire Line
-	5900 4400 5900 3900
-Connection ~ 5900 3900
-Wire Wire Line
-	5900 3900 5450 3900
-Wire Wire Line
-	5450 4500 6050 4500
-Wire Wire Line
-	6050 4500 6050 4000
-Connection ~ 6050 4000
-Wire Wire Line
-	6050 4000 5450 4000
 $Comp
-L Engine-Controller:SBH11-PBPC-D05-RA-BK J3
-U 1 1 6128428C
-P 5450 3600
-F 0 "J3" H 5692 3887 60  0000 C CNN
-F 1 "SBH11-PBPC-D05-RA-BK" H 5692 3781 60  0000 C CNN
-F 2 "Engine-Controller:SBH11-PBPC-D05-RA-BK" H 5600 2400 60  0001 C CNN
-F 3 "" H 5450 3600 60  0000 C CNN
-	1    5450 3600
+L Engine-Controller:SBH11-PBPC-D05-RA-BK P?
+U 1 1 60E49761
+P 5850 4100
+F 0 "P?" H 6092 4387 60  0000 C CNN
+F 1 "SBH11-PBPC-D05-RA-BK" H 6092 4281 60  0000 C CNN
+F 2 "66953-005LF_AMP" H 6000 2900 60  0001 C CNN
+F 3 "" H 5850 4100 60  0001 C CNN
+	1    5850 4100
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	5850 4100 6100 4100
+Wire Wire Line
+	5850 4600 6100 4600
+Wire Wire Line
+	6100 4600 6100 4100
+Connection ~ 6100 4100
+Wire Wire Line
+	6100 4100 7050 4100
+Wire Wire Line
+	5850 4400 5950 4400
+Wire Wire Line
+	5950 4400 5950 4900
+Wire Wire Line
+	5850 4900 5950 4900
+Connection ~ 5950 4900
+Wire Wire Line
+	5950 4900 5950 5150
+Wire Wire Line
+	7000 4200 6150 4200
+Wire Wire Line
+	5850 4700 6150 4700
+Wire Wire Line
+	6150 4700 6150 4200
+Connection ~ 6150 4200
+Wire Wire Line
+	6150 4200 5850 4200
+Wire Wire Line
+	6950 5000 5850 5000
+Wire Wire Line
+	5850 4800 6950 4800
 $EndSCHEMATC
