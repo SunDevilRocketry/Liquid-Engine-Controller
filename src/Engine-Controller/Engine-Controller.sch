@@ -208,12 +208,12 @@ Text Label 2550 1450 0    50   ~ 0
 $Comp
 L Engine-Controller:CAP_0603 C8
 U 1 1 60DE014C
-P 6250 3450
-F 0 "C8" V 6204 3553 50  0000 L CNN
-F 1 "0.1u" V 6295 3553 50  0000 L CNN
-F 2 "Engine-Controller:CAP_0603" H 6150 3050 50  0001 L BNN
-F 3 "" H 6200 3450 50  0001 L BNN
-	1    6250 3450
+P 6250 3400
+F 0 "C8" V 6204 3503 50  0000 L CNN
+F 1 "0.1u" V 6295 3503 50  0000 L CNN
+F 2 "Engine-Controller:CAP_0603" H 6150 3000 50  0001 L BNN
+F 3 "" H 6200 3400 50  0001 L BNN
+	1    6250 3400
 	0    1    1    0   
 $EndComp
 $Comp
@@ -227,10 +227,6 @@ F 3 "~" H 6250 3750 50  0001 C CNN
 	1    6250 3750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6250 3300 6250 3100
-Wire Wire Line
-	6250 3750 6250 3700
 $Comp
 L Engine-Controller:TP TP1
 U 1 1 60E1CD7C
@@ -324,11 +320,6 @@ Wire Wire Line
 Wire Wire Line
 	6550 2600 6550 3100
 Connection ~ 6550 3100
-Wire Wire Line
-	6550 3100 6650 3100
-Connection ~ 6250 3700
-Wire Wire Line
-	6250 3700 6250 3600
 $Comp
 L Engine-Controller:CAP_0603 C10
 U 1 1 61273C95
@@ -425,26 +416,27 @@ Wire Wire Line
 $Comp
 L Engine-Controller:Jumper_NO J1
 U 1 1 6147D8EA
-P 6650 3400
-F 0 "J1" V 6650 3498 50  0000 L CNN
-F 1 "Jumper_NO" H 6650 3310 50  0001 C CNN
-F 2 "" H 6650 3400 50  0001 C CNN
-F 3 "~" H 6650 3400 50  0001 C CNN
-	1    6650 3400
-	0    1    1    0   
+P 6700 3700
+F 0 "J1" H 6700 3843 50  0000 C CNN
+F 1 "Jumper_NO" H 6700 3610 50  0001 C CNN
+F 2 "" H 6700 3700 50  0001 C CNN
+F 3 "~" H 6700 3700 50  0001 C CNN
+	1    6700 3700
+	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6650 3200 6650 3100
-Connection ~ 6650 3100
-Wire Wire Line
-	6650 3600 6650 3700
-Connection ~ 6650 3700
-Wire Wire Line
-	6650 3700 6250 3700
-Wire Wire Line
-	6650 3100 7000 3100
 Wire Wire Line
 	7000 3700 7000 3400
 Wire Wire Line
-	6650 3700 7000 3700
+	6550 3100 7000 3100
+Wire Wire Line
+	6900 3700 7000 3700
+Wire Wire Line
+	6500 3700 6250 3700
+Connection ~ 6250 3700
+Wire Wire Line
+	6250 3700 6250 3750
+Wire Wire Line
+	6250 3550 6250 3700
+Wire Wire Line
+	6250 3250 6250 3100
 $EndSCHEMATC
