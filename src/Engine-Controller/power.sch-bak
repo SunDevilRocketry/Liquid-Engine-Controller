@@ -270,8 +270,6 @@ Wire Wire Line
 Connection ~ 5300 4550
 Wire Wire Line
 	5300 4550 5650 4550
-Wire Wire Line
-	7800 4000 7550 4000
 Text GLabel 7300 3550 1    50   Input ~ 0
 5V
 Wire Wire Line
@@ -289,11 +287,8 @@ F 3 "~" H 8100 4600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7550 4100 7550 4000
-Connection ~ 7550 4000
 Wire Wire Line
 	7550 4000 7300 4000
-Wire Wire Line
-	8100 4250 8100 4550
 Wire Wire Line
 	7550 4400 7550 4550
 Wire Wire Line
@@ -302,8 +297,6 @@ Connection ~ 8100 4550
 Wire Wire Line
 	8100 4550 8100 4600
 Wire Wire Line
-	8400 4000 8700 4000
-Wire Wire Line
 	8700 4000 8700 4100
 Wire Wire Line
 	8700 4400 8700 4550
@@ -311,7 +304,6 @@ Wire Wire Line
 	8700 4550 8100 4550
 Text GLabel 9800 4000 2    50   Input ~ 0
 3.3V
-Connection ~ 8700 4000
 Wire Wire Line
 	8700 4000 9300 4000
 Connection ~ 9300 4000
@@ -365,8 +357,8 @@ $Comp
 L Engine-Controller:CWR11HH106KB C6
 U 1 1 611C3D38
 P 7550 4100
-F 0 "C6" V 7647 4205 60  0000 L CNN
-F 1 "10uF" V 7753 4205 60  0000 L CNN
+F 0 "C6" V 7650 3900 60  0000 L CNN
+F 1 "10uF" V 7750 3800 60  0000 L CNN
 F 2 "Engine-Controller:CWR11HH106KB" H 7700 3740 60  0001 C CNN
 F 3 "" H 7550 4100 60  0000 C CNN
 	1    7550 4100
@@ -417,10 +409,10 @@ F 3 "" H 9300 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Engine-Controller:EJ508A P?
+L Engine-Controller:EJ508A P1
 U 1 1 60E212B8
 P 2150 3600
-F 0 "P?" H 2207 3917 50  0000 C CNN
+F 0 "P1" H 2207 3917 50  0000 C CNN
 F 1 "EJ508A" H 2207 3826 50  0000 C CNN
 F 2 "" H 2200 3560 50  0001 C CNN
 F 3 "~" H 2200 3560 50  0001 C CNN
@@ -451,4 +443,12 @@ Wire Wire Line
 Connection ~ 6150 4550
 Wire Wire Line
 	6150 4550 6650 4550
+Wire Wire Line
+	7750 4000 7550 4000
+Connection ~ 7550 4000
+Wire Wire Line
+	8450 4000 8700 4000
+Connection ~ 8700 4000
+Wire Wire Line
+	8100 4550 8100 4300
 $EndSCHEMATC

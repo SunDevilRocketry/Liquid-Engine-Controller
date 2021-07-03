@@ -126,7 +126,7 @@ $EndComp
 Wire Wire Line
 	3000 2900 2750 2900
 Wire Wire Line
-	2750 2900 2750 3200
+	2750 2900 2750 3100
 Wire Wire Line
 	3000 2700 2750 2700
 Wire Wire Line
@@ -161,32 +161,30 @@ Text GLabel 2550 4750 0    50   Input ~ 0
 SWCLK
 Text GLabel 2550 4650 0    50   Input ~ 0
 SWDIO
-Text GLabel 6750 2600 2    50   Input ~ 0
-RST
 Wire Wire Line
 	3000 4650 2550 4650
 Wire Wire Line
 	3000 4750 2550 4750
 Text GLabel 6000 5100 2    50   Input ~ 0
-IO1
+PD0
 Text GLabel 6000 5200 2    50   Input ~ 0
-IO2
+PD1
 Text GLabel 6000 5300 2    50   Input ~ 0
-IO3
+PD2
 Text GLabel 6000 5400 2    50   Input ~ 0
-IO4
+PD3
 Text GLabel 6000 5500 2    50   Input ~ 0
-IO5
+PD4
 Text GLabel 6000 5600 2    50   Input ~ 0
-IO6
+PD5
 Text GLabel 6000 5700 2    50   Input ~ 0
-IO7
+PD6
 Text GLabel 6000 5800 2    50   Input ~ 0
-IO8
+PD7
 Text GLabel 6000 5900 2    50   Input ~ 0
-IO9
-Text GLabel 5950 6000 2    50   Input ~ 0
-IO10
+PD8
+Text GLabel 6000 6000 2    50   Input ~ 0
+PD9
 Wire Wire Line
 	6000 5100 5400 5100
 Wire Wire Line
@@ -205,8 +203,6 @@ Wire Wire Line
 	6000 5800 5400 5800
 Wire Wire Line
 	6000 5900 5400 5900
-Wire Wire Line
-	5950 6000 5400 6000
 Text Label 2550 1450 0    50   ~ 0
 3.3V
 $Comp
@@ -286,10 +282,10 @@ $EndComp
 Wire Wire Line
 	5400 1700 5750 1700
 $Comp
-L Engine-Controller:PTS647SM38SMTR2LFS B?
+L Engine-Controller:PTS647SM38SMTR2LFS B1
 U 1 1 610156A4
 P 7000 3250
-F 0 "B?" H 7000 3581 60  0000 C CNN
+F 0 "B1" H 7000 3581 60  0000 C CNN
 F 1 "PTS647SM38SMTR2LFS" H 7000 3581 60  0001 C CNN
 F 2 "SW_PTS647SM38SMTR2LFS_CNK" H 7000 2800 60  0001 C CNN
 F 3 "" H 6200 3400 60  0001 C CNN
@@ -299,10 +295,10 @@ $EndComp
 Wire Wire Line
 	6250 2700 6250 2600
 $Comp
-L Engine-Controller:RES_0603 R?
+L Engine-Controller:RES_0603 R6
 U 1 1 60FC75D6
 P 6250 2900
-F 0 "R?" V 6150 2700 50  0000 L CNN
+F 0 "R6" V 6150 2700 50  0000 L CNN
 F 1 "10k" V 6250 2700 50  0000 L CNN
 F 2 "" H 6300 2400 50  0001 L BNN
 F 3 "" H 6250 2900 50  0001 L BNN
@@ -310,10 +306,10 @@ F 3 "" H 6250 2900 50  0001 L BNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Engine-Controller:3.3V None?
+L Engine-Controller:3.3V None01
 U 1 1 60F82434
 P 6250 2450
-F 0 "None?" H 6378 2439 50  0001 L CNN
+F 0 "None01" H 6378 2439 50  0001 L CNN
 F 1 "3.3V" H 6150 2550 50  0000 L CNN
 F 2 "" H 6250 2450 50  0001 C CNN
 F 3 "" H 6250 2450 50  0001 C CNN
@@ -331,13 +327,103 @@ Connection ~ 6550 3100
 Wire Wire Line
 	6550 3100 6750 3100
 Wire Wire Line
-	6750 2600 6550 2600
-Connection ~ 6550 2600
-Wire Wire Line
 	6800 3400 6800 3700
 Wire Wire Line
 	6800 3700 6250 3700
 Connection ~ 6250 3700
 Wire Wire Line
 	6250 3700 6250 3600
+$Comp
+L Engine-Controller:CAP_0603 C10
+U 1 1 61273C95
+P 1050 2950
+F 0 "C10" V 1004 3053 50  0000 L CNN
+F 1 "0.1u" V 1095 3053 50  0000 L CNN
+F 2 "" H 950 2550 50  0001 L BNN
+F 3 "" H 1000 2950 50  0001 L BNN
+	1    1050 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L Engine-Controller:CAP_0603 C11
+U 1 1 6127C459
+P 1400 2950
+F 0 "C11" V 1354 3053 50  0000 L CNN
+F 1 "0.1u" V 1445 3053 50  0000 L CNN
+F 2 "" H 1300 2550 50  0001 L BNN
+F 3 "" H 1350 2950 50  0001 L BNN
+	1    1400 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L Engine-Controller:CAP_0603 C12
+U 1 1 6127D073
+P 1750 2950
+F 0 "C12" V 1704 3053 50  0000 L CNN
+F 1 "0.1u" V 1795 3053 50  0000 L CNN
+F 2 "" H 1650 2550 50  0001 L BNN
+F 3 "" H 1700 2950 50  0001 L BNN
+	1    1750 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L Engine-Controller:CAP_0603 C13
+U 1 1 6127DC78
+P 2100 2950
+F 0 "C13" V 2054 3053 50  0000 L CNN
+F 1 "0.1u" V 2145 3053 50  0000 L CNN
+F 2 "" H 2000 2550 50  0001 L BNN
+F 3 "" H 2050 2950 50  0001 L BNN
+	1    2100 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L Engine-Controller:CAP_0603 C9
+U 1 1 6127EE14
+P 700 2950
+F 0 "C9" V 654 3053 50  0000 L CNN
+F 1 "0.1u" V 745 3053 50  0000 L CNN
+F 2 "" H 600 2550 50  0001 L BNN
+F 3 "" H 650 2950 50  0001 L BNN
+	1    700  2950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2550 2800 2100 2800
+Connection ~ 2550 2800
+Connection ~ 1050 2800
+Wire Wire Line
+	1050 2800 700  2800
+Connection ~ 1400 2800
+Wire Wire Line
+	1400 2800 1050 2800
+Connection ~ 1750 2800
+Wire Wire Line
+	1750 2800 1400 2800
+Connection ~ 2100 2800
+Wire Wire Line
+	2100 2800 1750 2800
+Wire Wire Line
+	700  3100 1050 3100
+Connection ~ 2750 3100
+Wire Wire Line
+	2750 3100 2750 3200
+Connection ~ 1050 3100
+Wire Wire Line
+	1050 3100 1400 3100
+Connection ~ 1400 3100
+Wire Wire Line
+	1400 3100 1750 3100
+Connection ~ 1750 3100
+Wire Wire Line
+	1750 3100 2100 3100
+Connection ~ 2100 3100
+Wire Wire Line
+	2100 3100 2750 3100
+Text Notes 900  2700 0    50   ~ 0
+Microcontroller Decoupling Caps
+Text Label 6550 2800 0    50   ~ 0
+NRST
+Wire Wire Line
+	5400 6000 6000 6000
 $EndSCHEMATC

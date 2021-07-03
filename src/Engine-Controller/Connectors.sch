@@ -13,7 +13,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 8300 1600 0    50   ~ 0
+Text Notes 7500 1000 0    50   ~ 0
 IO Connector\n
 Text Notes 8450 3800 0    50   ~ 0
 Serial Connector
@@ -74,76 +74,137 @@ Wire Notes Line
 	7250 5800 7250 3900
 Wire Notes Line
 	7250 3900 10400 3900
-Text GLabel 8050 1950 0    50   Input ~ 0
-IO1
-Text GLabel 8050 2050 0    50   Input ~ 0
-IO2
-Text GLabel 8050 2150 0    50   Input ~ 0
-IO3
-Text GLabel 8050 2250 0    50   Input ~ 0
-IO4
-Text GLabel 8050 2350 0    50   Input ~ 0
-IO5
-Text GLabel 8050 2450 0    50   Input ~ 0
-IO6
-Text GLabel 8050 2550 0    50   Input ~ 0
-IO7
-Text GLabel 8050 2650 0    50   Input ~ 0
-IO8
-Text GLabel 8050 2750 0    50   Input ~ 0
-IO9
-Text GLabel 8100 2850 0    50   Input ~ 0
-IO10
-Wire Notes Line
-	7200 3200 7200 1700
-Wire Notes Line
-	7200 1700 10450 1700
-Wire Notes Line
-	10450 1700 10450 3200
-Wire Notes Line
-	10450 3200 7200 3200
+Text GLabel 5650 1950 0    50   Input ~ 0
+PD0
+Text GLabel 5650 2050 0    50   Input ~ 0
+PD1
+Text GLabel 5650 2150 0    50   Input ~ 0
+PD2
+Text GLabel 5650 2250 0    50   Input ~ 0
+PD3
+Text GLabel 5650 2350 0    50   Input ~ 0
+PD4
+Text GLabel 5650 2450 0    50   Input ~ 0
+PD5
+Text GLabel 8350 2550 0    50   Input ~ 0
+PD6
+Text GLabel 8350 2650 0    50   Input ~ 0
+PD7
+Text GLabel 8350 2750 0    50   Input ~ 0
+PD8
+Text GLabel 8350 2850 0    50   Input ~ 0
+PD9
+Wire Wire Line
+	8550 4400 9050 4400
 $Comp
-L Engine-Controller:0901471110 J5
-U 1 1 6119F1F0
-P 9300 1950
-F 0 "J5" H 9828 1553 60  0000 L CNN
-F 1 "0901471110" H 9828 1447 60  0000 L CNN
-F 2 "Engine-Controller:0901471110" H 9450 750 60  0001 C CNN
-F 3 "" H 9300 1950 60  0000 C CNN
-	1    9300 1950
+L Engine-Controller:0901471110 P4
+U 1 1 61252CB3
+P 8900 1950
+F 0 "P4" H 9428 1553 60  0000 L CNN
+F 1 "0901471110" H 9428 1447 60  0000 L CNN
+F 2 "66953-005LF_AMP" H 9050 750 60  0001 C CNN
+F 3 "" H 8900 1950 60  0001 C CNN
+	1    8900 1950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9300 1950 8050 1950
-Wire Wire Line
-	9300 2050 8050 2050
-Wire Wire Line
-	9300 2150 8050 2150
-Wire Wire Line
-	9300 2250 8050 2250
-Wire Wire Line
-	9300 2350 8050 2350
-Wire Wire Line
-	9300 2450 8050 2450
-Wire Wire Line
-	9300 2550 8050 2550
-Wire Wire Line
-	9300 2650 8050 2650
-Wire Wire Line
-	9300 2750 8050 2750
-Wire Wire Line
-	9300 2850 8100 2850
 $Comp
-L Engine-Controller:66953-005LF J4
-U 1 1 612955EA
+L Engine-Controller:66953-005LF P5
+U 1 1 61255D75
 P 9050 4400
-F 0 "J4" H 9578 4003 60  0000 L CNN
+F 0 "P5" H 9578 4003 60  0000 L CNN
 F 1 "66953-005LF" H 9578 3897 60  0000 L CNN
-F 2 "Engine-Controller:66953-005LF" H 9200 3200 60  0001 C CNN
-F 3 "" H 9050 4400 60  0000 C CNN
+F 2 "66953-005LF_AMP" H 9200 3200 60  0001 C CNN
+F 3 "" H 9050 4400 60  0001 C CNN
 	1    9050 4400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8550 4400 9050 4400
+	5650 1950 6400 1950
+Wire Wire Line
+	5650 2050 6400 2050
+Wire Wire Line
+	5650 2150 6400 2150
+Wire Wire Line
+	5650 2250 6400 2250
+Wire Wire Line
+	5650 2350 6400 2350
+Wire Wire Line
+	5650 2450 6400 2450
+Wire Wire Line
+	7800 1950 8900 1950
+Wire Wire Line
+	7800 2050 8900 2050
+Wire Wire Line
+	7800 2150 8900 2150
+Wire Wire Line
+	7800 2250 8900 2250
+Wire Wire Line
+	7800 2350 8900 2350
+Wire Wire Line
+	7800 2450 8900 2450
+$Comp
+L power:Earth #PWR02
+U 1 1 6138D033
+P 7800 2900
+F 0 "#PWR02" H 7800 2650 50  0001 C CNN
+F 1 "Earth" H 7800 2750 50  0001 C CNN
+F 2 "" H 7800 2900 50  0001 C CNN
+F 3 "~" H 7800 2900 50  0001 C CNN
+	1    7800 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 2650 7800 2900
+$Comp
+L Engine-Controller:3.3V None02
+U 1 1 61392439
+P 7800 1500
+F 0 "None02" H 7928 1489 50  0001 L CNN
+F 1 "3.3V" H 7726 1601 50  0000 L CNN
+F 2 "" H 7800 1500 50  0001 C CNN
+F 3 "" H 7800 1500 50  0001 C CNN
+	1    7800 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Engine-Controller:SN74LV07ADR U4
+U 1 1 6134C986
+P 7100 2250
+F 0 "U4" H 7100 3020 50  0000 C CNN
+F 1 "SN74LV07ADR" H 7100 2929 50  0000 C CNN
+F 2 "SOIC127P600X175-14N" H 6650 1350 50  0001 L BNN
+F 3 "" H 7100 2250 50  0001 L BNN
+	1    7100 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 1750 7800 1650
+Wire Notes Line
+	5200 1100 10300 1100
+Wire Notes Line
+	10300 1100 10300 3200
+Wire Notes Line
+	10300 3200 5200 3200
+Wire Notes Line
+	5200 3200 5200 1100
+Text Label 8250 1950 0    50   ~ 0
+PD0_BUF
+Text Label 8250 2050 0    50   ~ 0
+PD1_BUF
+Text Label 8250 2250 0    50   ~ 0
+PD3_BUF
+Text Label 8250 2350 0    50   ~ 0
+PD4_BUF
+Text Label 8250 2150 0    50   ~ 0
+PD2_BUF
+Text Label 8250 2450 0    50   ~ 0
+PD5_BUF
+Wire Wire Line
+	8350 2550 8900 2550
+Wire Wire Line
+	8350 2650 8900 2650
+Wire Wire Line
+	8350 2750 8900 2750
+Wire Wire Line
+	8350 2850 8900 2850
 $EndSCHEMATC
