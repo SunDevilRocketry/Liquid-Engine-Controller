@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 5
+Sheet 2 6
 Title "Engine Microcontroller Power Supply"
 Date ""
 Rev "1.0"
@@ -451,4 +451,30 @@ Wire Wire Line
 Connection ~ 8700 4000
 Wire Wire Line
 	8100 4550 8100 4300
+$Comp
+L Engine-Controller:5V None?
+U 1 1 61790759
+P 7550 3700
+F 0 "None?" H 7678 3689 50  0001 L CNN
+F 1 "5V" H 7500 3800 50  0000 L CNN
+F 2 "" H 7550 3700 50  0001 C CNN
+F 3 "" H 7550 3700 50  0001 C CNN
+	1    7550 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 4000 7550 3850
+$Comp
+L Engine-Controller:3.3V None?
+U 1 1 6179CDBA
+P 8700 3750
+F 0 "None?" H 8828 3739 50  0001 L CNN
+F 1 "3.3V" H 8622 3853 50  0000 L CNN
+F 2 "" H 8700 3750 50  0001 C CNN
+F 3 "" H 8700 3750 50  0001 C CNN
+	1    8700 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 4000 8700 3900
 $EndSCHEMATC
