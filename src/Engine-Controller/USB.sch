@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 6
+Sheet 3 5
 Title "Liquids Engine Microcontroller USB"
 Date "2021-06-29"
 Rev "1.0"

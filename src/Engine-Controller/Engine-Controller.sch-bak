@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 5
 Title "Engine Controller Microcontroller Board"
 Date "2021-06-26"
 Rev "1.0"
@@ -24,12 +24,6 @@ S 9700 2050 1300 1100
 U 60DAA9B3
 F0 "USB" 50
 F1 "USB.sch" 50
-$EndSheet
-$Sheet
-S 8100 3550 2850 1000
-U 60DAAA3E
-F0 "Programmer" 50
-F1 "Programmer.sch" 50
 $EndSheet
 $Comp
 L Engine-Controller:STM32L443VCT6 U1

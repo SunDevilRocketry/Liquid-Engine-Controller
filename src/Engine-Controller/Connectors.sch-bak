@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 6
+Sheet 4 5
 Title "Liquid Engine Microcontroller Connectors"
 Date "2021-06-29"
 Rev "1.0"
@@ -207,4 +207,79 @@ Wire Wire Line
 	8350 2750 8900 2750
 Wire Wire Line
 	8350 2850 8900 2850
+Text GLabel 5100 5150 2    50   Input ~ 0
+SWCLK
+Text GLabel 5100 5350 2    50   Input ~ 0
+SWDIO
+Text GLabel 5150 4550 2    50   Input ~ 0
+3.3V
+Text GLabel 5200 4450 2    50   Input ~ 0
+5V
+$Comp
+L power:Earth #PWR?
+U 1 1 6193D92B
+P 4100 5500
+AR Path="/60DAAA3E/6193D92B" Ref="#PWR?"  Part="1" 
+AR Path="/60E24895/6193D92B" Ref="#PWR06"  Part="1" 
+F 0 "#PWR06" H 4100 5250 50  0001 C CNN
+F 1 "Earth" H 4100 5350 50  0001 C CNN
+F 2 "" H 4100 5500 50  0001 C CNN
+F 3 "~" H 4100 5500 50  0001 C CNN
+	1    4100 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Engine-Controller:SBH11-PBPC-D05-RA-BK P?
+U 1 1 6193D931
+P 4000 4450
+AR Path="/60DAAA3E/6193D931" Ref="P?"  Part="1" 
+AR Path="/60E24895/6193D931" Ref="P3"  Part="1" 
+F 0 "P3" H 4242 4737 60  0000 C CNN
+F 1 "SBH11-PBPC-D05-RA-BK" H 4242 4631 60  0000 C CNN
+F 2 "66953-005LF_AMP" H 4150 3250 60  0001 C CNN
+F 3 "" H 4000 4450 60  0001 C CNN
+	1    4000 4450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 4450 4250 4450
+Wire Wire Line
+	4000 4950 4250 4950
+Wire Wire Line
+	4250 4950 4250 4450
+Connection ~ 4250 4450
+Wire Wire Line
+	4250 4450 5200 4450
+Wire Wire Line
+	4000 4750 4100 4750
+Wire Wire Line
+	4100 4750 4100 5250
+Wire Wire Line
+	4000 5250 4100 5250
+Connection ~ 4100 5250
+Wire Wire Line
+	4100 5250 4100 5500
+Wire Wire Line
+	5150 4550 4300 4550
+Wire Wire Line
+	4000 5050 4300 5050
+Wire Wire Line
+	4300 5050 4300 4550
+Connection ~ 4300 4550
+Wire Wire Line
+	4300 4550 4000 4550
+Wire Wire Line
+	5100 5350 4000 5350
+Wire Wire Line
+	4000 5150 5100 5150
+Wire Notes Line
+	5750 3950 5750 5750
+Wire Notes Line
+	5750 5750 2800 5750
+Wire Notes Line
+	2800 5750 2800 3950
+Wire Notes Line
+	2800 3950 5750 3950
+Text Notes 4050 3850 0    50   ~ 0
+Programmer\n
 $EndSCHEMATC
