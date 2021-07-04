@@ -27,7 +27,7 @@ $EndComp
 Wire Wire Line
 	5700 4200 5950 4200
 Wire Wire Line
-	5950 4200 5950 4600
+	5950 4200 5950 4350
 Text GLabel 6200 3900 2    50   Input ~ 0
 5V
 Wire Wire Line
@@ -43,4 +43,14 @@ F 3 "" H 5300 4200 50  0001 L BNN
 	1    5300 4200
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	5700 4350 5950 4350
+Connection ~ 5950 4350
+Wire Wire Line
+	5950 4350 5950 4450
+Wire Wire Line
+	5700 4450 5950 4450
+Connection ~ 5950 4450
+Wire Wire Line
+	5950 4450 5950 4600
 $EndSCHEMATC

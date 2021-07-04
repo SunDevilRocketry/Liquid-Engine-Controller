@@ -489,4 +489,6 @@ U 6177D07C
 F0 "Flash_SD" 50
 F1 "Flash_SD.sch" 50
 $EndSheet
+Text Label 5700 1700 0    50   ~ 0
+MCU_STATUS
 $EndSCHEMATC
