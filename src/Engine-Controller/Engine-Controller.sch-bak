@@ -42,34 +42,34 @@ U 60E24895
 F0 "Connectors" 50
 F1 "Connectors.sch" 50
 $EndSheet
-Text GLabel 5800 3350 2    50   Input ~ 0
+Text GLabel 5650 3350 2    50   Input ~ 0
 RX
-Text GLabel 5800 3450 2    50   Input ~ 0
+Text GLabel 5650 3450 2    50   Input ~ 0
 TX
 Text GLabel 2500 4050 0    50   Input ~ 0
 MOSI
 Text GLabel 2500 3950 0    50   Input ~ 0
 MISO
-Text GLabel 2450 3450 0    50   Input ~ 0
+Text GLabel 2500 3450 0    50   Input ~ 0
 SCK
-Text GLabel 2450 4350 0    50   Input ~ 0
+Text GLabel 2500 4350 0    50   Input ~ 0
 SDA
-Text GLabel 2450 4250 0    50   Input ~ 0
+Text GLabel 2500 4250 0    50   Input ~ 0
 SCL
-Text GLabel 2400 3750 0    50   Input ~ 0
+Text GLabel 2500 3750 0    50   Input ~ 0
 SS
 Wire Wire Line
 	3000 3950 2500 3950
 Wire Wire Line
 	3000 4050 2500 4050
 Wire Wire Line
-	2450 3450 3000 3450
+	2500 3450 3000 3450
 Wire Wire Line
-	2400 3750 3000 3750
+	2500 3750 3000 3750
 Wire Wire Line
-	2450 4250 3000 4250
+	2500 4250 3000 4250
 Wire Wire Line
-	3000 4350 2450 4350
+	3000 4350 2500 4350
 Text GLabel 2550 1250 1    50   Input ~ 0
 3.3V
 Wire Wire Line
@@ -151,14 +151,14 @@ Wire Wire Line
 Wire Wire Line
 	2750 2100 2750 2200
 Connection ~ 2750 2200
-Text GLabel 2550 4750 0    50   Input ~ 0
+Text GLabel 2500 4750 0    50   Input ~ 0
 SWCLK
-Text GLabel 2550 4650 0    50   Input ~ 0
+Text GLabel 2500 4650 0    50   Input ~ 0
 SWDIO
 Wire Wire Line
-	3000 4650 2550 4650
+	3000 4650 2500 4650
 Wire Wire Line
-	3000 4750 2550 4750
+	3000 4750 2500 4750
 Text GLabel 6000 5100 2    50   Input ~ 0
 PD0
 Text GLabel 6000 5200 2    50   Input ~ 0
@@ -224,18 +224,18 @@ $EndComp
 $Comp
 L Engine-Controller:TP TP1
 U 1 1 60E1CD7C
-P 6550 2600
-F 0 "TP1" H 6628 2788 50  0000 L CNN
-F 1 "TPNRST" H 6628 2697 50  0001 L CNN
-F 2 "Engine-Controller:TP" H 6550 2600 50  0001 C CNN
-F 3 "" H 6550 2600 50  0001 C CNN
-	1    6550 2600
+P 6500 3100
+F 0 "TP1" H 6578 3288 50  0000 L CNN
+F 1 "TPNRST" H 6578 3197 50  0001 L CNN
+F 2 "Engine-Controller:TP" H 6500 3100 50  0001 C CNN
+F 3 "" H 6500 3100 50  0001 C CNN
+	1    6500 3100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5400 3350 5800 3350
+	5400 3350 5650 3350
 Wire Wire Line
-	5800 3450 5400 3450
+	5650 3450 5400 3450
 $Comp
 L power:Earth #PWR0102
 U 1 1 6102ABA9
@@ -309,11 +309,6 @@ $EndComp
 Connection ~ 6250 3100
 Wire Wire Line
 	5400 3100 6250 3100
-Wire Wire Line
-	6250 3100 6550 3100
-Wire Wire Line
-	6550 2600 6550 3100
-Connection ~ 6550 3100
 $Comp
 L Engine-Controller:CAP_0603 C10
 U 1 1 61273C95
@@ -399,7 +394,7 @@ Wire Wire Line
 	2100 2300 2750 2300
 Text Notes 900  1900 0    50   ~ 0
 Microcontroller Decoupling Caps
-Text Label 6550 2800 0    50   ~ 0
+Text Label 6700 3100 0    50   ~ 0
 NRST
 Wire Wire Line
 	5400 6000 6000 6000
@@ -416,8 +411,6 @@ F 3 "~" H 6700 3700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7000 3700 7000 3400
-Wire Wire Line
-	6550 3100 7000 3100
 Wire Wire Line
 	6900 3700 7000 3700
 Wire Wire Line
@@ -461,22 +454,22 @@ Wire Wire Line
 Connection ~ 2050 2900
 Wire Wire Line
 	2050 2900 2750 2900
-Text GLabel 2700 6100 0    50   Input ~ 0
+Text GLabel 2500 6100 0    50   Input ~ 0
 FLASH_SCK
 Wire Wire Line
-	3000 6100 2700 6100
-Text GLabel 5550 3550 2    50   Input ~ 0
+	3000 6100 2500 6100
+Text GLabel 5650 3550 2    50   Input ~ 0
 FLASH_MISO
 Wire Wire Line
-	5550 3550 5400 3550
-Text GLabel 5550 3650 2    50   Input ~ 0
+	5650 3550 5400 3550
+Text GLabel 5650 3650 2    50   Input ~ 0
 FLASH_MOSI
 Wire Wire Line
-	5550 3650 5400 3650
-Text GLabel 2650 6300 0    50   Input ~ 0
+	5650 3650 5400 3650
+Text GLabel 2500 6300 0    50   Input ~ 0
 FLASH_SS
 Wire Wire Line
-	3000 6300 2650 6300
+	3000 6300 2500 6300
 $Sheet
 S 8150 3300 1350 1150
 U 6177D07C
@@ -485,4 +478,45 @@ F1 "Flash_SD.sch" 50
 $EndSheet
 Text Label 5700 1700 0    50   ~ 0
 MCU_STATUS
+Wire Wire Line
+	6250 3100 6500 3100
+Connection ~ 6500 3100
+Wire Wire Line
+	6500 3100 7000 3100
+Text GLabel 2500 3350 0    50   Input ~ 0
+A0
+Text GLabel 2500 3550 0    50   Input ~ 0
+A1
+Text GLabel 2500 3650 0    50   Input ~ 0
+A2
+Text GLabel 2500 3850 0    50   Input ~ 0
+A3
+Text GLabel 5650 3750 2    50   Input ~ 0
+A4
+Text GLabel 5650 3850 2    50   Input ~ 0
+A5
+Text GLabel 2500 5100 0    50   Input ~ 0
+A6
+Text GLabel 2500 5200 0    50   Input ~ 0
+A7
+Text GLabel 2500 6000 0    50   Input ~ 0
+SD_SS
+Wire Wire Line
+	3000 6000 2500 6000
+Wire Wire Line
+	3000 3350 2500 3350
+Wire Wire Line
+	3000 3550 2500 3550
+Wire Wire Line
+	3000 3650 2500 3650
+Wire Wire Line
+	3000 3850 2500 3850
+Wire Wire Line
+	5650 3750 5400 3750
+Wire Wire Line
+	5650 3850 5400 3850
+Wire Wire Line
+	3000 5100 2500 5100
+Wire Wire Line
+	2500 5200 3000 5200
 $EndSCHEMATC

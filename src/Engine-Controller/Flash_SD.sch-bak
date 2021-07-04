@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 5
+Sheet 5 5
 Title "Data Logging Memory"
 Date "2021-07-03"
 Rev "1.0"
@@ -27,7 +27,7 @@ $EndComp
 Text GLabel 3300 3800 0    50   Input ~ 0
 FLASH_SS
 Wire Wire Line
-	3300 3800 4000 3800
+	3300 3800 3450 3800
 Text GLabel 3350 3950 0    50   Input ~ 0
 FLASH_MISO
 Wire Wire Line
@@ -39,18 +39,16 @@ Wire Wire Line
 $Comp
 L Engine-Controller:3.3V None05
 U 1 1 617870C5
-P 5200 3550
-F 0 "None05" H 5328 3539 50  0001 L CNN
-F 1 "3.3V" H 5124 3646 50  0000 L CNN
-F 2 "" H 5200 3550 50  0001 C CNN
-F 3 "" H 5200 3550 50  0001 C CNN
-	1    5200 3550
+P 5050 3550
+F 0 "None05" H 5178 3539 50  0001 L CNN
+F 1 "3.3V" H 4974 3646 50  0000 L CNN
+F 2 "" H 5050 3550 50  0001 C CNN
+F 3 "" H 5050 3550 50  0001 C CNN
+	1    5050 3550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5050 3800 5200 3800
-Wire Wire Line
-	5200 3800 5200 3700
+	5050 3800 5050 3700
 $Comp
 L power:Earth #PWR03
 U 1 1 61788B6E
@@ -69,7 +67,7 @@ Wire Wire Line
 Text GLabel 5750 4800 3    50   Input ~ 0
 FLASH_SCK
 Wire Wire Line
-	5750 4100 5050 4100
+	5750 4100 5350 4100
 Text GLabel 5500 4800 3    50   Input ~ 0
 FLASH_MOSI
 $Comp
@@ -115,9 +113,6 @@ Wire Wire Line
 Wire Wire Line
 	8650 4750 8550 4750
 Connection ~ 8550 4750
-Wire Wire Line
-	5200 3800 7150 3800
-Connection ~ 5200 3800
 Text GLabel 6350 3600 0    50   Input ~ 0
 SD_SS
 Wire Wire Line
@@ -125,7 +120,7 @@ Wire Wire Line
 Wire Wire Line
 	5500 4250 5500 3700
 Wire Wire Line
-	5500 3700 7150 3700
+	5500 3700 5700 3700
 Connection ~ 5500 4250
 Wire Wire Line
 	5500 4250 5050 4250
@@ -199,4 +194,68 @@ F 3 "" H 6600 2950 50  0001 C CNN
 	1    6600 2950
 	1    0    0    -1  
 $EndComp
+$Comp
+L Engine-Controller:TP TP6
+U 1 1 619D48B0
+P 3450 3650
+F 0 "TP6" H 3528 3838 50  0000 L CNN
+F 1 "TP" H 3528 3747 50  0000 L CNN
+F 2 "" H 3450 3650 50  0001 C CNN
+F 3 "" H 3450 3650 50  0001 C CNN
+	1    3450 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Engine-Controller:TP TP7
+U 1 1 619D6A4E
+P 3850 3650
+F 0 "TP7" H 3928 3838 50  0000 L CNN
+F 1 "TP" H 3928 3747 50  0000 L CNN
+F 2 "" H 3850 3650 50  0001 C CNN
+F 3 "" H 3850 3650 50  0001 C CNN
+	1    3850 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Engine-Controller:TP TP8
+U 1 1 619D874E
+P 5350 3600
+F 0 "TP8" H 5428 3788 50  0000 L CNN
+F 1 "TP" H 5428 3697 50  0000 L CNN
+F 2 "" H 5350 3600 50  0001 C CNN
+F 3 "" H 5350 3600 50  0001 C CNN
+	1    5350 3600
+	1    0    0    -1  
+$EndComp
+Connection ~ 5050 3800
+Wire Wire Line
+	5050 3800 7150 3800
+$Comp
+L Engine-Controller:TP TP9
+U 1 1 619DE8D4
+P 5700 3600
+F 0 "TP9" H 5778 3788 50  0000 L CNN
+F 1 "TP" H 5778 3697 50  0000 L CNN
+F 2 "" H 5700 3600 50  0001 C CNN
+F 3 "" H 5700 3600 50  0001 C CNN
+	1    5700 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 3650 3450 3800
+Connection ~ 3450 3800
+Wire Wire Line
+	3450 3800 4000 3800
+Wire Wire Line
+	3850 3650 3850 3950
+Wire Wire Line
+	5350 3600 5350 4100
+Connection ~ 5350 4100
+Wire Wire Line
+	5350 4100 5050 4100
+Wire Wire Line
+	5700 3600 5700 3700
+Connection ~ 5700 3700
+Wire Wire Line
+	5700 3700 7150 3700
 $EndSCHEMATC
