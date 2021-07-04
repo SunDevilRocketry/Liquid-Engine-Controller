@@ -18,6 +18,12 @@ K Jumper SPST
 F ~
 $ENDCMP
 #
+$CMP Micro_SD_Card
+D Micro SD Card Socket
+K connector SD microsd
+F http://katalog.we-online.de/em/datasheet/693072010801.pdf
+$ENDCMP
+#
 $CMP UHE2A121MHD6
 D Polarized capacitor, US symbol
 K cap capacitor

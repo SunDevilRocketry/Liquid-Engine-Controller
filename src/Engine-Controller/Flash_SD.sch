@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Engine-Controller:SST25VF040B-50-4I-S2AE-T U?
+L Engine-Controller:SST25VF040B-50-4I-S2AE-T U5
 U 1 1 617854EA
 P 5950 3950
-F 0 "U?" H 5925 4231 60  0000 C CNN
+F 0 "U5" H 5925 4231 60  0000 C CNN
 F 1 "SST25VF040B-50-4I-S2AE-T" H 5925 4231 60  0001 C CNN
 F 2 "SOIC8_S2A_SST_MCH" H 5950 3250 60  0001 C CNN
 F 3 "" H 4750 4000 60  0001 C CNN
@@ -31,16 +31,16 @@ Wire Wire Line
 Text GLabel 4750 4000 0    50   Input ~ 0
 FLASH_MISO
 Wire Wire Line
-	5400 4000 4750 4000
+	5400 4000 5250 4000
 Text GLabel 4700 4150 0    50   Input ~ 0
 FLASH_WP
 Wire Wire Line
 	5400 4150 4700 4150
 $Comp
-L Engine-Controller:3.3V None?
+L Engine-Controller:3.3V None05
 U 1 1 617870C5
 P 6600 3600
-F 0 "None?" H 6728 3589 50  0001 L CNN
+F 0 "None05" H 6728 3589 50  0001 L CNN
 F 1 "3.3V" H 6524 3696 50  0000 L CNN
 F 2 "" H 6600 3600 50  0001 C CNN
 F 3 "" H 6600 3600 50  0001 C CNN
@@ -52,20 +52,151 @@ Wire Wire Line
 Wire Wire Line
 	6600 3850 6600 3750
 $Comp
-L power:Earth #PWR?
+L power:Earth #PWR03
 U 1 1 61788B6E
-P 5400 4450
-F 0 "#PWR?" H 5400 4200 50  0001 C CNN
-F 1 "Earth" H 5400 4300 50  0001 C CNN
-F 2 "" H 5400 4450 50  0001 C CNN
-F 3 "~" H 5400 4450 50  0001 C CNN
-	1    5400 4450
+P 5400 4850
+F 0 "#PWR03" H 5400 4600 50  0001 C CNN
+F 1 "Earth" H 5400 4700 50  0001 C CNN
+F 2 "" H 5400 4850 50  0001 C CNN
+F 3 "~" H 5400 4850 50  0001 C CNN
+	1    5400 4850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5400 4300 5400 4450
 Text GLabel 7100 4000 2    50   Input ~ 0
 FLASH_HOLD
 Wire Wire Line
 	6450 4000 7100 4000
+Text GLabel 7150 4850 3    50   Input ~ 0
+FLASH_SCK
+Wire Wire Line
+	7150 4150 6450 4150
+Text GLabel 6900 4850 3    50   Input ~ 0
+FLASH_MOSI
+$Comp
+L Engine-Controller:Micro_SD_Card P6
+U 1 1 617F7CCB
+P 9450 3850
+F 0 "P6" H 10280 3764 50  0000 L CNN
+F 1 "Micro_SD_Card" H 10280 3673 50  0000 L CNN
+F 2 "" H 10600 4150 50  0001 C CNN
+F 3 "http://katalog.we-online.de/em/datasheet/693072010801.pdf" H 9450 3850 50  0001 C CNN
+	1    9450 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR05
+U 1 1 617F979C
+P 9900 4850
+F 0 "#PWR05" H 9900 4600 50  0001 C CNN
+F 1 "Earth" H 9900 4700 50  0001 C CNN
+F 2 "" H 9900 4850 50  0001 C CNN
+F 3 "~" H 9900 4850 50  0001 C CNN
+	1    9900 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 4650 9750 4800
+Wire Wire Line
+	9750 4800 9850 4800
+Wire Wire Line
+	9900 4800 9900 4850
+Wire Wire Line
+	9850 4650 9850 4800
+Connection ~ 9850 4800
+Wire Wire Line
+	9850 4800 9900 4800
+Wire Wire Line
+	9950 4650 9950 4800
+Wire Wire Line
+	9950 4800 9900 4800
+Connection ~ 9900 4800
+Wire Wire Line
+	10050 4650 10050 4800
+Wire Wire Line
+	10050 4800 9950 4800
+Connection ~ 9950 4800
+Wire Wire Line
+	6600 3850 8550 3850
+Connection ~ 6600 3850
+Text GLabel 7750 3650 0    50   Input ~ 0
+SD_SS
+Wire Wire Line
+	8550 3650 7750 3650
+Wire Wire Line
+	6900 4300 6900 3750
+Wire Wire Line
+	6900 3750 8550 3750
+Connection ~ 6900 4300
+Wire Wire Line
+	6900 4300 6450 4300
+Wire Wire Line
+	7150 4150 7800 4150
+Wire Wire Line
+	7800 4150 7800 3950
+Wire Wire Line
+	7800 3950 8550 3950
+Connection ~ 7150 4150
+$Comp
+L power:Earth #PWR04
+U 1 1 6180735A
+P 8450 4750
+F 0 "#PWR04" H 8450 4500 50  0001 C CNN
+F 1 "Earth" H 8450 4600 50  0001 C CNN
+F 2 "" H 8450 4750 50  0001 C CNN
+F 3 "~" H 8450 4750 50  0001 C CNN
+	1    8450 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 4050 8450 4050
+Wire Wire Line
+	8450 4050 8450 4750
+Wire Wire Line
+	6900 4300 6900 4850
+Wire Wire Line
+	7150 4150 7150 4850
+Wire Wire Line
+	5400 4300 5400 4850
+Wire Wire Line
+	5250 4000 5250 4500
+Wire Wire Line
+	5250 4500 8300 4500
+Wire Wire Line
+	8300 4500 8300 4150
+Wire Wire Line
+	8300 4150 8550 4150
+Connection ~ 5250 4000
+Wire Wire Line
+	5250 4000 4750 4000
+Text GLabel 7800 4350 0    50   Input ~ 0
+SD_DETECT
+Wire Wire Line
+	8550 4350 8000 4350
+$Comp
+L Engine-Controller:RES_0603 R7
+U 1 1 618D69C9
+P 8000 3350
+F 0 "R7" V 8046 3281 50  0000 R CNN
+F 1 "10k" V 7955 3281 50  0000 R CNN
+F 2 "" H 8050 2850 50  0001 L BNN
+F 3 "" H 8000 3350 50  0001 L BNN
+	1    8000 3350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8000 3550 8000 4350
+Connection ~ 8000 4350
+Wire Wire Line
+	8000 4350 7800 4350
+$Comp
+L Engine-Controller:3.3V None06
+U 1 1 618DC655
+P 8000 3000
+F 0 "None06" H 8128 2989 50  0001 L CNN
+F 1 "3.3V" H 7924 3096 50  0000 L CNN
+F 2 "" H 8000 3000 50  0001 C CNN
+F 3 "" H 8000 3000 50  0001 C CNN
+	1    8000 3000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
