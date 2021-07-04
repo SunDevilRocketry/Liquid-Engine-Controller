@@ -156,17 +156,6 @@ $EndComp
 Wire Wire Line
 	7800 2650 7800 2900
 $Comp
-L Engine-Controller:3.3V None02
-U 1 1 61392439
-P 7800 1500
-F 0 "None02" H 7928 1489 50  0001 L CNN
-F 1 "3.3V" H 7726 1601 50  0000 L CNN
-F 2 "" H 7800 1500 50  0001 C CNN
-F 3 "" H 7800 1500 50  0001 C CNN
-	1    7800 1500
-	1    0    0    -1  
-$EndComp
-$Comp
 L Engine-Controller:SN74LV07ADR U4
 U 1 1 6134C986
 P 7100 2250
@@ -177,8 +166,6 @@ F 3 "" H 7100 2250 50  0001 L BNN
 	1    7100 2250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7800 1750 7800 1650
 Wire Notes Line
 	5200 1100 10300 1100
 Wire Notes Line
@@ -330,21 +317,10 @@ F 3 "~" H 2000 5500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2000 5350 2000 5500
-$Comp
-L Engine-Controller:3.3V None07
-U 1 1 61C0A50F
-P 1850 4200
-F 0 "None07" H 1978 4189 50  0001 L CNN
-F 1 "3.3V" H 1771 4292 50  0000 L CNN
-F 2 "" H 1850 4200 50  0001 C CNN
-F 3 "" H 1850 4200 50  0001 C CNN
-	1    1850 4200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2000 5250 1850 5250
 Wire Wire Line
-	1850 5250 1850 4350
+	1850 5250 1850 4300
 Wire Notes Line
 	6900 5800 3900 5800
 Wire Notes Line
@@ -363,4 +339,12 @@ Wire Notes Line
 	850  3950 3250 3950
 Text Notes 1450 3850 0    50   ~ 0
 Analog-to-Digital Converter\n
+Text GLabel 7800 1500 1    50   Input ~ 0
+3.3V
+Wire Wire Line
+	7800 1500 7800 1750
+Text GLabel 1850 4300 1    50   Input ~ 0
+3.3V
+NoConn ~ 5150 4600
+NoConn ~ 5150 4800
 $EndSCHEMATC

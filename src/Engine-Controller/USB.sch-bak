@@ -28,21 +28,6 @@ Wire Wire Line
 	5700 4200 5950 4200
 Wire Wire Line
 	5950 4200 5950 4350
-Text GLabel 6200 3900 2    50   Input ~ 0
-5V
-Wire Wire Line
-	5700 3900 6200 3900
-$Comp
-L Engine-Controller:USB P2
-U 1 1 60E38DF5
-P 5300 4200
-F 0 "P2" H 5193 4767 50  0000 C CNN
-F 1 "USB" H 5193 4676 50  0000 C CNN
-F 2 "BEL_SS-52300-001" H 4950 3600 50  0001 L BNN
-F 3 "" H 5300 4200 50  0001 L BNN
-	1    5300 4200
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	5700 4350 5950 4350
 Connection ~ 5950 4350
@@ -53,4 +38,21 @@ Wire Wire Line
 Connection ~ 5950 4450
 Wire Wire Line
 	5950 4450 5950 4600
+Wire Wire Line
+	5700 3900 5900 3900
+Wire Wire Line
+	5900 3900 5900 3800
+$Comp
+L Engine-Controller:USB P2
+U 1 1 61DDEC99
+P 5300 4200
+F 0 "P2" H 5193 4767 50  0000 C CNN
+F 1 "USB" H 5193 4676 50  0000 C CNN
+F 2 "BEL_SS-52300-001" H 4950 3600 50  0001 L BNN
+F 3 "" H 5300 4200 50  0001 L BNN
+	1    5300 4200
+	-1   0    0    -1  
+$EndComp
+Text GLabel 5900 3800 1    50   Input ~ 0
+5V
 $EndSCHEMATC

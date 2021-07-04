@@ -293,17 +293,6 @@ F 3 "" H 6250 2900 50  0001 L BNN
 	1    6250 2900
 	0    1    1    0   
 $EndComp
-$Comp
-L Engine-Controller:3.3V None01
-U 1 1 60F82434
-P 6250 2450
-F 0 "None01" H 6378 2439 50  0001 L CNN
-F 1 "3.3V" H 6150 2550 50  0000 L CNN
-F 2 "" H 6250 2450 50  0001 C CNN
-F 3 "" H 6250 2450 50  0001 C CNN
-	1    6250 2450
-	1    0    0    -1  
-$EndComp
 Connection ~ 6250 3100
 Wire Wire Line
 	5400 3100 6250 3100
@@ -531,4 +520,50 @@ Text GLabel 5600 1900 2    50   Input ~ 0
 SD_DETECT
 Wire Wire Line
 	5600 1900 5400 1900
+NoConn ~ 3000 4150
+NoConn ~ 3000 4450
+NoConn ~ 3000 4550
+NoConn ~ 3000 4850
+NoConn ~ 3000 5300
+NoConn ~ 3000 5400
+NoConn ~ 3000 5500
+NoConn ~ 3000 5600
+NoConn ~ 3000 5700
+NoConn ~ 3000 5800
+NoConn ~ 3000 5900
+NoConn ~ 3000 6200
+NoConn ~ 3000 6400
+NoConn ~ 3000 6500
+NoConn ~ 3000 6600
+NoConn ~ 5400 6600
+NoConn ~ 5400 6500
+NoConn ~ 5400 6400
+NoConn ~ 5400 6300
+NoConn ~ 5400 6200
+NoConn ~ 5400 6100
+NoConn ~ 5400 4850
+NoConn ~ 5400 4750
+NoConn ~ 5400 4650
+NoConn ~ 5400 4550
+NoConn ~ 5400 4450
+NoConn ~ 5400 4350
+NoConn ~ 5400 4250
+NoConn ~ 5400 4150
+NoConn ~ 5400 4050
+NoConn ~ 5400 3950
+NoConn ~ 5400 3000
+NoConn ~ 5400 2900
+NoConn ~ 5400 2800
+NoConn ~ 5400 2700
+NoConn ~ 5400 2600
+NoConn ~ 5400 2500
+NoConn ~ 5400 2400
+NoConn ~ 5400 2300
+NoConn ~ 5400 2200
+NoConn ~ 5400 2100
+NoConn ~ 5400 2000
+NoConn ~ 3000 3000
+NoConn ~ 3000 3100
+Text GLabel 6250 2600 1    50   Input ~ 0
+3.3V
 $EndSCHEMATC

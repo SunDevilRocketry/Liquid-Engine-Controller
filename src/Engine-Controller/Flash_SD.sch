@@ -37,19 +37,6 @@ FLASH_WP
 Wire Wire Line
 	4000 4100 3300 4100
 $Comp
-L Engine-Controller:3.3V None05
-U 1 1 617870C5
-P 5050 3550
-F 0 "None05" H 5178 3539 50  0001 L CNN
-F 1 "3.3V" H 4974 3646 50  0000 L CNN
-F 2 "" H 5050 3550 50  0001 C CNN
-F 3 "" H 5050 3550 50  0001 C CNN
-	1    5050 3550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5050 3800 5050 3700
-$Comp
 L power:Earth #PWR03
 U 1 1 61788B6E
 P 4000 4800
@@ -184,17 +171,6 @@ Connection ~ 6600 4300
 Wire Wire Line
 	6600 4300 6400 4300
 $Comp
-L Engine-Controller:3.3V None06
-U 1 1 618DC655
-P 6600 2950
-F 0 "None06" H 6728 2939 50  0001 L CNN
-F 1 "3.3V" H 6524 3046 50  0000 L CNN
-F 2 "" H 6600 2950 50  0001 C CNN
-F 3 "" H 6600 2950 50  0001 C CNN
-	1    6600 2950
-	1    0    0    -1  
-$EndComp
-$Comp
 L Engine-Controller:TP TP6
 U 1 1 619D48B0
 P 3450 3650
@@ -258,4 +234,15 @@ Wire Wire Line
 Connection ~ 5700 3700
 Wire Wire Line
 	5700 3700 7150 3700
+Text GLabel 4750 3000 0    50   Input ~ 0
+3.3V
+Wire Wire Line
+	4750 3000 5050 3000
+Wire Wire Line
+	6600 3000 6600 3100
+Wire Wire Line
+	5050 3000 5050 3800
+Connection ~ 5050 3000
+Wire Wire Line
+	5050 3000 6600 3000
 $EndSCHEMATC
