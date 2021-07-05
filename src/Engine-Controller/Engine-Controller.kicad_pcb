@@ -2383,7 +2383,7 @@
   )
 
   (module Engine-Controller:SOT-223 (layer F.Cu) (tedit 60D78074) (tstamp 60E23D8B)
-    (at 157.6578 147.4978 270)
+    (at 156.8704 147.32 270)
     (path /60D7F309/61E22A22)
     (fp_text reference U3 (at -0.025 -4.754 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))

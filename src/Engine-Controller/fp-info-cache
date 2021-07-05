@@ -1,4 +1,4 @@
-45484327420289
+53613011125289
 Engine-Controller
 12V_power_jack
 
@@ -49,12 +49,26 @@ CWR11HH106KB
 2
 2
 Engine-Controller
+GCT_MEM2075-00-140-01-A
+
+
+0
+13
+13
+Engine-Controller
+Jumper-NO
+<b>CAPACITOR</b>
+
+0
+2
+2
+Engine-Controller
 LM22672MRE-5.0_NOPB
 
 
 0
-17
-17
+8
+8
 Engine-Controller
 LTST-C150GKT
 
@@ -69,6 +83,13 @@ MPD_EJ508A
 0
 3
 3
+Engine-Controller
+PTS647SM38SMTR2LFS
+
+
+0
+4
+4
 Engine-Controller
 RB160VAM-60TR
 
@@ -98,12 +119,26 @@ SBH11-PBPC-D05-RA-BK
 10
 10
 Engine-Controller
+SN74LV07ADR
+
+
+0
+14
+14
+Engine-Controller
 SOT-223
 
 
 0
 4
 4
+Engine-Controller
+SST25VF040B-50-4I-S2AE-T
+
+
+0
+8
+8
 Engine-Controller
 STM32L443VCT6
 
