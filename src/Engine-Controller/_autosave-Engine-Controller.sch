@@ -412,35 +412,14 @@ Wire Wire Line
 $Comp
 L Engine-Controller:CAP_0603 C14
 U 1 1 6159BC7F
-P 1700 2750
-F 0 "C14" V 1654 2853 50  0000 L CNN
-F 1 "0.1u" V 1745 2853 50  0000 L CNN
-F 2 "Engine-Controller:CAP_0603" H 1600 2350 50  0001 L BNN
-F 3 "" H 1650 2750 50  0001 L BNN
-	1    1700 2750
-	0    1    1    0   
-$EndComp
-$Comp
-L Engine-Controller:CAP_0603 C15
-U 1 1 6159CF33
 P 2050 2750
-F 0 "C15" V 2004 2853 50  0000 L CNN
+F 0 "C14" V 2004 2853 50  0000 L CNN
 F 1 "0.1u" V 2095 2853 50  0000 L CNN
 F 2 "Engine-Controller:CAP_0603" H 1950 2350 50  0001 L BNN
 F 3 "" H 2000 2750 50  0001 L BNN
 	1    2050 2750
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	1700 2600 2050 2600
-Connection ~ 2050 2600
-Wire Wire Line
-	2050 2600 2550 2600
-Wire Wire Line
-	1700 2900 2050 2900
-Connection ~ 2050 2900
-Wire Wire Line
-	2050 2900 2750 2900
 Text GLabel 2500 6100 0    50   Input ~ 0
 FLASH_SCK
 Wire Wire Line
@@ -566,4 +545,8 @@ NoConn ~ 3000 3000
 NoConn ~ 3000 3100
 Text GLabel 6250 2600 1    50   Input ~ 0
 3.3V
+Wire Wire Line
+	2050 2900 2750 2900
+Wire Wire Line
+	2050 2600 2550 2600
 $EndSCHEMATC

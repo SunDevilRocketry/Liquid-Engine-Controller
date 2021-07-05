@@ -345,4 +345,6 @@ Wire Wire Line
 	7800 1500 7800 1750
 Text GLabel 1850 4300 1    50   Input ~ 0
 3.3V
+NoConn ~ 5150 4600
+NoConn ~ 5150 4800
 $EndSCHEMATC
