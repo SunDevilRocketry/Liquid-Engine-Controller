@@ -330,17 +330,6 @@ F 3 "" H 4550 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Engine-Controller:Schottky D2
-U 1 1 611BBBEC
-P 5650 4250
-F 0 "D2" V 5650 4330 50  0000 L CNN
-F 1 "Schottky" V 5695 4330 50  0001 L CNN
-F 2 "Engine-Controller:RB160VAM-60TR" H 5650 4250 50  0001 C CNN
-F 3 "" H 5650 4250 50  0001 C CNN
-	1    5650 4250
-	0    1    1    0   
-$EndComp
-$Comp
 L Engine-Controller:CWR11HH106KB C6
 U 1 1 611C3D38
 P 7550 4100
@@ -498,4 +487,16 @@ Wire Notes Line
 	1000 2850 2650 2850
 Text Notes 1450 2750 0    50   ~ 0
 Source Selector\n
+$Comp
+L Engine-Controller:RB160VAM-60TR D2
+U 1 1 60F4329D
+P 5650 4450
+F 0 "D2" V 5850 4346 60  0000 R CNN
+F 1 "RB160VAM-60TR" H 5900 4250 60  0001 C CNN
+F 2 "SOD-123FL_MCC" H 5900 4150 60  0001 C CNN
+F 3 "" H 5650 4450 60  0001 C CNN
+	1    5650 4450
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5650 3900
 $EndSCHEMATC
