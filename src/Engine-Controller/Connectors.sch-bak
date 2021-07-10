@@ -200,8 +200,6 @@ Text GLabel 6250 5300 2    50   Input ~ 0
 SWDIO
 Text GLabel 6300 4500 2    50   Input ~ 0
 3.3V
-Text GLabel 6350 4400 2    50   Input ~ 0
-5V
 $Comp
 L power:Earth #PWR?
 U 1 1 6193D92B
@@ -228,15 +226,6 @@ F 3 "" H 5150 4400 60  0001 C CNN
 	1    5150 4400
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	5150 4400 5400 4400
-Wire Wire Line
-	5150 4900 5400 4900
-Wire Wire Line
-	5400 4900 5400 4400
-Connection ~ 5400 4400
-Wire Wire Line
-	5400 4400 6350 4400
 Wire Wire Line
 	5150 4700 5250 4700
 Wire Wire Line
@@ -347,4 +336,6 @@ Text GLabel 1850 4300 1    50   Input ~ 0
 3.3V
 NoConn ~ 5150 4600
 NoConn ~ 5150 4800
+NoConn ~ 5150 4900
+NoConn ~ 5150 4400
 $EndSCHEMATC
