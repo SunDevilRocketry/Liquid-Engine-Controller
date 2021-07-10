@@ -64,8 +64,6 @@ F 3 "~" H 8800 5600 50  0001 C CNN
 	1    8800 5600
 	1    0    0    -1  
 $EndComp
-Text GLabel 8550 4400 0    50   Input ~ 0
-VIN
 Wire Notes Line
 	10400 3900 10400 5800
 Wire Notes Line
@@ -338,4 +336,6 @@ NoConn ~ 5150 4600
 NoConn ~ 5150 4800
 NoConn ~ 5150 4900
 NoConn ~ 5150 4400
+Text GLabel 8550 4400 0    50   Input ~ 0
+V_HEAD
 $EndSCHEMATC
