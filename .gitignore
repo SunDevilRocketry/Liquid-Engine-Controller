@@ -1,3 +1,6 @@
 
 # Ignore testscript python script
-sim/testscript.py
+sim/testScript.py
+
+# Ignore .gitignore file itself
+.gitignore
