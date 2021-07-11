@@ -49,6 +49,7 @@ class buck:
                                  'SW': 'VIN'}
             self.FreqSW = 500e3   # Switching Frequency (Hz)
             self.VOUT = 5       # Output Voltage (V)
+            self.VIN = 40       # Normal Input Voltage (V)
             self.IOUT = 1       # Output Max Amperage (A)
 
         else: # Invalid Chip Selection
@@ -58,7 +59,9 @@ class buck:
             for option, chip in enumerate(self.chipOptions):
                 print('   ', option+1, '.', chip)
                 choice = input('Enter a selection: ')
-            getOption(choice, len(self.chipOptions))
+            choice = getOption(choice, len(self.chipOptions))
+            if (choice == 1):
+                self.__init__('LM22672MRE-5.0/NOPB')
             
     # calcL -- Calculates the value of the power inductor based on ripple
     #          current considerations
@@ -66,7 +69,8 @@ class buck:
     
         # Choose chip 
         if (chip == 'LM22672MRE-5.0/NOPB'):
-            # External component list unpacking
+            self.Lrecomended = (self.VIN - self.VOUT)*self.VOUT/0.3
+            self.Lrecomended /= self.IOUT*self.FreqSW*self.VIN
  
         else: # Invalid Chip Selection
             print('Invalid buck converter selection when calculating' \
@@ -75,7 +79,9 @@ class buck:
             for option, chip in enumerate(self.chipOptions):
                 print('   ', option+1, '.', chip)
                 choice = input('Enter a selection: ')
-            getOption(choice, len(self.chipOptions))
+            choice = getOption(choice, len(self.chipOptions))
+            if (choice == 1):
+                self.calcL('LM22672MRE-5.0/NOPB')
 
     # Defines all external component values 
     # Inputs: 
@@ -100,4 +106,6 @@ class buck:
             for option, chip in enumerate(self.chipOptions):
                 print('   ', option+1, '.', chip)
                 choice = input('Enter a selection: ')
-            getOption(choice, len(self.chipOptions))
+            choice = getOption(choice, len(self.chipOptions))
+            if (choice == 1):
+                self.externalParams('LM22672MRE-5.0/NOPB')
