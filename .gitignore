@@ -1,6 +1,0 @@
-
-# Ignore testscript python script
-sim/testScript.py
-
-# Ignore .gitignore file itself
-.gitignore
