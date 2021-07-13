@@ -540,7 +540,6 @@ NoConn ~ 5400 2400
 NoConn ~ 5400 2300
 NoConn ~ 5400 2200
 NoConn ~ 5400 2100
-NoConn ~ 5400 2000
 NoConn ~ 3000 3000
 NoConn ~ 3000 3100
 Text GLabel 6250 2600 1    50   Input ~ 0
@@ -549,4 +548,8 @@ Wire Wire Line
 	2050 2900 2750 2900
 Wire Wire Line
 	2050 2600 2550 2600
+Text GLabel 5600 2000 2    50   Input ~ 0
+5V_SRC
+Wire Wire Line
+	5600 2000 5400 2000
 $EndSCHEMATC

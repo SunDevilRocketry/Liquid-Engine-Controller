@@ -38,10 +38,6 @@ Wire Wire Line
 Connection ~ 5950 4450
 Wire Wire Line
 	5950 4450 5950 4600
-Wire Wire Line
-	5700 3900 5900 3900
-Wire Wire Line
-	5900 3900 5900 3800
 $Comp
 L Engine-Controller:USB P2
 U 1 1 61DDEC99
@@ -53,8 +49,10 @@ F 3 "" H 5300 4200 50  0001 L BNN
 	1    5300 4200
 	-1   0    0    -1  
 $EndComp
-Text GLabel 5900 3800 1    50   Input ~ 0
-5V
+Text GLabel 6150 3900 2    50   Input ~ 0
+5V_USB
 NoConn ~ 5700 4000
 NoConn ~ 5700 4100
+Wire Wire Line
+	5700 3900 6150 3900
 $EndSCHEMATC

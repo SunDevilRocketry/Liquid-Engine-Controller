@@ -1,4 +1,4 @@
-55244380440289
+56870520362289
 Engine-Controller
 12V_power_jack
 
@@ -160,6 +160,13 @@ TP
 0
 1
 1
+Engine-Controller
+TPS2115APWR
+
+
+0
+8
+8
 Engine-Controller
 UHE2A121MHD6
 
