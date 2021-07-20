@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/olsport/Documents/SDR/PCB/Liquids-Engine-Controller/src/Engine-Controller/Engine-Controller.sch)
-    (date "Mon 12 Jul 2021 08:30:05 PM MST")
+    (date "Mon 19 Jul 2021 07:17:17 PM MST")
     (tool "Eeschema 5.1.10")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -157,7 +157,7 @@
       (sheetpath (names /power/) (tstamps /60D7F309/))
       (tstamp 60EBAB6D))
     (comp (ref C1)
-      (value 22uF)
+      (value 68uF)
       (footprint Engine-Controller:UKL1C220KDDANATD)
       (datasheet ~)
       (libsource (lib Engine-Controller) (part UKL1C220KDDANATD) (description "Polarized capacitor, US symbol"))
