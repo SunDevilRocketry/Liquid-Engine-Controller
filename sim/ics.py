@@ -65,12 +65,35 @@ class buck:
             
     # calcL -- Calculates the value of the power inductor based on ripple
     #          current considerations
-    def calcL(self, chip):
+    # Inputs: 
+    #      -- chip: String containing the name of the buck converter chip
+    #      -- printResults: boolean value which prints the output of the 
+    #                       calculations to the console, doesnt print by 
+    #                       default
+    def calcL(self, chip, printResults = False):
     
         # Choose chip 
         if (chip == 'LM22672MRE-5.0/NOPB'):
+
+            # Inductance Calculation From Datasheet
             self.Lrecomended = (self.VIN - self.VOUT)*self.VOUT/0.3
             self.Lrecomended /= self.IOUT*self.FreqSW*self.VIN
+
+            # Resulting Output Ripple Current
+            self.IoutRippleRecommended = (self.VIN - self.VOUT)*self.VOUT
+            self.IoutRippleRecommended /= self.Lrecomended*self.FreqSW*self.VIN 
+
+            # Resulting Output Peak Current 
+            self.IoutPeakRecommended = self.IOUT + self.IoutRippleRecommended/2
+
+            # Print Results
+            if(printResults):
+                print('\nInductor Recommended Specifications: ')
+                print('________________________________________________________________________')
+                print('Inductance: ', '{:.3f}'.format(self.Lrecomended*1e6), ' uH')
+                print('Load Current: ', '{:.3f}'.format(self.IOUT), ' A')
+                print('Ripple Current: ', '{:.3f}'.format(self.IoutRippleRecommended*1e3), ' mA') 
+                print('Peak Current: ', '{:.3f}'.format(self.IoutPeakRecommended), ' A\n')  
  
         else: # Invalid Chip Selection
             print('Invalid buck converter selection when calculating' \
