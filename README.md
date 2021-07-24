@@ -55,5 +55,5 @@
 
 <h2>PCB: </h2>
 
-<img src="Engine-Controller-TOP.jpg">
-<img src="Engine-Controller-BOTTOM.jpg">
+<img src="img/Engine-Controller-TOP.jpg">
+<img src="img/Engine-Controller-BOTTOM.jpg">
