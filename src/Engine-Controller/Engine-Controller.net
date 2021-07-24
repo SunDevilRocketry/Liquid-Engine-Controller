@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/olsport/Documents/SDR/PCB/Liquids-Engine-Controller/src/Engine-Controller/Engine-Controller.sch)
-    (date "Mon 19 Jul 2021 07:23:25 PM MST")
+    (date "Sat 24 Jul 2021 09:16:17 AM MST")
     (tool "Eeschema 5.1.10")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -151,8 +151,8 @@
       (sheetpath (names /power/) (tstamps /60D7F309/))
       (tstamp 60EB9E6E))
     (comp (ref L1)
-      (value 22uH)
-      (footprint Engine-Controller:CBC3225T220KR)
+      (value 33uH)
+      (footprint Engine-Controller:SRP1038A-330M)
       (libsource (lib Engine-Controller) (part CBC3225T220KR) (description ""))
       (sheetpath (names /power/) (tstamps /60D7F309/))
       (tstamp 60EBAB6D))
