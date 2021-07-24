@@ -29,7 +29,7 @@ L Engine-Controller:CBC3225T220KR L1
 U 1 1 60EBAB6D
 P 7500 2650
 F 0 "L1" H 7500 2831 50  0000 C CNN
-F 1 "22uH" H 7500 2750 50  0000 C CNN
+F 1 "33uH" H 7500 2750 50  0000 C CNN
 F 2 "Engine-Controller:SRP1038A-330M" H 7350 2450 50  0001 L BNN
 F 3 "" H 7500 2650 50  0001 L BNN
 	1    7500 2650
@@ -389,8 +389,6 @@ F 3 "~" H 2950 2210 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3350 2350 3350 2550
-Wire Wire Line
-	8000 2650 8400 2650
 $Comp
 L Engine-Controller:TP TP4
 U 1 1 60E7A9D7
@@ -491,7 +489,7 @@ Wire Wire Line
 Connection ~ 3350 2550
 Wire Wire Line
 	3350 2550 3350 2600
-Text GLabel 8400 2650 2    50   Input ~ 0
+Text GLabel 8750 2650 2    50   Input ~ 0
 5V_BUCK
 Wire Notes Line
 	1950 1100 9200 1100
@@ -692,4 +690,27 @@ Text Label 5150 5250 0    50   ~ 0
 5V
 Text Label 4350 2150 0    50   ~ 0
 VIN
+$Comp
+L Engine-Controller:CAP_0603 C17
+U 1 1 60FF51CA
+P 8500 2900
+F 0 "C17" V 8454 3003 50  0000 L CNN
+F 1 "1uF" V 8545 3003 50  0000 L CNN
+F 2 "Engine-Controller:CAP_0603" H 8400 2500 50  0001 L BNN
+F 3 "" H 8450 2900 50  0001 L BNN
+	1    8500 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8500 3200 8000 3200
+Connection ~ 8000 3200
+Wire Wire Line
+	8000 2650 8500 2650
+Wire Wire Line
+	8500 3050 8500 3200
+Wire Wire Line
+	8500 2750 8500 2650
+Connection ~ 8500 2650
+Wire Wire Line
+	8500 2650 8750 2650
 $EndSCHEMATC
