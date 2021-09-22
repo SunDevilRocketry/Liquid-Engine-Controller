@@ -264,8 +264,6 @@ Text GLabel 1550 4950 0    50   Input ~ 0
 A5
 Text GLabel 1550 5050 0    50   Input ~ 0
 A6
-Text GLabel 1550 5150 0    50   Input ~ 0
-A7
 Wire Wire Line
 	1550 4550 2000 4550
 Wire Wire Line
@@ -278,8 +276,6 @@ Wire Wire Line
 	1550 4950 2000 4950
 Wire Wire Line
 	1550 5050 2000 5050
-Wire Wire Line
-	1550 5150 2000 5150
 $Comp
 L power:Earth #PWR07
 U 1 1 61C08552
@@ -329,4 +325,5 @@ Text GLabel 8550 4400 0    50   Input ~ 0
 V_HEAD
 NoConn ~ 5150 4500
 NoConn ~ 5150 5000
+NoConn ~ 2000 5150
 $EndSCHEMATC

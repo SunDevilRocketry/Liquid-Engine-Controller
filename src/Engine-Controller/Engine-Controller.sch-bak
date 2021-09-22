@@ -25,179 +25,84 @@ U 60DAA9B3
 F0 "USB" 50
 F1 "USB.sch" 50
 $EndSheet
-$Comp
-L Engine-Controller:STM32L443VCT6 U1
-U 1 1 60DAAAAD
-P 4100 5350
-F 0 "U1" H 4200 9387 60  0000 C CNN
-F 1 "STM32L443VCT6" H 4200 9281 60  0000 C CNN
-F 2 "Engine-Controller:STM32L443VCT6" H 4100 9300 60  0001 C CNN
-F 3 "" H 3000 7350 60  0000 C CNN
-	1    4100 5350
-	1    0    0    -1  
-$EndComp
 $Sheet
 S 8150 4900 2800 1000
 U 60E24895
 F0 "Connectors" 50
 F1 "Connectors.sch" 50
 $EndSheet
-Text GLabel 5650 3350 2    50   Input ~ 0
+Text GLabel 2500 3700 0    50   Input ~ 0
 RX
-Text GLabel 5650 3450 2    50   Input ~ 0
+Text GLabel 2500 3600 0    50   Input ~ 0
 TX
-Text GLabel 2500 4050 0    50   Input ~ 0
-MOSI
-Text GLabel 2500 3950 0    50   Input ~ 0
-MISO
-Text GLabel 2500 3450 0    50   Input ~ 0
-SCK
-Text GLabel 2500 4350 0    50   Input ~ 0
-SDA
-Text GLabel 2500 4250 0    50   Input ~ 0
-SCL
-Text GLabel 2500 3750 0    50   Input ~ 0
-SS
-Wire Wire Line
-	3000 3950 2500 3950
-Wire Wire Line
-	3000 4050 2500 4050
-Wire Wire Line
-	2500 3450 3000 3450
-Wire Wire Line
-	2500 3750 3000 3750
-Wire Wire Line
-	2500 4250 3000 4250
-Wire Wire Line
-	3000 4350 2500 4350
-Text GLabel 2550 1250 1    50   Input ~ 0
+Text GLabel 2800 1100 1    50   Input ~ 0
 3.3V
 Wire Wire Line
-	2550 1250 2550 1600
+	2800 1100 2800 1450
 Wire Wire Line
-	2550 1600 3000 1600
+	2800 1450 2800 1550
+Connection ~ 2800 1450
 Wire Wire Line
-	2550 1600 2550 1700
+	2800 1550 2800 1650
+Connection ~ 2800 1550
 Wire Wire Line
-	2550 1700 3000 1700
-Connection ~ 2550 1600
+	2800 1650 2800 1750
+Connection ~ 2800 1650
 Wire Wire Line
-	2550 1700 2550 1800
+	2800 1750 2800 1850
 Wire Wire Line
-	2550 1800 3000 1800
-Connection ~ 2550 1700
-Wire Wire Line
-	2550 1800 2550 1900
-Wire Wire Line
-	2550 1900 3000 1900
-Connection ~ 2550 1800
-Wire Wire Line
-	2550 1900 2550 2000
-Wire Wire Line
-	2550 2000 3000 2000
-Connection ~ 2550 1900
-Wire Wire Line
-	2550 2000 2550 2600
-Wire Wire Line
-	2550 2600 3000 2600
-Connection ~ 2550 2000
-Wire Wire Line
-	2550 2600 2550 2800
-Wire Wire Line
-	2550 2800 3000 2800
-Connection ~ 2550 2600
+	2800 1850 3000 1850
+Connection ~ 2800 1750
 $Comp
 L power:Earth #PWR0101
 U 1 1 60F20D33
-P 2750 3100
-F 0 "#PWR0101" H 2750 2850 50  0001 C CNN
-F 1 "Earth" H 2750 2950 50  0001 C CNN
-F 2 "" H 2750 3100 50  0001 C CNN
-F 3 "~" H 2750 3100 50  0001 C CNN
-	1    2750 3100
+P 2150 2300
+F 0 "#PWR0101" H 2150 2050 50  0001 C CNN
+F 1 "Earth" H 2150 2150 50  0001 C CNN
+F 2 "" H 2150 2300 50  0001 C CNN
+F 3 "~" H 2150 2300 50  0001 C CNN
+	1    2150 2300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3000 2900 2750 2900
-Wire Wire Line
-	2750 2900 2750 3100
-Wire Wire Line
-	3000 2700 2750 2700
-Wire Wire Line
-	2750 2700 2750 2900
-Connection ~ 2750 2900
-Wire Wire Line
-	3000 2500 2750 2500
-Connection ~ 2750 2700
-Wire Wire Line
-	3000 2400 2750 2400
-Connection ~ 2750 2500
-Wire Wire Line
-	2750 2500 2750 2700
-Wire Wire Line
-	3000 2300 2750 2300
-Wire Wire Line
-	2750 2300 2750 2400
-Connection ~ 2750 2400
-Wire Wire Line
-	2750 2400 2750 2500
-Wire Wire Line
-	3000 2200 2750 2200
-Wire Wire Line
-	2750 2200 2750 2300
-Connection ~ 2750 2300
-Wire Wire Line
-	3000 2100 2750 2100
-Wire Wire Line
-	2750 2100 2750 2200
-Connection ~ 2750 2200
-Text GLabel 2500 4750 0    50   Input ~ 0
-SWCLK
-Text GLabel 2500 4650 0    50   Input ~ 0
-SWDIO
-Wire Wire Line
-	3000 4650 2500 4650
-Wire Wire Line
-	3000 4750 2500 4750
-Text GLabel 6000 5100 2    50   Input ~ 0
+Text GLabel 2400 5150 0    50   Input ~ 0
 PD0
-Text GLabel 6000 5200 2    50   Input ~ 0
+Text GLabel 2400 5250 0    50   Input ~ 0
 PD1
-Text GLabel 6000 5300 2    50   Input ~ 0
+Text GLabel 2400 5350 0    50   Input ~ 0
 PD2
-Text GLabel 6000 5400 2    50   Input ~ 0
+Text GLabel 2400 5450 0    50   Input ~ 0
 PD3
-Text GLabel 6000 5500 2    50   Input ~ 0
+Text GLabel 2400 5550 0    50   Input ~ 0
 PD4
-Text GLabel 6000 5600 2    50   Input ~ 0
+Text GLabel 2400 5650 0    50   Input ~ 0
 PD5
-Text GLabel 6000 5700 2    50   Input ~ 0
+Text GLabel 2400 5750 0    50   Input ~ 0
 PD6
-Text GLabel 6000 5800 2    50   Input ~ 0
+Text GLabel 2400 5850 0    50   Input ~ 0
 PD7
-Text GLabel 6000 5900 2    50   Input ~ 0
+Text GLabel 2400 5950 0    50   Input ~ 0
 PD8
-Text GLabel 6000 6000 2    50   Input ~ 0
+Text GLabel 2400 6050 0    50   Input ~ 0
 PD9
 Wire Wire Line
-	6000 5100 5400 5100
+	2400 5150 3000 5150
 Wire Wire Line
-	6000 5200 5400 5200
+	2400 5250 3000 5250
 Wire Wire Line
-	6000 5300 5400 5300
+	2400 5350 3000 5350
 Wire Wire Line
-	6000 5400 5400 5400
+	2400 5450 3000 5450
 Wire Wire Line
-	6000 5500 5400 5500
+	2400 5550 3000 5550
 Wire Wire Line
-	6000 5600 5400 5600
+	2400 5650 3000 5650
 Wire Wire Line
-	6000 5700 5400 5700
+	2400 5750 3000 5750
 Wire Wire Line
-	6000 5800 5400 5800
+	2400 5850 3000 5850
 Wire Wire Line
-	6000 5900 5400 5900
-Text Label 2550 1450 0    50   ~ 0
+	2400 5950 3000 5950
+Text Label 2800 1300 0    50   ~ 0
 3.3V
 $Comp
 L Engine-Controller:CAP_0603 C8
@@ -233,40 +138,40 @@ F 3 "" H 6500 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5400 3350 5650 3350
+	3000 3700 2500 3700
 Wire Wire Line
-	5650 3450 5400 3450
+	2500 3600 3000 3600
 $Comp
 L power:Earth #PWR0102
 U 1 1 6102ABA9
-P 7200 2400
-F 0 "#PWR0102" H 7200 2150 50  0001 C CNN
-F 1 "Earth" H 7200 2250 50  0001 C CNN
-F 2 "" H 7200 2400 50  0001 C CNN
-F 3 "~" H 7200 2400 50  0001 C CNN
-	1    7200 2400
+P 7150 2250
+F 0 "#PWR0102" H 7150 2000 50  0001 C CNN
+F 1 "Earth" H 7150 2100 50  0001 C CNN
+F 2 "" H 7150 2250 50  0001 C CNN
+F 3 "~" H 7150 2250 50  0001 C CNN
+	1    7150 2250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Engine-Controller:RES_0603 R1
 U 1 1 6100A5B9
-P 7200 2200
-F 0 "R1" V 7154 2269 50  0000 L CNN
-F 1 "240" V 7245 2269 50  0000 L CNN
-F 2 "Engine-Controller:RES_0603" H 7250 1700 50  0001 L BNN
-F 3 "" H 7200 2200 50  0001 L BNN
-	1    7200 2200
+P 7150 2050
+F 0 "R1" V 7104 2119 50  0000 L CNN
+F 1 "240" V 7195 2119 50  0000 L CNN
+F 2 "Engine-Controller:RES_0603" H 7200 1550 50  0001 L BNN
+F 3 "" H 7150 2050 50  0001 L BNN
+	1    7150 2050
 	0    1    1    0   
 $EndComp
 $Comp
 L Engine-Controller:150120AS75000 D1
 U 1 1 61009279
-P 7200 1900
-F 0 "D1" H 7429 1950 60  0000 L CNN
-F 1 "150120AS75000" H 7429 1897 60  0001 L CNN
-F 2 "Engine-Controller:150120AS75000" H 7400 1540 60  0001 C CNN
-F 3 "" V 7200 2150 60  0000 C CNN
-	1    7200 1900
+P 7150 1750
+F 0 "D1" H 7379 1800 60  0000 L CNN
+F 1 "150120AS75000" H 7379 1747 60  0001 L CNN
+F 2 "Engine-Controller:150120AS75000" H 7350 1390 60  0001 C CNN
+F 3 "" V 7150 2000 60  0000 C CNN
+	1    7150 1750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -294,97 +199,12 @@ F 3 "" H 6250 2900 50  0001 L BNN
 	0    1    1    0   
 $EndComp
 Connection ~ 6250 3100
-Wire Wire Line
-	5400 3100 6250 3100
-$Comp
-L Engine-Controller:CAP_0603 C10
-U 1 1 61273C95
-P 1050 2150
-F 0 "C10" V 1004 2253 50  0000 L CNN
-F 1 "0.1u" V 1095 2253 50  0000 L CNN
-F 2 "Engine-Controller:CAP_0603" H 950 1750 50  0001 L BNN
-F 3 "" H 1000 2150 50  0001 L BNN
-	1    1050 2150
-	0    1    1    0   
-$EndComp
-$Comp
-L Engine-Controller:CAP_0603 C11
-U 1 1 6127C459
-P 1400 2150
-F 0 "C11" V 1354 2253 50  0000 L CNN
-F 1 "0.1u" V 1445 2253 50  0000 L CNN
-F 2 "Engine-Controller:CAP_0603" H 1300 1750 50  0001 L BNN
-F 3 "" H 1350 2150 50  0001 L BNN
-	1    1400 2150
-	0    1    1    0   
-$EndComp
-$Comp
-L Engine-Controller:CAP_0603 C12
-U 1 1 6127D073
-P 1750 2150
-F 0 "C12" V 1704 2253 50  0000 L CNN
-F 1 "0.1u" V 1795 2253 50  0000 L CNN
-F 2 "Engine-Controller:CAP_0603" H 1650 1750 50  0001 L BNN
-F 3 "" H 1700 2150 50  0001 L BNN
-	1    1750 2150
-	0    1    1    0   
-$EndComp
-$Comp
-L Engine-Controller:CAP_0603 C13
-U 1 1 6127DC78
-P 2100 2150
-F 0 "C13" V 2054 2253 50  0000 L CNN
-F 1 "0.1u" V 2145 2253 50  0000 L CNN
-F 2 "Engine-Controller:CAP_0603" H 2000 1750 50  0001 L BNN
-F 3 "" H 2050 2150 50  0001 L BNN
-	1    2100 2150
-	0    1    1    0   
-$EndComp
-$Comp
-L Engine-Controller:CAP_0603 C9
-U 1 1 6127EE14
-P 700 2150
-F 0 "C9" V 654 2253 50  0000 L CNN
-F 1 "0.1u" V 745 2253 50  0000 L CNN
-F 2 "Engine-Controller:CAP_0603" H 600 1750 50  0001 L BNN
-F 3 "" H 650 2150 50  0001 L BNN
-	1    700  2150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2550 2000 2100 2000
-Connection ~ 1050 2000
-Wire Wire Line
-	1050 2000 700  2000
-Connection ~ 1400 2000
-Wire Wire Line
-	1400 2000 1050 2000
-Connection ~ 1750 2000
-Wire Wire Line
-	1750 2000 1400 2000
-Connection ~ 2100 2000
-Wire Wire Line
-	2100 2000 1750 2000
-Wire Wire Line
-	700  2300 1050 2300
-Connection ~ 1050 2300
-Wire Wire Line
-	1050 2300 1400 2300
-Connection ~ 1400 2300
-Wire Wire Line
-	1400 2300 1750 2300
-Connection ~ 1750 2300
-Wire Wire Line
-	1750 2300 2100 2300
-Connection ~ 2100 2300
-Wire Wire Line
-	2100 2300 2750 2300
-Text Notes 900  1900 0    50   ~ 0
+Text Notes 1150 1750 0    50   ~ 0
 Microcontroller Decoupling Caps
 Text Label 6700 3100 0    50   ~ 0
 NRST
 Wire Wire Line
-	5400 6000 6000 6000
+	3000 6050 2400 6050
 $Comp
 L Engine-Controller:Jumper_NO J1
 U 1 1 6147D8EA
@@ -409,147 +229,324 @@ Wire Wire Line
 	6250 3550 6250 3700
 Wire Wire Line
 	6250 3250 6250 3100
-$Comp
-L Engine-Controller:CAP_0603 C14
-U 1 1 6159BC7F
-P 2050 2750
-F 0 "C14" V 2004 2853 50  0000 L CNN
-F 1 "0.1u" V 2095 2853 50  0000 L CNN
-F 2 "Engine-Controller:CAP_0603" H 1950 2350 50  0001 L BNN
-F 3 "" H 2000 2750 50  0001 L BNN
-	1    2050 2750
-	0    1    1    0   
-$EndComp
-Text GLabel 2500 6100 0    50   Input ~ 0
-FLASH_SCK
-Wire Wire Line
-	3000 6100 2500 6100
-Text GLabel 5650 3550 2    50   Input ~ 0
+Text GLabel 5750 4850 2    50   Input ~ 0
 FLASH_MISO
 Wire Wire Line
-	5650 3550 5400 3550
-Text GLabel 5650 3650 2    50   Input ~ 0
+	5750 4850 5250 4850
+Text GLabel 5750 4950 2    50   Input ~ 0
 FLASH_MOSI
 Wire Wire Line
-	5650 3650 5400 3650
-Text GLabel 2500 6300 0    50   Input ~ 0
-FLASH_SS
-Wire Wire Line
-	3000 6300 2500 6300
+	5750 4950 5250 4950
 $Sheet
 S 8150 3300 1350 1150
 U 6177D07C
 F0 "Flash_SD" 50
 F1 "Flash_SD.sch" 50
 $EndSheet
-Text Label 6400 1700 0    50   ~ 0
+Text Label 6350 1550 0    50   ~ 0
 MCU_STATUS
 Wire Wire Line
 	6250 3100 6500 3100
 Connection ~ 6500 3100
 Wire Wire Line
 	6500 3100 7000 3100
-Text GLabel 2500 3350 0    50   Input ~ 0
-A0
-Text GLabel 2500 3550 0    50   Input ~ 0
-A1
-Text GLabel 2500 3650 0    50   Input ~ 0
-A2
-Text GLabel 2500 3850 0    50   Input ~ 0
-A3
-Text GLabel 5650 3750 2    50   Input ~ 0
+Text GLabel 2500 3800 0    50   Input ~ 0
 A4
-Text GLabel 5650 3850 2    50   Input ~ 0
+Text GLabel 5750 5650 2    50   Input ~ 0
 A5
-Text GLabel 2500 5100 0    50   Input ~ 0
-A6
-Text GLabel 2500 5200 0    50   Input ~ 0
-A7
-Text GLabel 2500 6000 0    50   Input ~ 0
-SD_SS
 Wire Wire Line
-	3000 6000 2500 6000
+	2500 3800 3000 3800
 Wire Wire Line
-	3000 3350 2500 3350
-Wire Wire Line
-	3000 3550 2500 3550
-Wire Wire Line
-	3000 3650 2500 3650
-Wire Wire Line
-	3000 3850 2500 3850
-Wire Wire Line
-	5650 3750 5400 3750
-Wire Wire Line
-	5650 3850 5400 3850
-Wire Wire Line
-	3000 5100 2500 5100
-Wire Wire Line
-	2500 5200 3000 5200
-Wire Wire Line
-	5400 1700 7200 1700
-Text GLabel 5600 1600 2    50   Input ~ 0
+	5750 5650 5250 5650
+Text GLabel 5750 1450 2    50   Input ~ 0
 FLASH_WP
-Wire Wire Line
-	5600 1600 5400 1600
-Text GLabel 5600 1800 2    50   Input ~ 0
+Text GLabel 5750 1650 2    50   Input ~ 0
 FLASH_HOLD
-Wire Wire Line
-	5600 1800 5400 1800
-Text GLabel 5600 1900 2    50   Input ~ 0
+Text GLabel 5750 1750 2    50   Input ~ 0
 SD_DETECT
-Wire Wire Line
-	5600 1900 5400 1900
-NoConn ~ 3000 4150
-NoConn ~ 3000 4450
-NoConn ~ 3000 4550
-NoConn ~ 3000 4850
-NoConn ~ 3000 5300
-NoConn ~ 3000 5400
-NoConn ~ 3000 5500
-NoConn ~ 3000 5600
-NoConn ~ 3000 5700
-NoConn ~ 3000 5800
-NoConn ~ 3000 5900
-NoConn ~ 3000 6200
-NoConn ~ 3000 6400
-NoConn ~ 3000 6500
-NoConn ~ 3000 6600
-NoConn ~ 5400 6600
-NoConn ~ 5400 6500
-NoConn ~ 5400 6400
-NoConn ~ 5400 6300
-NoConn ~ 5400 6200
-NoConn ~ 5400 6100
-NoConn ~ 5400 4850
-NoConn ~ 5400 4750
-NoConn ~ 5400 4650
-NoConn ~ 5400 4550
-NoConn ~ 5400 4450
-NoConn ~ 5400 4350
-NoConn ~ 5400 4250
-NoConn ~ 5400 4150
-NoConn ~ 5400 4050
-NoConn ~ 5400 3950
-NoConn ~ 5400 3000
-NoConn ~ 5400 2900
-NoConn ~ 5400 2800
-NoConn ~ 5400 2700
-NoConn ~ 5400 2600
-NoConn ~ 5400 2500
-NoConn ~ 5400 2400
-NoConn ~ 5400 2300
-NoConn ~ 5400 2200
-NoConn ~ 5400 2100
-NoConn ~ 3000 3000
-NoConn ~ 3000 3100
 Text GLabel 6250 2600 1    50   Input ~ 0
 3.3V
-Wire Wire Line
-	2050 2900 2750 2900
-Wire Wire Line
-	2050 2600 2550 2600
-Text GLabel 5600 2000 2    50   Input ~ 0
+Text GLabel 5750 1850 2    50   Input ~ 0
 5V_SRC
 Wire Wire Line
-	5600 2000 5400 2000
+	3000 1950 3000 1850
+Connection ~ 3000 1850
+Wire Wire Line
+	5250 3100 6250 3100
+Wire Wire Line
+	2800 1750 3000 1750
+Wire Wire Line
+	2800 1650 3000 1650
+Wire Wire Line
+	2800 1550 3000 1550
+Wire Wire Line
+	2800 1450 3000 1450
+Wire Wire Line
+	5250 3550 5750 3550
+Wire Wire Line
+	3000 3500 2500 3500
+Wire Wire Line
+	3000 3400 2500 3400
+Wire Wire Line
+	5250 5250 5750 5250
+Wire Wire Line
+	5250 5150 5750 5150
+Wire Wire Line
+	5250 4350 5750 4350
+Text GLabel 5750 4350 2    50   Input ~ 0
+SD_SS
+Text GLabel 5750 3550 2    50   Input ~ 0
+A6
+Text GLabel 2500 3500 0    50   Input ~ 0
+A3
+Text GLabel 2500 3400 0    50   Input ~ 0
+A2
+Text GLabel 5750 5250 2    50   Input ~ 0
+A1
+Text GLabel 5750 5150 2    50   Input ~ 0
+A0
+Wire Wire Line
+	5250 4650 5750 4650
+Text GLabel 5750 4650 2    50   Input ~ 0
+FLASH_SS
+Wire Wire Line
+	5250 4450 5750 4450
+Text GLabel 5750 4450 2    50   Input ~ 0
+FLASH_SCK
+Wire Wire Line
+	3000 4800 2500 4800
+Wire Wire Line
+	3000 4700 2500 4700
+Text GLabel 2500 4700 0    50   Input ~ 0
+SWDIO
+Text GLabel 2500 4800 0    50   Input ~ 0
+SWCLK
+Wire Wire Line
+	5250 4150 5750 4150
+Wire Wire Line
+	5750 4050 5250 4050
+Wire Wire Line
+	5750 5550 5250 5550
+Wire Wire Line
+	2500 3900 3000 3900
+Wire Wire Line
+	3000 4100 2500 4100
+Wire Wire Line
+	3000 4000 2500 4000
+Text GLabel 5750 5550 2    50   Input ~ 0
+SS
+Text GLabel 5750 4050 2    50   Input ~ 0
+SCL
+Text GLabel 5750 4150 2    50   Input ~ 0
+SDA
+Text GLabel 2500 3900 0    50   Input ~ 0
+SCK
+Text GLabel 2500 4000 0    50   Input ~ 0
+MISO
+Text GLabel 2500 4100 0    50   Input ~ 0
+MOSI
+$Comp
+L Engine-Controller:CAP_0603 C14
+U 1 1 6159BC7F
+P 2500 2000
+F 0 "C14" V 2454 2103 50  0000 L CNN
+F 1 "0.1u" V 2545 2103 50  0000 L CNN
+F 2 "Engine-Controller:CAP_0603" H 2400 1600 50  0001 L BNN
+F 3 "" H 2450 2000 50  0001 L BNN
+	1    2500 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L Engine-Controller:CAP_0603 C13
+U 1 1 6127DC78
+P 2150 2000
+F 0 "C13" V 2104 2103 50  0000 L CNN
+F 1 "0.1u" V 2195 2103 50  0000 L CNN
+F 2 "Engine-Controller:CAP_0603" H 2050 1600 50  0001 L BNN
+F 3 "" H 2100 2000 50  0001 L BNN
+	1    2150 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L Engine-Controller:CAP_0603 C12
+U 1 1 6127D073
+P 1800 2000
+F 0 "C12" V 1754 2103 50  0000 L CNN
+F 1 "0.1u" V 1845 2103 50  0000 L CNN
+F 2 "Engine-Controller:CAP_0603" H 1700 1600 50  0001 L BNN
+F 3 "" H 1750 2000 50  0001 L BNN
+	1    1800 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L Engine-Controller:CAP_0603 C11
+U 1 1 6127C459
+P 1450 2000
+F 0 "C11" V 1404 2103 50  0000 L CNN
+F 1 "0.1u" V 1495 2103 50  0000 L CNN
+F 2 "Engine-Controller:CAP_0603" H 1350 1600 50  0001 L BNN
+F 3 "" H 1400 2000 50  0001 L BNN
+	1    1450 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L Engine-Controller:CAP_0603 C10
+U 1 1 61273C95
+P 1050 2000
+F 0 "C10" V 1004 2103 50  0000 L CNN
+F 1 "0.1u" V 1095 2103 50  0000 L CNN
+F 2 "Engine-Controller:CAP_0603" H 950 1600 50  0001 L BNN
+F 3 "" H 1000 2000 50  0001 L BNN
+	1    1050 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L Engine-Controller:CAP_0603 C9
+U 1 1 6127EE14
+P 700 2000
+F 0 "C9" V 654 2103 50  0000 L CNN
+F 1 "0.1u" V 745 2103 50  0000 L CNN
+F 2 "Engine-Controller:CAP_0603" H 600 1600 50  0001 L BNN
+F 3 "" H 650 2000 50  0001 L BNN
+	1    700  2000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	700  1850 1050 1850
+Wire Wire Line
+	1050 1850 1450 1850
+Connection ~ 1050 1850
+Wire Wire Line
+	1450 1850 1800 1850
+Connection ~ 1450 1850
+Wire Wire Line
+	1800 1850 2150 1850
+Connection ~ 1800 1850
+Wire Wire Line
+	2150 1850 2500 1850
+Connection ~ 2150 1850
+Connection ~ 2500 1850
+Connection ~ 2800 1850
+Wire Wire Line
+	700  2150 1050 2150
+Wire Wire Line
+	1050 2150 1450 2150
+Connection ~ 1050 2150
+Wire Wire Line
+	1450 2150 1800 2150
+Connection ~ 1450 2150
+Wire Wire Line
+	1800 2150 2150 2150
+Connection ~ 1800 2150
+Wire Wire Line
+	2150 2150 2500 2150
+Connection ~ 2150 2150
+Wire Wire Line
+	2500 2150 2850 2150
+Connection ~ 2500 2150
+Wire Wire Line
+	2150 2300 2150 2150
+Wire Wire Line
+	3000 2250 2850 2250
+Wire Wire Line
+	2850 2250 2850 2150
+Connection ~ 2850 2150
+Wire Wire Line
+	2850 2150 3000 2150
+Wire Wire Line
+	3000 2350 2850 2350
+Wire Wire Line
+	2850 2350 2850 2250
+Connection ~ 2850 2250
+Wire Wire Line
+	3000 2450 2850 2450
+Wire Wire Line
+	2850 2450 2850 2350
+Connection ~ 2850 2350
+Wire Wire Line
+	3000 2550 2850 2550
+Wire Wire Line
+	2850 2550 2850 2450
+Connection ~ 2850 2450
+Wire Wire Line
+	2500 1850 2800 1850
+Wire Wire Line
+	3000 2050 2800 2050
+Wire Wire Line
+	2800 2050 2800 1850
+Wire Wire Line
+	5250 1450 5750 1450
+Wire Wire Line
+	5250 1650 5750 1650
+Wire Wire Line
+	5250 1750 5750 1750
+Wire Wire Line
+	5250 1850 5750 1850
+Wire Wire Line
+	3000 2650 2850 2650
+Wire Wire Line
+	2850 2650 2850 2550
+Connection ~ 2850 2550
+$Comp
+L Engine-Controller:STM32H750VBTx U1
+U 1 1 614B51F2
+P 4150 4150
+F 0 "U1" H 4150 7217 50  0000 C CNN
+F 1 "STM32H750VBTx" H 4150 7126 50  0000 C CNN
+F 2 "Package_QFP:LQFP-100_14x14mm_P0.5mm" H 3450 1550 50  0001 R CNN
+F 3 "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf" H 4150 4150 50  0001 C CNN
+	1    4150 4150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3000 1350
+NoConn ~ 3000 2750
+NoConn ~ 3000 2850
+NoConn ~ 3000 2950
+NoConn ~ 3000 3150
+NoConn ~ 3000 3250
+NoConn ~ 3000 4200
+NoConn ~ 3000 4300
+NoConn ~ 3000 4400
+NoConn ~ 3000 4500
+NoConn ~ 3000 4600
+NoConn ~ 3000 4900
+NoConn ~ 3000 6150
+NoConn ~ 3000 6250
+NoConn ~ 3000 6350
+NoConn ~ 3000 6450
+NoConn ~ 3000 6550
+NoConn ~ 3000 6650
+NoConn ~ 5250 6650
+NoConn ~ 5250 6550
+NoConn ~ 5250 6450
+NoConn ~ 5250 6350
+NoConn ~ 5250 6250
+NoConn ~ 5250 6150
+NoConn ~ 5250 6050
+NoConn ~ 5250 5950
+NoConn ~ 5250 5850
+NoConn ~ 5250 5750
+NoConn ~ 5250 5450
+NoConn ~ 5250 5350
+NoConn ~ 5250 4750
+NoConn ~ 5250 4550
+NoConn ~ 5250 4250
+NoConn ~ 5250 3950
+NoConn ~ 5250 3850
+NoConn ~ 5250 3750
+NoConn ~ 5250 3650
+NoConn ~ 5250 3450
+NoConn ~ 5250 2850
+NoConn ~ 5250 2750
+NoConn ~ 5250 2650
+NoConn ~ 5250 2550
+NoConn ~ 5250 2450
+NoConn ~ 5250 2350
+NoConn ~ 5250 2250
+NoConn ~ 5250 2150
+NoConn ~ 5250 2050
+NoConn ~ 5250 1950
+NoConn ~ 5250 1350
+Wire Wire Line
+	5250 1550 7150 1550
 $EndSCHEMATC
