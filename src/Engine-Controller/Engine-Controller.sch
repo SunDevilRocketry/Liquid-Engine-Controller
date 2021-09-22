@@ -493,7 +493,7 @@ U 1 1 614B51F2
 P 4150 4150
 F 0 "U1" H 4150 7217 50  0000 C CNN
 F 1 "STM32H750VBTx" H 4150 7126 50  0000 C CNN
-F 2 "Package_QFP:LQFP-100_14x14mm_P0.5mm" H 3450 1550 50  0001 R CNN
+F 2 "Engine-Controller:STM32H750VBT6" H 3450 1550 50  0001 R CNN
 F 3 "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf" H 4150 4150 50  0001 C CNN
 	1    4150 4150
 	1    0    0    -1  
