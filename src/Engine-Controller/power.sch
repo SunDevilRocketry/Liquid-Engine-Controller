@@ -154,17 +154,6 @@ Wire Wire Line
 Wire Wire Line
 	7000 2650 7200 2650
 Connection ~ 7000 2650
-$Comp
-L Engine-Controller:UHE2A121MHD6 C5
-U 1 1 60F87FD5
-P 8000 2900
-F 0 "C5" H 8115 2946 50  0000 L CNN
-F 1 "120uF" H 8115 2855 50  0000 L CNN
-F 2 "Engine-Controller:UHE2A121MHD6" H 8000 2900 50  0001 C CNN
-F 3 "~" H 8000 2900 50  0001 C CNN
-	1    8000 2900
-	1    0    0    -1  
-$EndComp
 Connection ~ 6250 3200
 Wire Wire Line
 	6250 3200 6250 3300
@@ -172,54 +161,12 @@ Wire Wire Line
 	6250 2850 6250 3200
 Wire Wire Line
 	7800 2650 8000 2650
-Wire Wire Line
-	8000 2650 8000 2750
-Wire Wire Line
-	8000 3050 8000 3200
-$Comp
-L Engine-Controller:RES_0805 R4
-U 1 1 60F97080
-P 8000 2350
-F 0 "R4" V 7954 2419 50  0000 L CNN
-F 1 "1.54k" V 8045 2419 50  0000 L CNN
-F 2 "Engine-Controller:RES_0805" H 8050 1850 50  0001 L BNN
-F 3 "" H 8000 2350 50  0001 L BNN
-	1    8000 2350
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8000 2550 8000 2650
 Connection ~ 8000 2650
-Wire Wire Line
-	8000 2150 6650 2150
-$Comp
-L Engine-Controller:RES_0603 R3
-U 1 1 60E5E8D9
-P 6650 2800
-F 0 "R3" V 6604 2869 50  0000 L CNN
-F 1 "976" V 6695 2869 50  0000 L CNN
-F 2 "Engine-Controller:RES_0603" H 6700 2300 50  0001 L BNN
-F 3 "" H 6650 2800 50  0001 L BNN
-	1    6650 2800
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6250 3200 6650 3200
 Wire Wire Line
 	7000 2750 7000 2650
 Wire Wire Line
 	7000 3200 7000 3050
 Connection ~ 7000 3200
-Wire Wire Line
-	6650 2600 6650 2150
-Connection ~ 6650 2150
-Wire Wire Line
-	6650 2150 6250 2150
-Wire Wire Line
-	6650 3000 6650 3200
-Connection ~ 6650 3200
-Wire Wire Line
-	6650 3200 7000 3200
 $Comp
 L power:Earth #PWR0108
 U 1 1 60E947DB
@@ -370,8 +317,6 @@ $EndComp
 Wire Wire Line
 	7000 3200 7500 3200
 Connection ~ 7500 3200
-Wire Wire Line
-	7500 3200 8000 3200
 Wire Wire Line
 	6050 5250 5850 5250
 Connection ~ 5850 5250
@@ -669,9 +614,6 @@ F 3 "" H 8450 2900 50  0001 L BNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8500 3200 8000 3200
-Connection ~ 8000 3200
-Wire Wire Line
 	8000 2650 8500 2650
 Wire Wire Line
 	8500 3050 8500 3200
@@ -686,7 +628,7 @@ U 1 1 614BA3CC
 P 7600 5450
 F 0 "D3" H 7829 5483 60  0000 L CNN
 F 1 "SML-LX1206GC-TR" H 7829 5430 60  0001 L CNN
-F 2 "" H 7800 5090 60  0001 C CNN
+F 2 "Engine-Controller:SML-LX1206GC-TR" H 7800 5090 60  0001 C CNN
 F 3 "" V 7600 5700 60  0000 C CNN
 	1    7600 5450
 	1    0    0    -1  
@@ -694,4 +636,41 @@ $EndComp
 Wire Wire Line
 	4650 2150 5650 2150
 NoConn ~ 5650 2250
+Wire Wire Line
+	7500 3200 8000 3200
+$Comp
+L Engine-Controller:CAP_Polar C5
+U 1 1 614E3698
+P 8000 2900
+F 0 "C5" H 8115 2946 50  0000 L CNN
+F 1 "150uF" H 8115 2855 50  0000 L CNN
+F 2 "Engine-Controller:CAP_EEEFP1E151AL" H 8000 2900 50  0001 C CNN
+F 3 "~" H 8000 2900 50  0001 C CNN
+	1    8000 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 2750 8000 2650
+Wire Wire Line
+	8000 3050 8000 3200
+Connection ~ 8000 3200
+Wire Wire Line
+	8000 3200 8500 3200
+Wire Wire Line
+	6250 3200 7000 3200
+Wire Wire Line
+	6250 2150 8000 2150
+Wire Wire Line
+	8000 2150 8000 2650
+$Comp
+L Engine-Controller:TP TP11
+U 1 1 614C3764
+P 8500 2650
+F 0 "TP11" H 8450 3000 50  0000 L CNN
+F 1 "TP" H 8578 2747 50  0001 L CNN
+F 2 "" H 8500 2650 50  0001 C CNN
+F 3 "" H 8500 2650 50  0001 C CNN
+	1    8500 2650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
