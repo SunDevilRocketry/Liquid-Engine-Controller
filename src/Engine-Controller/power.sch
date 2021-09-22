@@ -375,15 +375,7 @@ Wire Wire Line
 Connection ~ 3950 2150
 Wire Wire Line
 	3950 2150 4200 2150
-Wire Notes Line
-	4000 1500 4000 2700
-Wire Notes Line
-	4000 2700 2350 2700
-Wire Notes Line
-	2350 2700 2350 1500
-Wire Notes Line
-	2350 1500 4000 1500
-Text Notes 2800 1400 0    50   ~ 0
+Text Notes 2900 1550 0    50   ~ 0
 Source Selector\n
 $Comp
 L Engine-Controller:RB160VAM-60TR D2
@@ -401,16 +393,16 @@ Wire Wire Line
 Connection ~ 3350 2550
 Wire Wire Line
 	3350 2550 3350 2600
-Text GLabel 8750 2650 2    50   Input ~ 0
+Text GLabel 9300 2650 2    50   Input ~ 0
 5V_BUCK
 Wire Notes Line
-	1950 1100 9200 1100
+	1950 1100 9800 1100
 Wire Notes Line
-	1950 3600 9200 3600
+	1950 3600 9800 3600
 Wire Notes Line
 	1950 1100 1950 3600
 Wire Notes Line
-	9200 1100 9200 3600
+	9800 1100 9800 3600
 Text Notes 4850 1000 0    79   ~ 0
 5V Buck Converter
 $Comp
@@ -621,7 +613,7 @@ Wire Wire Line
 	8500 2750 8500 2650
 Connection ~ 8500 2650
 Wire Wire Line
-	8500 2650 8750 2650
+	8500 2650 9000 2650
 $Comp
 L Engine-Controller:SML-LX1206GC-TR D3
 U 1 1 614BA3CC
@@ -634,7 +626,7 @@ F 3 "" V 7600 5700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4650 2150 5650 2150
+	4650 2150 5150 2150
 NoConn ~ 5650 2250
 Wire Wire Line
 	7500 3200 8000 3200
@@ -671,6 +663,78 @@ F 1 "TP" H 8578 2747 50  0001 L CNN
 F 2 "" H 8500 2650 50  0001 C CNN
 F 3 "" H 8500 2650 50  0001 C CNN
 	1    8500 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Engine-Controller:SML-LX1206GC-TR D6
+U 1 1 614C42F1
+P 5150 2750
+F 0 "D6" H 5379 2783 60  0000 L CNN
+F 1 "SML-LX1206GC-TR" H 5379 2730 60  0001 L CNN
+F 2 "Engine-Controller:SML-LX1206GC-TR" H 5350 2390 60  0001 C CNN
+F 3 "" V 5150 3000 60  0000 C CNN
+	1    5150 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR012
+U 1 1 614C755F
+P 5150 2850
+F 0 "#PWR012" H 5150 2600 50  0001 C CNN
+F 1 "Earth" H 5150 2700 50  0001 C CNN
+F 2 "" H 5150 2850 50  0001 C CNN
+F 3 "~" H 5150 2850 50  0001 C CNN
+	1    5150 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Engine-Controller:RES_0603 R2
+U 1 1 614CF9B6
+P 5150 2350
+F 0 "R2" V 5104 2419 50  0000 L CNN
+F 1 "2k" V 5195 2419 50  0000 L CNN
+F 2 "" H 5200 1850 50  0001 L BNN
+F 3 "" H 5150 2350 50  0001 L BNN
+	1    5150 2350
+	0    1    1    0   
+$EndComp
+Connection ~ 5150 2150
+Wire Wire Line
+	5150 2150 5650 2150
+$Comp
+L Engine-Controller:RES_0603 R3
+U 1 1 61524012
+P 9000 2850
+F 0 "R3" V 8954 2919 50  0000 L CNN
+F 1 "470" V 9045 2919 50  0000 L CNN
+F 2 "" H 9050 2350 50  0001 L BNN
+F 3 "" H 9000 2850 50  0001 L BNN
+	1    9000 2850
+	0    1    1    0   
+$EndComp
+Connection ~ 9000 2650
+Wire Wire Line
+	9000 2650 9300 2650
+$Comp
+L Engine-Controller:SML-LX1206GC-TR D7
+U 1 1 61529E2B
+P 9000 3250
+F 0 "D7" H 9229 3283 60  0000 L CNN
+F 1 "SML-LX1206GC-TR" H 9229 3230 60  0001 L CNN
+F 2 "Engine-Controller:SML-LX1206GC-TR" H 9200 2890 60  0001 C CNN
+F 3 "" V 9000 3500 60  0000 C CNN
+	1    9000 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR013
+U 1 1 6152B837
+P 9000 3350
+F 0 "#PWR013" H 9000 3100 50  0001 C CNN
+F 1 "Earth" H 9000 3200 50  0001 C CNN
+F 2 "" H 9000 3350 50  0001 C CNN
+F 3 "~" H 9000 3350 50  0001 C CNN
+	1    9000 3350
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

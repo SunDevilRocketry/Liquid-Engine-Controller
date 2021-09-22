@@ -161,50 +161,12 @@ Wire Wire Line
 	6250 2850 6250 3200
 Wire Wire Line
 	7800 2650 8000 2650
-$Comp
-L Engine-Controller:RES_0805 R4
-U 1 1 60F97080
-P 8000 2350
-F 0 "R4" V 7954 2419 50  0000 L CNN
-F 1 "1.54k" V 8045 2419 50  0000 L CNN
-F 2 "Engine-Controller:RES_0805" H 8050 1850 50  0001 L BNN
-F 3 "" H 8000 2350 50  0001 L BNN
-	1    8000 2350
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8000 2550 8000 2650
 Connection ~ 8000 2650
-Wire Wire Line
-	8000 2150 6650 2150
-$Comp
-L Engine-Controller:RES_0603 R3
-U 1 1 60E5E8D9
-P 6650 2800
-F 0 "R3" V 6604 2869 50  0000 L CNN
-F 1 "976" V 6695 2869 50  0000 L CNN
-F 2 "Engine-Controller:RES_0603" H 6700 2300 50  0001 L BNN
-F 3 "" H 6650 2800 50  0001 L BNN
-	1    6650 2800
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6250 3200 6650 3200
 Wire Wire Line
 	7000 2750 7000 2650
 Wire Wire Line
 	7000 3200 7000 3050
 Connection ~ 7000 3200
-Wire Wire Line
-	6650 2600 6650 2150
-Connection ~ 6650 2150
-Wire Wire Line
-	6650 2150 6250 2150
-Wire Wire Line
-	6650 3000 6650 3200
-Connection ~ 6650 3200
-Wire Wire Line
-	6650 3200 7000 3200
 $Comp
 L power:Earth #PWR0108
 U 1 1 60E947DB
@@ -672,7 +634,7 @@ F 3 "" V 7600 5700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4650 2150 5650 2150
+	4650 2150 5150 2150
 NoConn ~ 5650 2250
 Wire Wire Line
 	7500 3200 8000 3200
@@ -694,4 +656,57 @@ Wire Wire Line
 Connection ~ 8000 3200
 Wire Wire Line
 	8000 3200 8500 3200
+Wire Wire Line
+	6250 3200 7000 3200
+Wire Wire Line
+	6250 2150 8000 2150
+Wire Wire Line
+	8000 2150 8000 2650
+$Comp
+L Engine-Controller:TP TP11
+U 1 1 614C3764
+P 8500 2650
+F 0 "TP11" H 8450 3000 50  0000 L CNN
+F 1 "TP" H 8578 2747 50  0001 L CNN
+F 2 "" H 8500 2650 50  0001 C CNN
+F 3 "" H 8500 2650 50  0001 C CNN
+	1    8500 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Engine-Controller:SML-LX1206GC-TR D6
+U 1 1 614C42F1
+P 5150 2750
+F 0 "D6" H 5379 2783 60  0000 L CNN
+F 1 "SML-LX1206GC-TR" H 5379 2730 60  0001 L CNN
+F 2 "Engine-Controller:SML-LX1206GC-TR" H 5350 2390 60  0001 C CNN
+F 3 "" V 5150 3000 60  0000 C CNN
+	1    5150 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR012
+U 1 1 614C755F
+P 5150 2850
+F 0 "#PWR012" H 5150 2600 50  0001 C CNN
+F 1 "Earth" H 5150 2700 50  0001 C CNN
+F 2 "" H 5150 2850 50  0001 C CNN
+F 3 "~" H 5150 2850 50  0001 C CNN
+	1    5150 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Engine-Controller:RES_0603 R2
+U 1 1 614CF9B6
+P 5150 2350
+F 0 "R2" V 5104 2419 50  0000 L CNN
+F 1 "2k" V 5195 2419 50  0000 L CNN
+F 2 "" H 5200 1850 50  0001 L BNN
+F 3 "" H 5150 2350 50  0001 L BNN
+	1    5150 2350
+	0    1    1    0   
+$EndComp
+Connection ~ 5150 2150
+Wire Wire Line
+	5150 2150 5650 2150
 $EndSCHEMATC
