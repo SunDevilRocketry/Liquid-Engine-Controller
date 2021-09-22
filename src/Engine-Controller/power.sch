@@ -403,7 +403,7 @@ Wire Notes Line
 	1950 1100 1950 3600
 Wire Notes Line
 	9800 1100 9800 3600
-Text Notes 4850 1000 0    79   ~ 0
+Text Notes 8550 1300 0    79   ~ 0
 5V Buck Converter
 $Comp
 L Engine-Controller:CAP_0603 C16
@@ -588,7 +588,7 @@ Wire Notes Line
 	2350 6400 2350 4450
 Wire Notes Line
 	2350 4450 8600 4450
-Text Notes 4950 4350 0    79   ~ 0
+Text Notes 7750 4650 0    79   ~ 0
 3.3V Supply\n
 Text Label 5150 5250 0    50   ~ 0
 5V

@@ -13,9 +13,9 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 7500 1000 0    50   ~ 0
+Text Notes 9250 1250 0    50   ~ 0
 Port D GPIO Connector\n
-Text Notes 8450 3800 0    50   ~ 0
+Text Notes 9700 4000 0    50   ~ 0
 Serial Connector
 Wire Wire Line
 	9050 5300 7950 5300
@@ -235,7 +235,7 @@ Wire Wire Line
 	6250 5300 5150 5300
 Wire Wire Line
 	5150 5100 6250 5100
-Text Notes 5200 3800 0    50   ~ 0
+Text Notes 6350 4000 0    50   ~ 0
 Programmer\n
 $Comp
 L Engine-Controller:0901471110 P7
@@ -309,7 +309,7 @@ Wire Notes Line
 	850  5800 850  3950
 Wire Notes Line
 	850  3950 3250 3950
-Text Notes 1450 3850 0    50   ~ 0
+Text Notes 2100 4050 0    50   ~ 0
 Analog-to-Digital Converter\n
 Text GLabel 7800 1500 1    50   Input ~ 0
 3.3V
