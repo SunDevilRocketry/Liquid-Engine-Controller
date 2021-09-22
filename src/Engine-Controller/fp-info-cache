@@ -1,4 +1,4 @@
-63582561646722
+63582639338722
 Engine-Controller
 12V_power_jack
 
@@ -77,13 +77,6 @@ LM22672MRE-5.0_NOPB
 8
 8
 Engine-Controller
-LTST-C150GKT
-
-
-0
-2
-2
-Engine-Controller
 MPD_EJ508A
 
 
@@ -127,6 +120,13 @@ SBH11-PBPC-D05-RA-BK
 10
 Engine-Controller
 SM5819PL-TP
+
+
+0
+2
+2
+Engine-Controller
+SML-LX1206GC-TR
 
 
 0

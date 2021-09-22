@@ -14,17 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Engine-Controller:LTST-C150GKT D3
-U 1 1 60EB9E6E
-P 7600 5450
-F 0 "D3" H 7829 5553 60  0000 L CNN
-F 1 "LTST-C150GKT" H 7829 5447 60  0001 L CNN
-F 2 "Engine-Controller:LTST-C150GKT" H 7800 5090 60  0001 C CNN
-F 3 "" V 7600 5700 60  0000 C CNN
-	1    7600 5450
-	1    0    0    -1  
-$EndComp
-$Comp
 L Engine-Controller:CBC3225T220KR L1
 U 1 1 60EBAB6D
 P 7500 2650
@@ -102,17 +91,6 @@ Wire Wire Line
 Wire Wire Line
 	4650 2400 4650 2150
 $Comp
-L Engine-Controller:RES_0805 R2
-U 1 1 60EEF47A
-P 5250 2250
-F 0 "R2" H 5350 2350 50  0000 C CNN
-F 1 "470k" H 5150 2350 50  0000 C CNN
-F 2 "Engine-Controller:RES_0805" H 5300 1750 50  0001 L BNN
-F 3 "" H 5250 2250 50  0001 L BNN
-	1    5250 2250
-	-1   0    0    1   
-$EndComp
-$Comp
 L Engine-Controller:CAP_0603 C3
 U 1 1 60EF8CF7
 P 6250 2700
@@ -123,8 +101,6 @@ F 3 "" H 6200 2700 50  0001 L BNN
 	1    6250 2700
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4850 2250 4850 2150
 Wire Wire Line
 	6250 2450 6250 2550
 $Comp
@@ -157,8 +133,6 @@ Wire Wire Line
 	4200 2150 4650 2150
 Connection ~ 4650 2150
 Wire Wire Line
-	4650 2150 4850 2150
-Wire Wire Line
 	5650 2450 5650 2600
 $Comp
 L power:Earth #PWR0107
@@ -171,9 +145,6 @@ F 3 "~" H 5650 2600 50  0001 C CNN
 	1    5650 2600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5650 2150 4850 2150
-Connection ~ 4850 2150
 Wire Wire Line
 	6750 2350 6750 2650
 Wire Wire Line
@@ -221,10 +192,6 @@ Wire Wire Line
 Connection ~ 8000 2650
 Wire Wire Line
 	8000 2150 6650 2150
-Wire Wire Line
-	4850 2250 5050 2250
-Wire Wire Line
-	5450 2250 5650 2250
 $Comp
 L Engine-Controller:RES_0603 R3
 U 1 1 60E5E8D9
@@ -713,4 +680,18 @@ Wire Wire Line
 Connection ~ 8500 2650
 Wire Wire Line
 	8500 2650 8750 2650
+$Comp
+L Engine-Controller:SML-LX1206GC-TR D3
+U 1 1 614BA3CC
+P 7600 5450
+F 0 "D3" H 7829 5483 60  0000 L CNN
+F 1 "SML-LX1206GC-TR" H 7829 5430 60  0001 L CNN
+F 2 "" H 7800 5090 60  0001 C CNN
+F 3 "" V 7600 5700 60  0000 C CNN
+	1    7600 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 2150 5650 2150
+NoConn ~ 5650 2250
 $EndSCHEMATC
