@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:Earth #PWR0110
+L Engine-Controller-rescue:Earth-power #PWR0110
 U 1 1 60FB3329
 P 5950 4600
 F 0 "#PWR0110" H 5950 4350 50  0001 C CNN

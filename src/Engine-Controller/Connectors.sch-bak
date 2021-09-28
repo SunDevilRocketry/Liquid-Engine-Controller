@@ -54,7 +54,7 @@ Wire Wire Line
 Wire Wire Line
 	9050 4900 8800 4900
 $Comp
-L power:Earth #PWR0112
+L Engine-Controller-rescue:Earth-power #PWR0112
 U 1 1 60DBDE57
 P 8800 5600
 F 0 "#PWR0112" H 8800 5350 50  0001 C CNN
@@ -141,7 +141,7 @@ Wire Wire Line
 Wire Wire Line
 	7800 2450 8900 2450
 $Comp
-L power:Earth #PWR02
+L Engine-Controller-rescue:Earth-power #PWR02
 U 1 1 6138D033
 P 7800 2900
 F 0 "#PWR02" H 7800 2650 50  0001 C CNN
@@ -197,11 +197,12 @@ SWCLK
 Text GLabel 6250 5300 2    50   Input ~ 0
 SWDIO
 $Comp
-L power:Earth #PWR?
+L Engine-Controller-rescue:Earth-power #PWR?
 U 1 1 6193D92B
 P 5250 5450
 AR Path="/60DAAA3E/6193D92B" Ref="#PWR?"  Part="1" 
 AR Path="/60E24895/6193D92B" Ref="#PWR06"  Part="1" 
+AR Path="/6193D92B" Ref="#PWR06"  Part="1" 
 F 0 "#PWR06" H 5250 5200 50  0001 C CNN
 F 1 "Earth" H 5250 5300 50  0001 C CNN
 F 2 "" H 5250 5450 50  0001 C CNN
@@ -277,7 +278,7 @@ Wire Wire Line
 Wire Wire Line
 	1550 5050 2000 5050
 $Comp
-L power:Earth #PWR07
+L Engine-Controller-rescue:Earth-power #PWR07
 U 1 1 61C08552
 P 2000 5500
 F 0 "#PWR07" H 2000 5250 50  0001 C CNN

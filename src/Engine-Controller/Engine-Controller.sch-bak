@@ -54,7 +54,7 @@ Wire Wire Line
 	2800 1850 3000 1850
 Connection ~ 2800 1750
 $Comp
-L power:Earth #PWR0101
+L Engine-Controller-rescue:Earth-power #PWR0101
 U 1 1 60F20D33
 P 2150 2300
 F 0 "#PWR0101" H 2150 2050 50  0001 C CNN
@@ -116,7 +116,7 @@ F 3 "" H 6200 3400 50  0001 L BNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:Earth #PWR01
+L Engine-Controller-rescue:Earth-power #PWR01
 U 1 1 60DE602C
 P 6250 3750
 F 0 "#PWR01" H 6250 3500 50  0001 C CNN
@@ -142,7 +142,7 @@ Wire Wire Line
 Wire Wire Line
 	2500 3600 3000 3600
 $Comp
-L power:Earth #PWR0102
+L Engine-Controller-rescue:Earth-power #PWR0102
 U 1 1 6102ABA9
 P 7000 2250
 F 0 "#PWR0102" H 7000 2000 50  0001 C CNN

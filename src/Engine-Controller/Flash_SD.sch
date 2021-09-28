@@ -37,7 +37,7 @@ FLASH_WP
 Wire Wire Line
 	4000 4100 3300 4100
 $Comp
-L power:Earth #PWR03
+L Engine-Controller:Earth #PWR03
 U 1 1 61788B6E
 P 4000 4800
 F 0 "#PWR03" H 4000 4550 50  0001 C CNN
@@ -69,7 +69,7 @@ F 3 "http://katalog.we-online.de/em/datasheet/693072010801.pdf" H 8050 3800 50  
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth #PWR05
+L Engine-Controller:Earth #PWR05
 U 1 1 617F979C
 P 8500 4800
 F 0 "#PWR05" H 8500 4550 50  0001 C CNN
@@ -119,7 +119,7 @@ Wire Wire Line
 	6400 3900 7150 3900
 Connection ~ 5750 4100
 $Comp
-L power:Earth #PWR04
+L Engine-Controller:Earth #PWR04
 U 1 1 6180735A
 P 7050 4700
 F 0 "#PWR04" H 7050 4450 50  0001 C CNN

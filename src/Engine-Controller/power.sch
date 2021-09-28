@@ -25,7 +25,7 @@ F 3 "" H 7500 2650 50  0001 L BNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth #PWR0103
+L Engine-Controller:Earth #PWR0103
 U 1 1 60EC7BCD
 P 3350 2600
 F 0 "#PWR0103" H 3350 2350 50  0001 C CNN
@@ -52,7 +52,7 @@ $EndComp
 Wire Wire Line
 	4200 2400 4200 2150
 $Comp
-L power:Earth #PWR0104
+L Engine-Controller:Earth #PWR0104
 U 1 1 60EE05FF
 P 4200 2850
 F 0 "#PWR0104" H 4200 2600 50  0001 C CNN
@@ -76,7 +76,7 @@ F 3 "" H 4600 2550 50  0001 L BNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:Earth #PWR0105
+L Engine-Controller:Earth #PWR0105
 U 1 1 60EE39C4
 P 4650 2850
 F 0 "#PWR0105" H 4650 2600 50  0001 C CNN
@@ -104,7 +104,7 @@ $EndComp
 Wire Wire Line
 	6250 2450 6250 2550
 $Comp
-L power:Earth #PWR0106
+L Engine-Controller:Earth #PWR0106
 U 1 1 60F2A939
 P 6250 3300
 F 0 "#PWR0106" H 6250 3050 50  0001 C CNN
@@ -135,7 +135,7 @@ Connection ~ 4650 2150
 Wire Wire Line
 	5650 2450 5650 2600
 $Comp
-L power:Earth #PWR0107
+L Engine-Controller:Earth #PWR0107
 U 1 1 60F261A1
 P 5650 2600
 F 0 "#PWR0107" H 5650 2350 50  0001 C CNN
@@ -168,7 +168,7 @@ Wire Wire Line
 	7000 3200 7000 3050
 Connection ~ 7000 3200
 $Comp
-L power:Earth #PWR0108
+L Engine-Controller:Earth #PWR0108
 U 1 1 60E947DB
 P 6400 5850
 F 0 "#PWR0108" H 6400 5600 50  0001 C CNN
@@ -214,7 +214,7 @@ F 3 "" H 7600 5750 50  0001 L BNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:Earth #PWR0109
+L Engine-Controller:Earth #PWR0109
 U 1 1 60ED92F3
 P 7600 5950
 F 0 "#PWR0109" H 7600 5700 50  0001 C CNN
@@ -440,7 +440,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 6000 3550 6050
 $Comp
-L power:Earth #PWR08
+L Engine-Controller:Earth #PWR08
 U 1 1 60FB68C5
 P 3550 6100
 F 0 "#PWR08" H 3550 5850 50  0001 C CNN
@@ -476,7 +476,7 @@ Wire Wire Line
 Wire Wire Line
 	4350 5450 4350 5550
 $Comp
-L power:Earth #PWR09
+L Engine-Controller:Earth #PWR09
 U 1 1 60FA1670
 P 4350 5550
 F 0 "#PWR09" H 4350 5300 50  0001 C CNN
@@ -512,7 +512,7 @@ Wire Wire Line
 	5100 5350 5100 5450
 Connection ~ 4500 5350
 $Comp
-L power:Earth #PWR010
+L Engine-Controller:Earth #PWR010
 U 1 1 60FEB4E7
 P 4650 5900
 F 0 "#PWR010" H 4650 5650 50  0001 C CNN
@@ -523,7 +523,7 @@ F 3 "~" H 4650 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth #PWR011
+L Engine-Controller:Earth #PWR011
 U 1 1 60FEB939
 P 5100 5900
 F 0 "#PWR011" H 5100 5650 50  0001 C CNN
@@ -677,7 +677,7 @@ F 3 "" V 5150 3000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth #PWR012
+L Engine-Controller:Earth #PWR012
 U 1 1 614C755F
 P 5150 2850
 F 0 "#PWR012" H 5150 2600 50  0001 C CNN
@@ -727,7 +727,7 @@ F 3 "" V 9000 3500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth #PWR013
+L Engine-Controller:Earth #PWR013
 U 1 1 6152B837
 P 9000 3350
 F 0 "#PWR013" H 9000 3100 50  0001 C CNN
