@@ -1,4 +1,4 @@
-62048247860722
+63683875815722
 Engine-Controller
 12V_power_jack
 
@@ -62,6 +62,13 @@ EEEFPV680XAP
 0
 2
 2
+Engine-Controller
+FT312D-32L1C-R
+32 LD Lead free LQFP
+Integrated Circuit
+0
+32
+32
 Engine-Controller
 GCT_MEM2075-00-140-01-A
 
@@ -203,6 +210,13 @@ USB-TypeB
 6
 6
 Instrumentation-Amplifier
+2043-1X04G00DAU
+
+
+0
+4
+4
+Instrumentation-Amplifier
 AD623ARZ-R7
 
 
@@ -231,12 +245,12 @@ LTST-C150GKT
 2
 2
 Instrumentation-Amplifier
-PPTC041LFBN-RC
-
-
+MountingHole_2.1mm
+Mounting Hole 2.1mm, no annular
+mounting hole 2.1mm no annular
 0
-4
-4
+0
+0
 Instrumentation-Amplifier
 RES_0603
 <b>RESISTOR</b>
@@ -244,13 +258,6 @@ RES_0603
 0
 2
 2
-Instrumentation-Amplifier
-logo
-
-
-0
-0
-0
 Instrumentation-Amplifier
 logo2
 
