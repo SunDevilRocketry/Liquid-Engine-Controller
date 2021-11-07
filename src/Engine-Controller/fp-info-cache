@@ -1,4 +1,4 @@
-63683875815722
+68596692593722
 Engine-Controller
 12V_power_jack
 
@@ -49,6 +49,13 @@ CBC3225T220KR
 2
 2
 Engine-Controller
+CP2012-GMR
+
+
+0
+29
+29
+Engine-Controller
 CWR11HH106KB
 
 
@@ -62,13 +69,6 @@ EEEFPV680XAP
 0
 2
 2
-Engine-Controller
-FT312D-32L1C-R
-32 LD Lead free LQFP
-Integrated Circuit
-0
-32
-32
 Engine-Controller
 GCT_MEM2075-00-140-01-A
 
@@ -105,6 +105,13 @@ PTS647SM38SMTR2LFS
 4
 4
 Engine-Controller
+QS5U17TR
+
+
+0
+5
+5
+Engine-Controller
 RB160VAM-60TR
 
 
@@ -126,12 +133,12 @@ RES_0805
 2
 2
 Engine-Controller
-SBH11-PBPC-D05-RA-BK
+SBH11-PBPC-D10-RA-BK
 
 
 0
-10
-10
+20
+20
 Engine-Controller
 SM5819PL-TP
 
@@ -161,6 +168,13 @@ SOT-223
 4
 4
 Engine-Controller
+SP0504BAHTG
+
+
+0
+5
+5
+Engine-Controller
 SRP1038A-330M
 
 
@@ -188,6 +202,13 @@ STM32L443VCT6
 0
 100
 100
+Engine-Controller
+TE_282837-6
+
+
+0
+6
+6
 Engine-Controller
 TP
 

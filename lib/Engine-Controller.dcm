@@ -12,16 +12,6 @@ K DC power barrel jack connector
 F ~
 $ENDCMP
 #
-$CMP FT312D-32L1C-R
-D FTDI - FT312D-32L1C-R - USB Interface, USB Host Controller / Android Host, USB 2.0, 2.97 V, 3.63 V, LQFP, 32 Pins
-F https://componentsearchengine.com/Datasheets/2/FT312D-32L1C-R.pdf
-$ENDCMP
-#
-$CMP FT312D-32L1C-T
-D FT312D-32L1C-T
-F http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT312D.pdf
-$ENDCMP
-#
 $CMP Jumper_NO
 D Jumper, 2-pole, open
 K Jumper SPST
@@ -32,6 +22,12 @@ $CMP Micro_SD_Card
 D Micro SD Card Socket
 K connector SD microsd
 F http://katalog.we-online.de/em/datasheet/693072010801.pdf
+$ENDCMP
+#
+$CMP QS5U17TR
+D 0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92
+K N-Channel MOSFET Logic-Level
+F https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF
 $ENDCMP
 #
 $CMP STM32H750VBTx

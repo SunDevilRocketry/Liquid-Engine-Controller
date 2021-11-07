@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title "Engine Controller Microcontroller Board"
 Date "2021-06-26"
 Rev "1.0"
@@ -26,14 +26,14 @@ F0 "USB" 50
 F1 "USB.sch" 50
 $EndSheet
 $Sheet
-S 8150 4900 2800 1000
+S 9750 4900 1125 850 
 U 60E24895
 F0 "Connectors" 50
 F1 "Connectors.sch" 50
 $EndSheet
-Text GLabel 2500 3700 0    50   Input ~ 0
+Text GLabel 2875 3700 0    50   Input ~ 0
 RX
-Text GLabel 2500 3600 0    50   Input ~ 0
+Text GLabel 2875 3600 0    50   Input ~ 0
 TX
 Text GLabel 2800 1100 1    50   Input ~ 0
 3.3V
@@ -64,44 +64,42 @@ F 3 "~" H 2150 2300 50  0001 C CNN
 	1    2150 2300
 	1    0    0    -1  
 $EndComp
-Text GLabel 2400 5150 0    50   Input ~ 0
+Text GLabel 2850 5150 0    50   Input ~ 0
 PD0
-Text GLabel 2400 5250 0    50   Input ~ 0
+Text GLabel 2850 5250 0    50   Input ~ 0
 PD1
-Text GLabel 2400 5350 0    50   Input ~ 0
+Text GLabel 2850 5350 0    50   Input ~ 0
 PD2
-Text GLabel 2400 5450 0    50   Input ~ 0
+Text GLabel 2850 5450 0    50   Input ~ 0
 PD3
-Text GLabel 2400 5550 0    50   Input ~ 0
+Text GLabel 2850 5550 0    50   Input ~ 0
 PD4
-Text GLabel 2400 5650 0    50   Input ~ 0
+Text GLabel 2850 5650 0    50   Input ~ 0
 PD5
-Text GLabel 2400 5750 0    50   Input ~ 0
+Text GLabel 2850 5750 0    50   Input ~ 0
 PD6
-Text GLabel 2400 5850 0    50   Input ~ 0
+Text GLabel 2850 5850 0    50   Input ~ 0
 PD7
-Text GLabel 2400 5950 0    50   Input ~ 0
+Text GLabel 2850 5950 0    50   Input ~ 0
 PD8
-Text GLabel 2400 6050 0    50   Input ~ 0
+Text GLabel 2850 6050 0    50   Input ~ 0
 PD9
 Wire Wire Line
-	2400 5150 3000 5150
+	2850 5150 3000 5150
 Wire Wire Line
-	2400 5250 3000 5250
+	2850 5350 3000 5350
 Wire Wire Line
-	2400 5350 3000 5350
+	2850 5450 3000 5450
 Wire Wire Line
-	2400 5450 3000 5450
+	2850 5550 3000 5550
 Wire Wire Line
-	2400 5550 3000 5550
+	2850 5650 3000 5650
 Wire Wire Line
-	2400 5650 3000 5650
+	2850 5750 3000 5750
 Wire Wire Line
-	2400 5750 3000 5750
+	2850 5850 3000 5850
 Wire Wire Line
-	2400 5850 3000 5850
-Wire Wire Line
-	2400 5950 3000 5950
+	2850 5950 3000 5950
 Text Label 2800 1300 0    50   ~ 0
 3.3V
 $Comp
@@ -138,9 +136,9 @@ F 3 "" H 6500 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3000 3700 2500 3700
+	3000 3700 2875 3700
 Wire Wire Line
-	2500 3600 3000 3600
+	2875 3600 3000 3600
 $Comp
 L Engine-Controller:Earth #PWR0102
 U 1 1 6102ABA9
@@ -185,8 +183,6 @@ F 3 "" H 6450 3400 60  0001 C CNN
 	1    7250 3250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6250 2700 6250 2600
 $Comp
 L Engine-Controller:RES_0603 R6
 U 1 1 60FC75D6
@@ -204,7 +200,7 @@ Microcontroller Decoupling Caps
 Text Label 6700 3100 0    50   ~ 0
 NRST
 Wire Wire Line
-	3000 6050 2400 6050
+	3000 6050 2850 6050
 $Comp
 L Engine-Controller:Jumper_NO J1
 U 1 1 6147D8EA
@@ -229,14 +225,14 @@ Wire Wire Line
 	6250 3550 6250 3700
 Wire Wire Line
 	6250 3250 6250 3100
-Text GLabel 5750 4850 2    50   Input ~ 0
+Text GLabel 5400 4850 2    50   Input ~ 0
 FLASH_MISO
 Wire Wire Line
-	5750 4850 5250 4850
-Text GLabel 5750 4950 2    50   Input ~ 0
+	5400 4850 5250 4850
+Text GLabel 5400 4950 2    50   Input ~ 0
 FLASH_MOSI
 Wire Wire Line
-	5750 4950 5250 4950
+	5400 4950 5250 4950
 $Sheet
 S 8150 3300 1350 1150
 U 6177D07C
@@ -249,28 +245,27 @@ Wire Wire Line
 	6250 3100 6500 3100
 Connection ~ 6500 3100
 Wire Wire Line
-	6500 3100 7000 3100
-Text GLabel 2500 3800 0    50   Input ~ 0
+	6500 3100 6950 3100
+Text GLabel 2875 3800 0    50   Input ~ 0
 A4
-Text GLabel 5750 5650 2    50   Input ~ 0
+Text GLabel 5400 5650 2    50   Input ~ 0
 A5
 Wire Wire Line
-	2500 3800 3000 3800
+	2875 3800 3000 3800
 Wire Wire Line
-	5750 5650 5250 5650
-Text GLabel 5750 1450 2    50   Input ~ 0
+	5400 5650 5250 5650
+Text GLabel 5450 1450 2    50   Input ~ 0
 FLASH_WP
-Text GLabel 5750 1650 2    50   Input ~ 0
+Text GLabel 5450 1650 2    50   Input ~ 0
 FLASH_HOLD
-Text GLabel 5750 1750 2    50   Input ~ 0
+Text GLabel 5450 1750 2    50   Input ~ 0
 SD_DETECT
 Text GLabel 6250 2600 1    50   Input ~ 0
 3.3V
-Text GLabel 5750 1850 2    50   Input ~ 0
+Text GLabel 5450 1850 2    50   Input ~ 0
 5V_SRC
 Wire Wire Line
 	3000 1950 3000 1850
-Connection ~ 3000 1850
 Wire Wire Line
 	5250 3100 6250 3100
 Wire Wire Line
@@ -282,68 +277,66 @@ Wire Wire Line
 Wire Wire Line
 	2800 1450 3000 1450
 Wire Wire Line
-	5250 3550 5750 3550
+	5250 3550 5400 3550
 Wire Wire Line
-	3000 3500 2500 3500
+	3000 3500 2875 3500
 Wire Wire Line
-	3000 3400 2500 3400
+	3000 3400 2875 3400
 Wire Wire Line
-	5250 5250 5750 5250
+	5250 5150 5400 5150
 Wire Wire Line
-	5250 5150 5750 5150
-Wire Wire Line
-	5250 4350 5750 4350
-Text GLabel 5750 4350 2    50   Input ~ 0
+	5250 4350 5400 4350
+Text GLabel 5400 4350 2    50   Input ~ 0
 SD_SS
-Text GLabel 5750 3550 2    50   Input ~ 0
+Text GLabel 5400 3550 2    50   Input ~ 0
 A6
-Text GLabel 2500 3500 0    50   Input ~ 0
+Text GLabel 2875 3500 0    50   Input ~ 0
 A3
-Text GLabel 2500 3400 0    50   Input ~ 0
+Text GLabel 2875 3400 0    50   Input ~ 0
 A2
-Text GLabel 5750 5250 2    50   Input ~ 0
+Text GLabel 5400 5250 2    50   Input ~ 0
 A1
-Text GLabel 5750 5150 2    50   Input ~ 0
+Text GLabel 5400 5150 2    50   Input ~ 0
 A0
 Wire Wire Line
-	5250 4650 5750 4650
-Text GLabel 5750 4650 2    50   Input ~ 0
+	5250 4650 5400 4650
+Text GLabel 5400 4650 2    50   Input ~ 0
 FLASH_SS
 Wire Wire Line
-	5250 4450 5750 4450
-Text GLabel 5750 4450 2    50   Input ~ 0
+	5250 4450 5400 4450
+Text GLabel 5400 4450 2    50   Input ~ 0
 FLASH_SCK
 Wire Wire Line
-	3000 4800 2500 4800
+	3000 4800 2875 4800
 Wire Wire Line
-	3000 4700 2500 4700
-Text GLabel 2500 4700 0    50   Input ~ 0
+	3000 4700 2875 4700
+Text GLabel 2875 4700 0    50   Input ~ 0
 SWDIO
-Text GLabel 2500 4800 0    50   Input ~ 0
+Text GLabel 2875 4800 0    50   Input ~ 0
 SWCLK
 Wire Wire Line
-	5250 4150 5750 4150
+	5250 4150 5400 4150
 Wire Wire Line
-	5750 4050 5250 4050
+	5400 4050 5250 4050
 Wire Wire Line
-	5750 5550 5250 5550
+	5400 5550 5250 5550
 Wire Wire Line
-	2500 3900 3000 3900
+	2875 3900 3000 3900
 Wire Wire Line
-	3000 4100 2500 4100
+	3000 4100 2875 4100
 Wire Wire Line
-	3000 4000 2500 4000
-Text GLabel 5750 5550 2    50   Input ~ 0
+	3000 4000 2875 4000
+Text GLabel 5400 5550 2    50   Input ~ 0
 SS
-Text GLabel 5750 4050 2    50   Input ~ 0
+Text GLabel 5400 4050 2    50   Input ~ 0
 SCL
-Text GLabel 5750 4150 2    50   Input ~ 0
+Text GLabel 5400 4150 2    50   Input ~ 0
 SDA
-Text GLabel 2500 3900 0    50   Input ~ 0
+Text GLabel 2875 3900 0    50   Input ~ 0
 SCK
-Text GLabel 2500 4000 0    50   Input ~ 0
+Text GLabel 2875 4000 0    50   Input ~ 0
 MISO
-Text GLabel 2500 4100 0    50   Input ~ 0
+Text GLabel 2875 4100 0    50   Input ~ 0
 MOSI
 $Comp
 L Engine-Controller:CAP_0603 C14
@@ -475,29 +468,18 @@ Wire Wire Line
 Wire Wire Line
 	2800 2050 2800 1850
 Wire Wire Line
-	5250 1450 5750 1450
+	5250 1450 5450 1450
 Wire Wire Line
-	5250 1650 5750 1650
+	5250 1650 5450 1650
 Wire Wire Line
-	5250 1750 5750 1750
+	5250 1750 5450 1750
 Wire Wire Line
-	5250 1850 5750 1850
+	5250 1850 5450 1850
 Wire Wire Line
 	3000 2650 2850 2650
 Wire Wire Line
 	2850 2650 2850 2550
 Connection ~ 2850 2550
-$Comp
-L Engine-Controller:STM32H750VBTx U1
-U 1 1 614B51F2
-P 4150 4150
-F 0 "U1" H 4150 7217 50  0000 C CNN
-F 1 "STM32H750VBTx" H 4150 7126 50  0000 C CNN
-F 2 "Engine-Controller:STM32H750VBT6" H 3450 1550 50  0001 R CNN
-F 3 "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf" H 4150 4150 50  0001 C CNN
-	1    4150 4150
-	1    0    0    -1  
-$EndComp
 NoConn ~ 3000 1350
 NoConn ~ 3000 2750
 NoConn ~ 3000 2850
@@ -509,7 +491,6 @@ NoConn ~ 3000 4300
 NoConn ~ 3000 4400
 NoConn ~ 3000 4500
 NoConn ~ 3000 4600
-NoConn ~ 3000 4900
 NoConn ~ 3000 6150
 NoConn ~ 3000 6250
 NoConn ~ 3000 6350
@@ -520,20 +501,13 @@ NoConn ~ 5250 6650
 NoConn ~ 5250 6550
 NoConn ~ 5250 6450
 NoConn ~ 5250 6350
-NoConn ~ 5250 6250
 NoConn ~ 5250 6150
-NoConn ~ 5250 6050
-NoConn ~ 5250 5950
-NoConn ~ 5250 5850
-NoConn ~ 5250 5750
 NoConn ~ 5250 5450
 NoConn ~ 5250 5350
 NoConn ~ 5250 4750
 NoConn ~ 5250 4550
 NoConn ~ 5250 4250
 NoConn ~ 5250 3950
-NoConn ~ 5250 3850
-NoConn ~ 5250 3750
 NoConn ~ 5250 3650
 NoConn ~ 5250 3450
 NoConn ~ 5250 2850
@@ -542,11 +516,83 @@ NoConn ~ 5250 2650
 NoConn ~ 5250 2550
 NoConn ~ 5250 2450
 NoConn ~ 5250 2350
-NoConn ~ 5250 2250
-NoConn ~ 5250 2150
-NoConn ~ 5250 2050
-NoConn ~ 5250 1950
 NoConn ~ 5250 1350
 Wire Wire Line
 	5250 1550 7000 1550
+Text GLabel 5400 5750 2    50   Input ~ 0
+RX_USB
+Wire Wire Line
+	5250 5750 5400 5750
+Text GLabel 5400 5850 2    50   Input ~ 0
+TX_USB
+Wire Wire Line
+	5250 5850 5400 5850
+Text GLabel 5400 6050 2    50   Input ~ 0
+~USB_RST
+Wire Wire Line
+	5250 6050 5400 6050
+NoConn ~ 5250 5950
+Text GLabel 5400 6250 2    50   Input ~ 0
+~USB_SUSPEND
+Wire Wire Line
+	5250 6250 5400 6250
+Text GLabel 6950 2900 1    50   Input ~ 0
+NRST
+Connection ~ 6950 3100
+Wire Wire Line
+	6950 3100 7000 3100
+Text GLabel 5400 3750 2    50   Input ~ 0
+SWO
+Wire Wire Line
+	5250 3750 5400 3750
+Connection ~ 3000 1850
+Wire Wire Line
+	6950 2900 6950 3100
+Wire Wire Line
+	5250 5250 5400 5250
+Wire Wire Line
+	2850 5250 3000 5250
+$Comp
+L Engine-Controller:STM32H750VBTx U1
+U 1 1 614B51F2
+P 4150 4150
+F 0 "U1" H 4150 7217 50  0000 C CNN
+F 1 "STM32H750VBTx" H 4150 7126 50  0000 C CNN
+F 2 "Engine-Controller:STM32H750VBT6" H 3450 1550 50  0001 R CNN
+F 3 "https://www.st.com/resource/en/datasheet/stm32h750ib.pdf" H 4150 4150 50  0001 C CNN
+	1    4150 4150
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 8150 4825 1375 950 
+U 618AD610
+F0 "Ignition" 50
+F1 "Ignition.sch" 50
+$EndSheet
+NoConn ~ 5250 3850
+NoConn ~ 3000 4900
+Wire Wire Line
+	6250 2600 6250 2750
+Wire Wire Line
+	6250 3100 6250 3050
+Wire Wire Line
+	7000 1900 7000 1850
+Wire Wire Line
+	7000 2250 7000 2200
+Text GLabel 5450 1950 2    50   Input ~ 0
+FIRE
+Wire Wire Line
+	5250 1950 5450 1950
+Text GLabel 5450 2050 2    50   Input ~ 0
+E_CONT
+Wire Wire Line
+	5450 2050 5250 2050
+Text GLabel 5450 2150 2    50   Input ~ 0
+SP_CONT
+Text GLabel 5450 2250 2    50   Input ~ 0
+NOZ_CONT
+Wire Wire Line
+	5250 2150 5450 2150
+Wire Wire Line
+	5250 2250 5450 2250
 $EndSCHEMATC

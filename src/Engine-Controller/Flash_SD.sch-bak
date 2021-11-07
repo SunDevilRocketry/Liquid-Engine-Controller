@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 5
+Sheet 5 6
 Title "Data Logging Memory"
 Date "2021-07-03"
 Rev "1.0"
@@ -37,7 +37,7 @@ FLASH_WP
 Wire Wire Line
 	4000 4100 3300 4100
 $Comp
-L Engine-Controller-rescue:Earth-power #PWR03
+L Engine-Controller:Earth #PWR03
 U 1 1 61788B6E
 P 4000 4800
 F 0 "#PWR03" H 4000 4550 50  0001 C CNN
@@ -69,7 +69,7 @@ F 3 "http://katalog.we-online.de/em/datasheet/693072010801.pdf" H 8050 3800 50  
 	1    0    0    -1  
 $EndComp
 $Comp
-L Engine-Controller-rescue:Earth-power #PWR05
+L Engine-Controller:Earth #PWR05
 U 1 1 617F979C
 P 8500 4800
 F 0 "#PWR05" H 8500 4550 50  0001 C CNN
@@ -119,7 +119,7 @@ Wire Wire Line
 	6400 3900 7150 3900
 Connection ~ 5750 4100
 $Comp
-L Engine-Controller-rescue:Earth-power #PWR04
+L Engine-Controller:Earth #PWR04
 U 1 1 6180735A
 P 7050 4700
 F 0 "#PWR04" H 7050 4450 50  0001 C CNN
@@ -165,8 +165,6 @@ F 3 "" H 6600 3300 50  0001 L BNN
 	1    6600 3300
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	6600 3500 6600 4300
 Connection ~ 6600 4300
 Wire Wire Line
 	6600 4300 6400 4300
@@ -239,10 +237,12 @@ Text GLabel 4750 3000 0    50   Input ~ 0
 Wire Wire Line
 	4750 3000 5050 3000
 Wire Wire Line
-	6600 3000 6600 3100
-Wire Wire Line
 	5050 3000 5050 3800
 Connection ~ 5050 3000
 Wire Wire Line
 	5050 3000 6600 3000
+Wire Wire Line
+	6600 3450 6600 4300
+Wire Wire Line
+	6600 3000 6600 3150
 $EndSCHEMATC

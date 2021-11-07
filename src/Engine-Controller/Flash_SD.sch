@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 5
+Sheet 5 6
 Title "Data Logging Memory"
 Date "2021-07-03"
 Rev "1.0"
@@ -165,8 +165,6 @@ F 3 "" H 6600 3300 50  0001 L BNN
 	1    6600 3300
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	6600 3500 6600 4300
 Connection ~ 6600 4300
 Wire Wire Line
 	6600 4300 6400 4300
@@ -239,10 +237,12 @@ Text GLabel 4750 3000 0    50   Input ~ 0
 Wire Wire Line
 	4750 3000 5050 3000
 Wire Wire Line
-	6600 3000 6600 3100
-Wire Wire Line
 	5050 3000 5050 3800
 Connection ~ 5050 3000
 Wire Wire Line
 	5050 3000 6600 3000
+Wire Wire Line
+	6600 3450 6600 4300
+Wire Wire Line
+	6600 3000 6600 3150
 $EndSCHEMATC

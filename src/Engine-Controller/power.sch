@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 5
+Sheet 2 6
 Title "Engine Microcontroller Power Supply"
 Date ""
 Rev "1.0"
@@ -129,8 +129,6 @@ F 3 "" H 6950 2400 50  0001 L BNN
 $EndComp
 Wire Wire Line
 	6250 2250 7000 2250
-Wire Wire Line
-	4200 2150 4650 2150
 Connection ~ 4650 2150
 Wire Wire Line
 	5650 2450 5650 2600
@@ -327,8 +325,8 @@ $Comp
 L Engine-Controller:LMS8117AMP-3.3_NOPB U3
 U 1 1 61E22A22
 P 6400 5300
-F 0 "U3" H 6400 5615 50  0000 C CNN
-F 1 "LMS8117AMP-3.3_NOPB" H 6400 5524 50  0000 C CNN
+F 0 "U3" H 6400 5525 50  0000 C CNN
+F 1 "LMS8117AMP-3.3_NOPB" H 6400 5524 50  0001 C CNN
 F 2 "Engine-Controller:SOT-223" H 6400 5300 50  0001 C CNN
 F 3 "" H 6400 5300 50  0001 C CNN
 	1    6400 5300
@@ -437,8 +435,6 @@ Wire Wire Line
 	3450 5350 3450 6050
 Wire Wire Line
 	3550 5350 3450 5350
-Wire Wire Line
-	3550 6000 3550 6050
 $Comp
 L Engine-Controller:Earth #PWR08
 U 1 1 60FB68C5
@@ -450,8 +446,6 @@ F 3 "~" H 3550 6100 50  0001 C CNN
 	1    3550 6100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3550 5450 3550 5600
 Wire Wire Line
 	4500 4800 2900 4800
 Wire Wire Line
@@ -550,10 +544,6 @@ F 3 "" H 3050 5150 50  0001 L BNN
 	1    3050 5150
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	2850 5150 2800 5150
-Wire Wire Line
-	3250 5150 3350 5150
 Text GLabel 2900 5400 0    50   Input ~ 0
 5V_SRC
 Wire Wire Line
@@ -612,8 +602,6 @@ Wire Wire Line
 Wire Wire Line
 	8500 2750 8500 2650
 Connection ~ 8500 2650
-Wire Wire Line
-	8500 2650 9000 2650
 $Comp
 L Engine-Controller:SML-LX1206GC-TR D3
 U 1 1 614BA3CC
@@ -625,8 +613,6 @@ F 3 "" V 7600 5700 60  0000 C CNN
 	1    7600 5450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4650 2150 5150 2150
 NoConn ~ 5650 2250
 Wire Wire Line
 	7500 3200 8000 3200
@@ -698,9 +684,6 @@ F 3 "" H 5150 2350 50  0001 L BNN
 	1    5150 2350
 	0    1    1    0   
 $EndComp
-Connection ~ 5150 2150
-Wire Wire Line
-	5150 2150 5650 2150
 $Comp
 L Engine-Controller:RES_0603 R3
 U 1 1 61524012
@@ -712,9 +695,6 @@ F 3 "" H 9000 2850 50  0001 L BNN
 	1    9000 2850
 	0    1    1    0   
 $EndComp
-Connection ~ 9000 2650
-Wire Wire Line
-	9000 2650 9300 2650
 $Comp
 L Engine-Controller:SML-LX1206GC-TR D7
 U 1 1 61529E2B
@@ -737,4 +717,40 @@ F 3 "~" H 9000 3350 50  0001 C CNN
 	1    9000 3350
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4200 1850 4200 2150
+Wire Wire Line
+	4200 2150 4650 2150
+Text GLabel 4200 1850 1    50   Input ~ 0
+VIN
+Wire Wire Line
+	8500 2650 9000 2650
+Wire Wire Line
+	4650 2150 5150 2150
+Wire Wire Line
+	5150 2200 5150 2150
+Connection ~ 5150 2150
+Wire Wire Line
+	5150 2150 5650 2150
+Wire Wire Line
+	5150 2550 5150 2500
+Wire Wire Line
+	9000 2700 9000 2650
+Connection ~ 9000 2650
+Wire Wire Line
+	9000 2650 9300 2650
+Wire Wire Line
+	9000 3050 9000 3000
+Wire Wire Line
+	2800 5150 2900 5150
+Wire Wire Line
+	3200 5150 3350 5150
+Wire Wire Line
+	3550 5450 3550 5650
+Wire Wire Line
+	3550 5950 3550 6050
+Wire Wire Line
+	7600 5600 7600 5550
+Wire Wire Line
+	7600 5950 7600 5900
 $EndSCHEMATC
