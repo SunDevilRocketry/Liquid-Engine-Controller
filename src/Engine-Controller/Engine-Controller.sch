@@ -181,8 +181,6 @@ $EndComp
 Connection ~ 6250 3100
 Text Notes 1150 1750 0    50   ~ 0
 Microcontroller Decoupling Caps
-Text Label 6700 3100 0    50   ~ 0
-NRST
 Wire Wire Line
 	3000 6050 2850 6050
 $Comp

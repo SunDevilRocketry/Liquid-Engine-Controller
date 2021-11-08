@@ -455,12 +455,9 @@ Wire Wire Line
 	2925 2650 2925 2550
 Connection ~ 2925 2550
 NoConn ~ 3000 1350
-NoConn ~ 3000 2750
 NoConn ~ 3000 3150
 NoConn ~ 3000 3250
 NoConn ~ 3000 4200
-NoConn ~ 3000 4300
-NoConn ~ 3000 4400
 NoConn ~ 3000 4500
 NoConn ~ 3000 4600
 NoConn ~ 3000 6150
@@ -491,14 +488,10 @@ NoConn ~ 5250 2350
 NoConn ~ 5250 1350
 Wire Wire Line
 	5250 1550 7000 1550
-Text GLabel 5400 5750 2    50   Input ~ 0
+Text GLabel 2875 4300 0    50   Input ~ 0
 RX_USB
-Wire Wire Line
-	5250 5750 5400 5750
-Text GLabel 5400 5850 2    50   Input ~ 0
+Text GLabel 2875 4400 0    50   Input ~ 0
 TX_USB
-Wire Wire Line
-	5250 5850 5400 5850
 Text GLabel 5400 6050 2    50   Input ~ 0
 ~USB_RST
 Wire Wire Line
@@ -568,10 +561,10 @@ Wire Wire Line
 Wire Wire Line
 	5250 2250 5450 2250
 $Comp
-L Engine-Controller:Earth #PWR?
+L Engine-Controller:Earth #PWR018
 U 1 1 61986919
 P 2375 2225
-F 0 "#PWR?" H 2375 1975 50  0001 C CNN
+F 0 "#PWR018" H 2375 1975 50  0001 C CNN
 F 1 "Earth" H 2375 2075 50  0001 C CNN
 F 2 "" H 2375 2225 50  0001 C CNN
 F 3 "" H 2375 2225 50  0001 C CNN
@@ -582,10 +575,10 @@ Wire Wire Line
 	2375 2225 2375 2150
 Connection ~ 2375 2150
 $Comp
-L Engine-Controller:CAP_0603 C?
+L Engine-Controller:CAP_0603 C21
 U 1 1 61991CD8
 P 775 2400
-F 0 "C?" V 729 2503 50  0000 L CNN
+F 0 "C21" V 729 2503 50  0000 L CNN
 F 1 "4.7uF" V 820 2503 50  0000 L CNN
 F 2 "Engine-Controller:CAP_0603" H 675 2000 50  0001 L BNN
 F 3 "" H 725 2400 50  0001 L BNN
@@ -615,10 +608,10 @@ Wire Wire Line
 	575  2250 775  2250
 Connection ~ 775  1850
 $Comp
-L Engine-Controller:Earth #PWR?
+L Engine-Controller:Earth #PWR016
 U 1 1 61A3BD9B
 P 1200 2600
-F 0 "#PWR?" H 1200 2350 50  0001 C CNN
+F 0 "#PWR016" H 1200 2350 50  0001 C CNN
 F 1 "Earth" H 1200 2450 50  0001 C CNN
 F 2 "" H 1200 2600 50  0001 C CNN
 F 3 "" H 1200 2600 50  0001 C CNN
@@ -628,10 +621,10 @@ $EndComp
 Text Notes 1375 2800 0    50   ~ 0
 Internal Regulator Caps
 $Comp
-L Engine-Controller:CAP_0603 C?
+L Engine-Controller:CAP_0603 C22
 U 1 1 61A50FA8
 P 1200 2400
-F 0 "C?" V 1154 2503 50  0000 L CNN
+F 0 "C22" V 1154 2503 50  0000 L CNN
 F 1 "1uF" V 1245 2503 50  0000 L CNN
 F 2 "Engine-Controller:CAP_0603" H 1100 2000 50  0001 L BNN
 F 3 "" H 1150 2400 50  0001 L BNN
@@ -642,10 +635,10 @@ Wire Wire Line
 	775  2250 1200 2250
 Connection ~ 775  2250
 $Comp
-L Engine-Controller:CAP_0603 C?
+L Engine-Controller:CAP_0603 C24
 U 1 1 61A571EB
 P 1600 2400
-F 0 "C?" V 1554 2503 50  0000 L CNN
+F 0 "C24" V 1554 2503 50  0000 L CNN
 F 1 "1uF" V 1645 2503 50  0000 L CNN
 F 2 "Engine-Controller:CAP_0603" H 1500 2000 50  0001 L BNN
 F 3 "" H 1550 2400 50  0001 L BNN
@@ -674,10 +667,10 @@ Connection ~ 1850 3350
 Wire Wire Line
 	1850 3400 1850 3350
 $Comp
-L Engine-Controller:Earth #PWR?
+L Engine-Controller:Earth #PWR017
 U 1 1 6195071E
 P 1850 3400
-F 0 "#PWR?" H 1850 3150 50  0001 C CNN
+F 0 "#PWR017" H 1850 3150 50  0001 C CNN
 F 1 "Earth" H 1850 3250 50  0001 C CNN
 F 2 "" H 1850 3400 50  0001 C CNN
 F 3 "" H 1850 3400 50  0001 C CNN
@@ -707,10 +700,10 @@ Wire Wire Line
 Wire Wire Line
 	1225 2850 1225 2975
 $Comp
-L Engine-Controller:CAP_0603 C?
+L Engine-Controller:CAP_0603 C23
 U 1 1 61923089
 P 1225 3125
-F 0 "C?" V 1179 3228 50  0000 L CNN
+F 0 "C23" V 1179 3228 50  0000 L CNN
 F 1 "2.2uF" V 1270 3228 50  0000 L CNN
 F 2 "Engine-Controller:CAP_0603" H 1125 2725 50  0001 L BNN
 F 3 "" H 1175 3125 50  0001 L BNN
@@ -718,10 +711,10 @@ F 3 "" H 1175 3125 50  0001 L BNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Engine-Controller:CAP_0603 C?
+L Engine-Controller:CAP_0603 C25
 U 1 1 61921B22
 P 1625 3125
-F 0 "C?" V 1579 3228 50  0000 L CNN
+F 0 "C25" V 1579 3228 50  0000 L CNN
 F 1 "2.2uF" V 1670 3228 50  0000 L CNN
 F 2 "Engine-Controller:CAP_0603" H 1525 2725 50  0001 L BNN
 F 3 "" H 1575 3125 50  0001 L BNN
@@ -729,10 +722,10 @@ F 3 "" H 1575 3125 50  0001 L BNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Engine-Controller:CAP_0603 C?
+L Engine-Controller:CAP_0603 C26
 U 1 1 61921412
 P 2025 3125
-F 0 "C?" V 1979 3228 50  0000 L CNN
+F 0 "C26" V 1979 3228 50  0000 L CNN
 F 1 "2.2uF" V 2070 3228 50  0000 L CNN
 F 2 "Engine-Controller:CAP_0603" H 1925 2725 50  0001 L BNN
 F 3 "" H 1975 3125 50  0001 L BNN
@@ -740,10 +733,10 @@ F 3 "" H 1975 3125 50  0001 L BNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Engine-Controller:CAP_0603 C?
+L Engine-Controller:CAP_0603 C27
 U 1 1 61920036
 P 2425 3125
-F 0 "C?" V 2379 3228 50  0000 L CNN
+F 0 "C27" V 2379 3228 50  0000 L CNN
 F 1 "2.2uF" V 2470 3228 50  0000 L CNN
 F 2 "Engine-Controller:CAP_0603" H 2325 2725 50  0001 L BNN
 F 3 "" H 2375 3125 50  0001 L BNN
@@ -756,4 +749,29 @@ Wire Wire Line
 Connection ~ 2425 2950
 Wire Wire Line
 	3000 2950 2425 2950
+NoConn ~ 5250 5750
+NoConn ~ 5250 5850
+Wire Wire Line
+	3000 4300 2875 4300
+Wire Wire Line
+	3000 4400 2875 4400
+$Comp
+L Engine-Controller:Jumper_NO J2
+U 1 1 61B3D6AA
+P 2700 2750
+F 0 "J2" H 2700 2893 50  0000 C CNN
+F 1 "Jumper_NO" H 2700 2660 50  0001 C CNN
+F 2 "Engine-Controller:Jumper-NO" H 2700 2750 50  0001 C CNN
+F 3 "~" H 2700 2750 50  0001 C CNN
+	1    2700 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 2750 2900 2750
+Text GLabel 2325 2475 0    50   Input ~ 0
+3.3V
+Wire Wire Line
+	2500 2750 2500 2475
+Wire Wire Line
+	2500 2475 2325 2475
 $EndSCHEMATC

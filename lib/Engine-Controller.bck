@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 4010
+D Hex Buffer
+K CMOS BUFFER high sink, VCC and VDD sep. VDD>VI>VCC!
+F http://www.ti.com/lit/ds/symlink/cd4010b-q1.pdf
+$ENDCMP
+#
 $CMP CAP_Polar
 D Polarized capacitor, US symbol
 K cap capacitor
@@ -28,6 +34,12 @@ $CMP QS5U17TR
 D 0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92
 K N-Channel MOSFET Logic-Level
 F https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF
+$ENDCMP
+#
+$CMP SN74LV07ADR
+D Hex Buffer
+K CMOS BUFFER high sink, VCC and VDD sep. VDD>VI>VCC!
+F http://www.ti.com/lit/ds/symlink/cd4010b-q1.pdf
 $ENDCMP
 #
 $CMP STM32H750VBTx
