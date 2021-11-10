@@ -1,11 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP 4010
-D Hex Buffer
-K CMOS BUFFER high sink, VCC and VDD sep. VDD>VI>VCC!
-F http://www.ti.com/lit/ds/symlink/cd4010b-q1.pdf
-$ENDCMP
-#
 $CMP CAP_Polar
 D Polarized capacitor, US symbol
 K cap capacitor

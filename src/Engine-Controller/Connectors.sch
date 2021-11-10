@@ -551,4 +551,58 @@ Wire Wire Line
 	5850 5800 5500 5800
 NoConn ~ 5850 6000
 NoConn ~ 5850 6200
+$Comp
+L Engine-Controller:Logo LOGO?
+U 1 1 618F5F8B
+P 9700 4800
+F 0 "LOGO?" H 9878 4846 50  0001 L CNN
+F 1 "Logo" H 9600 5000 50  0000 L CNN
+F 2 "" H 9700 4800 50  0001 C CNN
+F 3 "" H 9700 4800 50  0001 C CNN
+	1    9700 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Engine-Controller:Mounting-Hole H?
+U 1 1 618F69A9
+P 9700 5350
+F 0 "H?" H 9908 5396 50  0001 L CNN
+F 1 "Mounting-Hole" H 9450 5600 50  0000 L CNN
+F 2 "" H 9700 5350 50  0001 C CNN
+F 3 "" H 9700 5350 50  0001 C CNN
+	1    9700 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Engine-Controller:Mounting-Hole H?
+U 1 1 618F7698
+P 10450 4850
+F 0 "H?" H 10658 4896 50  0001 L CNN
+F 1 "Mounting-Hole" H 10200 5100 50  0000 L CNN
+F 2 "" H 10450 4850 50  0001 C CNN
+F 3 "" H 10450 4850 50  0001 C CNN
+	1    10450 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Engine-Controller:Mounting-Hole H?
+U 1 1 618F7988
+P 10450 5350
+F 0 "H?" H 10658 5396 50  0001 L CNN
+F 1 "Mounting-Hole" H 10150 5600 50  0000 L CNN
+F 2 "" H 10450 5350 50  0001 C CNN
+F 3 "" H 10450 5350 50  0001 C CNN
+	1    10450 5350
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	10850 4400 10850 5600
+Wire Notes Line
+	10850 5600 9400 5600
+Wire Notes Line
+	9400 5600 9400 4400
+Wire Notes Line
+	9400 4400 10850 4400
+Text Notes 10000 4500 0    50   ~ 0
+Misc
 $EndSCHEMATC
