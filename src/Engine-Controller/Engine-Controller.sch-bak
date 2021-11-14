@@ -618,11 +618,12 @@ F 3 "" H 1200 2600 50  0001 C CNN
 $EndComp
 Text Notes 1375 2800 0    50   ~ 0
 Internal Regulator Caps
+Connection ~ 775  2250
 $Comp
-L Engine-Controller:CAP_0603 C22
-U 1 1 61A50FA8
+L Engine-Controller:CAP_0603 C24
+U 1 1 61A571EB
 P 1200 2400
-F 0 "C22" V 1154 2503 50  0000 L CNN
+F 0 "C24" V 1154 2503 50  0000 L CNN
 F 1 "1uF" V 1245 2503 50  0000 L CNN
 F 2 "Engine-Controller:CAP_0603" H 1100 2000 50  0001 L BNN
 F 3 "" H 1150 2400 50  0001 L BNN
@@ -630,26 +631,7 @@ F 3 "" H 1150 2400 50  0001 L BNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	775  2250 1200 2250
-Connection ~ 775  2250
-$Comp
-L Engine-Controller:CAP_0603 C24
-U 1 1 61A571EB
-P 1600 2400
-F 0 "C24" V 1554 2503 50  0000 L CNN
-F 1 "1uF" V 1645 2503 50  0000 L CNN
-F 2 "Engine-Controller:CAP_0603" H 1500 2000 50  0001 L BNN
-F 3 "" H 1550 2400 50  0001 L BNN
-	1    1600 2400
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1200 2250 1600 2250
-Connection ~ 1200 2250
-Wire Wire Line
 	1200 2550 775  2550
-Wire Wire Line
-	1200 2550 1600 2550
 Connection ~ 1200 2550
 Wire Wire Line
 	1200 2600 1200 2550
@@ -772,4 +754,6 @@ Wire Wire Line
 	2500 2750 2500 2475
 Wire Wire Line
 	2500 2475 2325 2475
+Wire Wire Line
+	775  2250 1200 2250
 $EndSCHEMATC

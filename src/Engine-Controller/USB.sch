@@ -80,19 +80,6 @@ Wire Wire Line
 	7050 2075 7050 1750
 Wire Wire Line
 	7150 2075 7150 1750
-$Comp
-L Engine-Controller:SP0504BAHTG D8
-U 1 1 617B8701
-P 4575 3365
-F 0 "D8" H 4715 3105 60  0000 L CNN
-F 1 "SP0504BAHTG" H 3825 2805 60  0001 C CNN
-F 2 "Engine-Controller:SP0504BAHTG" H 3755 2565 60  0001 C CNN
-F 3 "" V 4365 3415 60  0001 C CNN
-	1    4575 3365
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4600 2775 5375 2775
 Wire Wire Line
 	5375 2775 5375 3175
 Wire Wire Line
@@ -157,11 +144,7 @@ Wire Wire Line
 Connection ~ 3875 3325
 Wire Wire Line
 	3875 3325 3875 3625
-Wire Wire Line
-	3825 2775 4155 2775
 Connection ~ 4600 2775
-Wire Wire Line
-	3825 2875 4455 2875
 $Comp
 L Engine-Controller:Earth #PWR015
 U 1 1 617F1ADD
@@ -173,23 +156,6 @@ F 3 "~" H 4575 3625 50  0001 C CNN
 	1    4575 3625
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4725 3115 4725 2975
-Wire Wire Line
-	3825 2975 4725 2975
-Connection ~ 4725 2975
-Wire Wire Line
-	4725 2975 6350 2975
-Wire Wire Line
-	4455 3115 4455 2875
-Connection ~ 4455 2875
-Wire Wire Line
-	4455 2875 6350 2875
-Wire Wire Line
-	4155 3115 4155 2775
-Connection ~ 4155 2775
-Wire Wire Line
-	4155 2775 4600 2775
 NoConn ~ 5005 3115
 Wire Wire Line
 	4575 3575 4575 3625
@@ -274,4 +240,51 @@ Wire Wire Line
 	7150 3850 7150 3925
 Wire Wire Line
 	7150 4275 7150 4225
+Wire Wire Line
+	3825 2775 4600 2775
+Wire Wire Line
+	3825 2875 4155 2875
+Wire Wire Line
+	3825 2975 4455 2975
+$Comp
+L Engine-Controller:SP0504BAHTG D8
+U 1 1 617B8701
+P 4575 3365
+F 0 "D8" H 4715 3105 60  0000 L CNN
+F 1 "SP0504BAHTG" H 3825 2805 60  0001 C CNN
+F 2 "Engine-Controller:SP0504BAHTG" H 3755 2565 60  0001 C CNN
+F 3 "" V 4365 3415 60  0001 C CNN
+	1    4575 3365
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4725 3115 4725 2775
+Wire Wire Line
+	4600 2775 4725 2775
+Connection ~ 4725 2775
+Wire Wire Line
+	4725 2775 5375 2775
+Wire Wire Line
+	4155 3115 4155 2875
+Connection ~ 4155 2875
+Wire Wire Line
+	4155 2875 6350 2875
+Wire Wire Line
+	4455 3115 4455 2975
+Connection ~ 4455 2975
+Wire Wire Line
+	4455 2975 6350 2975
+$Comp
+L Engine-Controller:Earth #PWR0122
+U 1 1 61B32FFB
+P 7775 3830
+F 0 "#PWR0122" H 7775 3580 50  0001 C CNN
+F 1 "Earth" H 7775 3680 50  0001 C CNN
+F 2 "" H 7775 3830 50  0001 C CNN
+F 3 "" H 7775 3830 50  0001 C CNN
+	1    7775 3830
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7775 3775 7775 3830
 $EndSCHEMATC

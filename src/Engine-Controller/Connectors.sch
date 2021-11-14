@@ -137,7 +137,7 @@ U 1 1 6192B913
 P 3160 2565
 F 0 "U4" H 3220 2695 50  0000 L CNN
 F 1 "SN74LV07ADR" H 2970 2325 50  0001 C CNN
-F 2 "" H 3160 2565 50  0001 C CNN
+F 2 "Engine-Controller:SN74LV07ADR" H 3160 2565 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/cd4010b-q1.pdf" H 3160 2565 50  0001 C CNN
 	1    3160 2565
 	1    0    0    -1  
@@ -148,7 +148,7 @@ U 2 1 6193DFA8
 P 3160 3240
 F 0 "U4" H 3215 3370 50  0000 L CNN
 F 1 "SN74LV07ADR" H 2970 3000 50  0001 C CNN
-F 2 "" H 3160 3240 50  0001 C CNN
+F 2 "Engine-Controller:SN74LV07ADR" H 3160 3240 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/cd4010b-q1.pdf" H 3160 3240 50  0001 C CNN
 	2    3160 3240
 	1    0    0    -1  
@@ -159,7 +159,7 @@ U 3 1 61940010
 P 3160 3935
 F 0 "U4" H 3210 4050 50  0000 L CNN
 F 1 "SN74LV07ADR" H 2970 3695 50  0001 C CNN
-F 2 "" H 3160 3935 50  0001 C CNN
+F 2 "Engine-Controller:SN74LV07ADR" H 3160 3935 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/cd4010b-q1.pdf" H 3160 3935 50  0001 C CNN
 	3    3160 3935
 	1    0    0    -1  
@@ -215,7 +215,7 @@ U 4 1 619889F5
 P 3155 4670
 F 0 "U4" H 3210 4810 50  0000 L CNN
 F 1 "SN74LV07ADR" H 2965 4430 50  0001 C CNN
-F 2 "" H 3155 4670 50  0001 C CNN
+F 2 "Engine-Controller:SN74LV07ADR" H 3155 4670 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/cd4010b-q1.pdf" H 3155 4670 50  0001 C CNN
 	4    3155 4670
 	1    0    0    -1  
@@ -239,7 +239,7 @@ U 5 1 6198E032
 P 3145 5370
 F 0 "U4" H 3190 5510 50  0000 L CNN
 F 1 "SN74LV07ADR" H 2955 5130 50  0001 C CNN
-F 2 "" H 3145 5370 50  0001 C CNN
+F 2 "Engine-Controller:SN74LV07ADR" H 3145 5370 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/cd4010b-q1.pdf" H 3145 5370 50  0001 C CNN
 	5    3145 5370
 	1    0    0    -1  
@@ -250,7 +250,7 @@ U 6 1 6198F180
 P 3170 6045
 F 0 "U4" H 3215 6160 50  0000 L CNN
 F 1 "SN74LV07ADR" H 2980 5805 50  0001 C CNN
-F 2 "" H 3170 6045 50  0001 C CNN
+F 2 "Engine-Controller:SN74LV07ADR" H 3170 6045 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/cd4010b-q1.pdf" H 3170 6045 50  0001 C CNN
 	6    3170 6045
 	1    0    0    -1  
@@ -552,45 +552,45 @@ Wire Wire Line
 NoConn ~ 5850 6000
 NoConn ~ 5850 6200
 $Comp
-L Engine-Controller:Logo LOGO?
+L Engine-Controller:Logo LOGO1
 U 1 1 618F5F8B
 P 9700 4800
-F 0 "LOGO?" H 9878 4846 50  0001 L CNN
+F 0 "LOGO1" H 9878 4846 50  0001 L CNN
 F 1 "Logo" H 9600 5000 50  0000 L CNN
-F 2 "" H 9700 4800 50  0001 C CNN
+F 2 "Engine-Controller:Logo" H 9700 4800 50  0001 C CNN
 F 3 "" H 9700 4800 50  0001 C CNN
 	1    9700 4800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Engine-Controller:Mounting-Hole H?
+L Engine-Controller:Mounting-Hole H1
 U 1 1 618F69A9
 P 9700 5350
-F 0 "H?" H 9908 5396 50  0001 L CNN
+F 0 "H1" H 9908 5396 50  0001 L CNN
 F 1 "Mounting-Hole" H 9450 5600 50  0000 L CNN
-F 2 "" H 9700 5350 50  0001 C CNN
+F 2 "Engine-Controller:MountingHole_4.3mm_M4_DIN965" H 9700 5350 50  0001 C CNN
 F 3 "" H 9700 5350 50  0001 C CNN
 	1    9700 5350
 	1    0    0    -1  
 $EndComp
 $Comp
-L Engine-Controller:Mounting-Hole H?
+L Engine-Controller:Mounting-Hole H2
 U 1 1 618F7698
 P 10450 4850
-F 0 "H?" H 10658 4896 50  0001 L CNN
+F 0 "H2" H 10658 4896 50  0001 L CNN
 F 1 "Mounting-Hole" H 10200 5100 50  0000 L CNN
-F 2 "" H 10450 4850 50  0001 C CNN
+F 2 "Engine-Controller:MountingHole_4.3mm_M4_DIN965" H 10450 4850 50  0001 C CNN
 F 3 "" H 10450 4850 50  0001 C CNN
 	1    10450 4850
 	1    0    0    -1  
 $EndComp
 $Comp
-L Engine-Controller:Mounting-Hole H?
+L Engine-Controller:Mounting-Hole H3
 U 1 1 618F7988
 P 10450 5350
-F 0 "H?" H 10658 5396 50  0001 L CNN
+F 0 "H3" H 10658 5396 50  0001 L CNN
 F 1 "Mounting-Hole" H 10150 5600 50  0000 L CNN
-F 2 "" H 10450 5350 50  0001 C CNN
+F 2 "Engine-Controller:MountingHole_4.3mm_M4_DIN965" H 10450 5350 50  0001 C CNN
 F 3 "" H 10450 5350 50  0001 C CNN
 	1    10450 5350
 	1    0    0    -1  

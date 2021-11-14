@@ -1,0 +1,2019 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/olsport/Documents/SDR/PCB/Liquids-Engine-Controller/src/Engine-Controller/Engine-Controller.sch</source>
+    <date>Wed Nov 10 14:36:05 2021</date>
+    <tool>Eeschema 5.1.10</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Engine Controller Microcontroller Board</title>
+        <company>Sun Devil Rocketry</company>
+        <rev>1.0</rev>
+        <date>2021-06-26</date>
+        <source>Engine-Controller.sch</source>
+        <comment number="1" value="Author: Colton Acosta"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/power/" tstamps="/60D7F309/">
+      <title_block>
+        <title>Engine Microcontroller Power Supply</title>
+        <company>Sun Devil Rocketry</company>
+        <rev>1.0</rev>
+        <date/>
+        <source>power.sch</source>
+        <comment number="1" value="Author: Colton Acosta"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/USB/" tstamps="/60DAA9B3/">
+      <title_block>
+        <title>Liquids Engine Microcontroller USB</title>
+        <company>Sun Devil Rocketry </company>
+        <rev>1.0</rev>
+        <date>2021-06-29</date>
+        <source>USB.sch</source>
+        <comment number="1" value="Author: Colton Acosta"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Connectors/" tstamps="/60E24895/">
+      <title_block>
+        <title>Liquid Engine Microcontroller Connectors</title>
+        <company>Sun Devil Rocketry </company>
+        <rev>1.0</rev>
+        <date>2021-06-29</date>
+        <source>Connectors.sch</source>
+        <comment number="1" value="Author: Colton Acosta"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/Flash_SD/" tstamps="/6177D07C/">
+      <title_block>
+        <title>Data Logging Memory</title>
+        <company>Sun Devil Rocketry </company>
+        <rev>1.0</rev>
+        <date>2021-07-03</date>
+        <source>Flash_SD.sch</source>
+        <comment number="1" value="Author: Colton"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/Ignition/" tstamps="/618AD610/">
+      <title_block>
+        <title>Ignition System</title>
+        <company>Sun Devil Rocketry</company>
+        <rev/>
+        <date>2021-11-06</date>
+        <source>Ignition.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C8">
+      <value>0.1u</value>
+      <footprint>Engine-Controller:CAP_0603</footprint>
+      <libsource lib="Engine-Controller" part="CAP_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60DE014C</tstamp>
+    </comp>
+    <comp ref="TP1">
+      <value>TPNRST</value>
+      <footprint>Engine-Controller:TP</footprint>
+      <libsource lib="Engine-Controller" part="TP" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E1CD7C</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>240</value>
+      <footprint>Engine-Controller:RES_0603</footprint>
+      <libsource lib="Engine-Controller" part="RES_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6100A5B9</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>150120AS75000</value>
+      <footprint>Engine-Controller:150120AS75000</footprint>
+      <libsource lib="Engine-Controller" part="150120AS75000" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61009279</tstamp>
+    </comp>
+    <comp ref="B1">
+      <value>PTS647SM38SMTR2LFS</value>
+      <footprint>Engine-Controller:PTS647SM38SMTR2LFS</footprint>
+      <libsource lib="Engine-Controller" part="PTS647SM38SMTR2LFS" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>610156A4</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Engine-Controller:RES_0603</footprint>
+      <libsource lib="Engine-Controller" part="RES_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FC75D6</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Jumper_NO</value>
+      <footprint>Engine-Controller:Jumper-NO</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Engine-Controller" part="Jumper_NO" description="Jumper, 2-pole, open"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6147D8EA</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>0.1u</value>
+      <footprint>Engine-Controller:CAP_0603</footprint>
+      <libsource lib="Engine-Controller" part="CAP_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6159BC7F</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>0.1u</value>
+      <footprint>Engine-Controller:CAP_0603</footprint>
+      <libsource lib="Engine-Controller" part="CAP_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6127DC78</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>0.1u</value>
+      <footprint>Engine-Controller:CAP_0603</footprint>
+      <libsource lib="Engine-Controller" part="CAP_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6127D073</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>0.1u</value>
+      <footprint>Engine-Controller:CAP_0603</footprint>
+      <libsource lib="Engine-Controller" part="CAP_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6127C459</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>0.1u</value>
+      <footprint>Engine-Controller:CAP_0603</footprint>
+      <libsource lib="Engine-Controller" part="CAP_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61273C95</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>0.1u</value>
+      <footprint>Engine-Controller:CAP_0603</footprint>
+      <libsource lib="Engine-Controller" part="CAP_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6127EE14</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>STM32H750VBTx</value>
+      <footprint>Engine-Controller:STM32H750VBT6</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/stm32h750ib.pdf</datasheet>
+      <libsource lib="Engine-Controller" part="STM32H750VBTx" description="ARM Cortex-M7 MCU, 128KB flash, 864KB RAM, 480MHz, 1.7-3.6V, 82 GPIO, LQFP-100"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614B51F2</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>4.7uF</value>
+      <footprint>Engine-Controller:CAP_0603</footprint>
+      <libsource lib="Engine-Controller" part="CAP_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61991CD8</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>1uF</value>
+      <footprint>Engine-Controller:CAP_0603</footprint>
+      <libsource lib="Engine-Controller" part="CAP_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A50FA8</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>1uF</value>
+      <footprint>Engine-Controller:CAP_0603</footprint>
+      <libsource lib="Engine-Controller" part="CAP_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61A571EB</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>2.2uF</value>
+      <footprint>Engine-Controller:CAP_0603</footprint>
+      <libsource lib="Engine-Controller" part="CAP_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61923089</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>2.2uF</value>
+      <footprint>Engine-Controller:CAP_0603</footprint>
+      <libsource lib="Engine-Controller" part="CAP_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61921B22</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>2.2uF</value>
+      <footprint>Engine-Controller:CAP_0603</footprint>
+      <libsource lib="Engine-Controller" part="CAP_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61921412</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>2.2uF</value>
+      <footprint>Engine-Controller:CAP_0603</footprint>
+      <libsource lib="Engine-Controller" part="CAP_0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61920036</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Jumper_NO</value>
+      <footprint>Engine-Controller:Jumper-NO</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Engine-Controller" part="Jumper_NO" description="Jumper, 2-pole, open"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61B3D6AA</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>33uH</value>
+      <footprint>Engine-Controller:SRP1038A-330M</footprint>
+      <libsource lib="Engine-Controller" part="CBC3225T220KR" description=""/>
+      <sheetpath names="/power/" tstamps="/60D7F309/"/>
+      <tstamp>60EBAB6D</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>68uF</value>
+      <footprint>Engine-Controller:EEEFPV680XAP</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Engine-Controller" part="UKL1C220KDDANATD" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/power/" tstamps="/60D7F309/"/>
+      <tstamp>60EDB6C2</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>2.2uF</value>
+      <footprint>Engine-Controller:CAP_0603</footprint>
+      <libsource lib="Engine-Controller" part="CAP_0603" description=""/>
+      <sheetpath names="/power/" tstamps="/60D7F309/"/>
+      <tstamp>60EE1F59</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1 uF</value>
+      <footprint>Engine-Controller:CAP_0603</footprint>
+      <libsource lib="Engine-Controller" part="CAP_0603" description=""/>
+      <sheetpath names="/power/" tstamps="/60D7F309/"/>
+      <tstamp>60EF8CF7</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10 nF</value>
+      <footprint>Engine-Controller:CAP_0603</footprint>
+      <libsource lib="Engine-Controller" part="CAP_0603" description=""/>
+      <sheetpath names="/power/" tstamps="/60D7F309/"/>
+      <tstamp>60F34E40</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>240</value>
+      <footprint>Engine-Controller:RES_0603</footprint>
+      <libsource lib="Engine-Controller" part="RES_0603" description=""/>
+      <sheetpath names="/power/" tstamps="/60D7F309/"/>
+      <tstamp>60ED1BD1</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>LM22672MRE-5.0_NOPB</value>
+      <footprint>Engine-Controller:LM22672MRE-5.0_NOPB</footprint>
+      <libsource lib="Engine-Controller" part="LM22672MRE-5.0_NOPB" description=""/>
+      <sheetpath names="/power/" tstamps="/60D7F309/"/>
+      <tstamp>611B83F2</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>10uF</value>
+      <footprint>Engine-Controller:CWR11HH106KB</footprint>
+      <libsource lib="Engine-Controller" part="CWR11HH106KB" description=""/>
+      <sheetpath names="/power/" tstamps="/60D7F309/"/>
+      <tstamp>611C3D38</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>10uF</value>
+      <footprint>Engine-Controller:CWR11HH106KB</footprint>
+      <libsource lib="Engine-Controller" part="CWR11HH106KB" description=""/>
+      <sheetpath names="/power/" tstamps="/60D7F309/"/>
+      <tstamp>611C7D2A</tstamp>
+    </comp>
+    <comp ref="TP2">
+      <value>TPVIN</value>
+      <footprint>Engine-Controller:TP</footprint>
+      <libsource lib="Engine-Controller" part="TP" description=""/>
+      <sheetpath names="/power/" tstamps="/60D7F309/"/>
+      <tstamp>60E67C30</tstamp>
+    </comp>
+    <comp ref="TP3">
+      <value>TPGND</value>
+      <footprint>Engine-Controller:TP</footprint>
+      <libsource lib="Engine-Controller" part="TP" description=""/>
+      <sheetpath names="/power/" tstamps="/60D7F309/"/>
+      <tstamp>60E8595F</tstamp>
+    </comp>
+    <comp ref="TP5">
+      <value>3.3V</value>
+      <footprint>Engine-Controller:TP</footprint>
+      <libsource lib="Engine-Controller" part="TP" description=""/>
+      <sheetpath names="/power/" tstamps="/60D7F309/"/>
+      <tstamp>60E93926</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>EJ508A</value>
+      <footprint>Engine-Controller:12V_power_jack</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Engine-Controller" part="EJ508A" description="DC Barrel Jack with a mounting pin"/>
+      <sheetpath names="/power/" tstamps="/60D7F309/"/>
+      <tstamp>60E212B8</tstamp>
+    </comp>
+    <comp ref="TP4">
+      <value>TP5V</value>
+      <footprint>Engine-Controller:TP</footprint>
+      <libsource lib="Engine-Controller" part="TP" description=""/>
+      <sheetpath names="/power/" tstamps="/60D7F309/"/>
+      <tstamp>60E7A9D7</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>LMS8117AMP-3.3_NOPB</value>
+      <footprint>Engine-Controller:SOT-223</footprint>
+      <libsource lib="Engine-Controller" part="LMS8117AMP-3.3_NOPB" description=""/>
+      <sheetpath names="/power/" tstamps="/60D7F309/"/>
+      <tstamp>61E22A22</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>SM5819PL-TP</value>
+      <footprint>Engine-Controller:SM5819PL-TP</footprint>
+      <libsource lib="Engine-Controller" part="SM5819PL-TP" description=""/>
+      <sheetpath names="/power/" tstamps="/60D7F309/"/>
+      <tstamp>60EEFB5B</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>SM5819PL-TP</value>
+      <footprint>Engine-Controller:SM5819PL-TP</footprint>
+      <libsource lib="Engine-Controller" part="SM5819PL-TP" description=""/>
+      <sheetpath names="/power/" tstamps="/60D7F309/"/>
+      <tstamp>60EF8AF2</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>RB160VAM-60TR</value>
+      <footprint>Engine-Controller:RB160VAM-60TR</footprint>
+      <libsource lib="Engine-Controller" part="RB160VAM-60TR" description=""/>
+      <sheetpath names="/power/" tstamps="/60D7F309/"/>
+      <tstamp>60F4329D</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>0.1uF</value>
+      <footprint>Engine-Controller:CAP_0603</footprint>
+      <libsource lib="Engine-Controller" part="CAP_0603" description=""/>
+      <sheetpath names="/power/" tstamps="/60D7F309/"/>
+      <tstamp>60FCE9C2</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>0.1uF</value>
+      <footprint>Engine-Controller:CAP_0603</footprint>
+      <libsource lib="Engine-Controller" part="CAP_0603" description=""/>
+      <sheetpath names="/power/" tstamps="/60D7F309/"/>
+      <tstamp>60FD414B</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>470</value>
+      <footprint>Engine-Controller:RES_0603</footprint>
+      <libsource lib="Engine-Controller" part="RES_0603" description=""/>
+      <sheetpath names="/power/" tstamps="/60D7F309/"/>
+      <tstamp>60FACF59</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>TPS2115APWR</value>
+      <footprint>Engine-Controller:TPS2115APWR</footprint>
+      <libsource lib="Engine-Controller" part="TPS2115APWR" description=""/>
+      <sheetpath names="/power/" tstamps="/60D7F309/"/>
+      <tstamp>60F83BB7</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>Engine-Controller:RES_0603</footprint>
+      <libsource lib="Engine-Controller" part="RES_0603" description=""/>
+      <sheetpath names="/power/" tstamps="/60D7F309/"/>
+      <tstamp>61002496</tstamp>
+    </comp>
+    <comp ref="TP10">
+      <value>TP</value>
+      <footprint>Engine-Controller:TP</footprint>
+      <libsource lib="Engine-Controller" part="TP" description=""/>
+      <sheetpath names="/power/" tstamps="/60D7F309/"/>
+      <tstamp>60F2D3F8</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>1uF</value>
+      <footprint>Engine-Controller:CAP_0603</footprint>
+      <libsource lib="Engine-Controller" part="CAP_0603" description=""/>
+      <sheetpath names="/power/" tstamps="/60D7F309/"/>
+      <tstamp>60FF51CA</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>SML-LX1206GC-TR</value>
+      <footprint>Engine-Controller:SML-LX1206GC-TR</footprint>
+      <libsource lib="Engine-Controller" part="SML-LX1206GC-TR" description=""/>
+      <sheetpath names="/power/" tstamps="/60D7F309/"/>
+      <tstamp>614BA3CC</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>150uF</value>
+      <footprint>Engine-Controller:CAP_EEEFP1E151AL</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Engine-Controller" part="CAP_Polar" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/power/" tstamps="/60D7F309/"/>
+      <tstamp>614E3698</tstamp>
+    </comp>
+    <comp ref="TP11">
+      <value>TP</value>
+      <footprint>Engine-Controller:TP</footprint>
+      <libsource lib="Engine-Controller" part="TP" description=""/>
+      <sheetpath names="/power/" tstamps="/60D7F309/"/>
+      <tstamp>614C3764</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>SML-LX1206GC-TR</value>
+      <footprint>Engine-Controller:SML-LX1206GC-TR</footprint>
+      <libsource lib="Engine-Controller" part="SML-LX1206GC-TR" description=""/>
+      <sheetpath names="/power/" tstamps="/60D7F309/"/>
+      <tstamp>614C42F1</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>2k</value>
+      <footprint>Engine-Controller:RES_0603</footprint>
+      <libsource lib="Engine-Controller" part="RES_0603" description=""/>
+      <sheetpath names="/power/" tstamps="/60D7F309/"/>
+      <tstamp>614CF9B6</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>470</value>
+      <footprint>Engine-Controller:RES_0603</footprint>
+      <libsource lib="Engine-Controller" part="RES_0603" description=""/>
+      <sheetpath names="/power/" tstamps="/60D7F309/"/>
+      <tstamp>61524012</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>SML-LX1206GC-TR</value>
+      <footprint>Engine-Controller:SML-LX1206GC-TR</footprint>
+      <libsource lib="Engine-Controller" part="SML-LX1206GC-TR" description=""/>
+      <sheetpath names="/power/" tstamps="/60D7F309/"/>
+      <tstamp>61529E2B</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>USB</value>
+      <footprint>Engine-Controller:USB-TypeB</footprint>
+      <libsource lib="Engine-Controller" part="USB" description=""/>
+      <sheetpath names="/USB/" tstamps="/60DAA9B3/"/>
+      <tstamp>61DDEC99</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>CP2102-GMR(QFN28)</value>
+      <footprint>Engine-Controller:CP2012-GMR</footprint>
+      <fields>
+        <field name="MPN">CP2102-GMR</field>
+      </fields>
+      <libsource lib="Engine-Controller" part="CP2102-GMR(QFN28)" description=""/>
+      <sheetpath names="/USB/" tstamps="/60DAA9B3/"/>
+      <tstamp>617AED1E</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>SP0504BAHTG</value>
+      <footprint>Engine-Controller:SP0504BAHTG</footprint>
+      <libsource lib="Engine-Controller" part="SP0504BAHTG" description=""/>
+      <sheetpath names="/USB/" tstamps="/60DAA9B3/"/>
+      <tstamp>617B8701</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>0.1uF</value>
+      <footprint>Engine-Controller:CAP_0603</footprint>
+      <libsource lib="Engine-Controller" part="CAP_0603" description=""/>
+      <sheetpath names="/USB/" tstamps="/60DAA9B3/"/>
+      <tstamp>617C51EC</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>1uF</value>
+      <footprint>Engine-Controller:CAP_0603</footprint>
+      <libsource lib="Engine-Controller" part="CAP_0603" description=""/>
+      <sheetpath names="/USB/" tstamps="/60DAA9B3/"/>
+      <tstamp>617C8970</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1k</value>
+      <footprint>Engine-Controller:RES_0603</footprint>
+      <libsource lib="Engine-Controller" part="RES_0603" description=""/>
+      <sheetpath names="/USB/" tstamps="/60DAA9B3/"/>
+      <tstamp>61821336</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>1k</value>
+      <footprint>Engine-Controller:RES_0603</footprint>
+      <libsource lib="Engine-Controller" part="RES_0603" description=""/>
+      <sheetpath names="/USB/" tstamps="/60DAA9B3/"/>
+      <tstamp>61847AEC</tstamp>
+    </comp>
+    <comp ref="TP12">
+      <value>TP</value>
+      <footprint>Engine-Controller:TP</footprint>
+      <libsource lib="Engine-Controller" part="TP" description=""/>
+      <sheetpath names="/USB/" tstamps="/60DAA9B3/"/>
+      <tstamp>61874011</tstamp>
+    </comp>
+    <comp ref="P7">
+      <value>0901471110</value>
+      <footprint>Engine-Controller:0901471110</footprint>
+      <libsource lib="Engine-Controller" part="0901471110" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/60E24895/"/>
+      <tstamp>61BF9E85</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>SBH11-PBPC-D10-RA-BK</value>
+      <footprint>Engine-Controller:SBH11-PBPC-D10-RA-BK</footprint>
+      <libsource lib="Engine-Controller" part="SBH11-PBPC-D10-RA-BK" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/60E24895/"/>
+      <tstamp>6161DED8</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>SN74LV07ADR</value>
+      <footprint>Engine-Controller:SN74LV07ADR</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/cd4010b-q1.pdf</datasheet>
+      <libsource lib="Engine-Controller" part="SN74LV07ADR" description="Hex Buffer"/>
+      <sheetpath names="/Connectors/" tstamps="/60E24895/"/>
+      <tstamp>6192B913</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>66953-005LF</value>
+      <footprint>Engine-Controller:66953-005LF</footprint>
+      <libsource lib="Engine-Controller" part="66953-005LF" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/60E24895/"/>
+      <tstamp>61255D75</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>0901471110</value>
+      <footprint>Engine-Controller:0901471110</footprint>
+      <libsource lib="Engine-Controller" part="0901471110" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/60E24895/"/>
+      <tstamp>61252CB3</tstamp>
+    </comp>
+    <comp ref="LOGO1">
+      <value>Logo</value>
+      <footprint>Engine-Controller:Logo</footprint>
+      <libsource lib="Engine-Controller" part="Logo" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/60E24895/"/>
+      <tstamp>618F5F8B</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>Mounting-Hole</value>
+      <footprint>Engine-Controller:MountingHole_4.3mm_M4_DIN965</footprint>
+      <libsource lib="Engine-Controller" part="Mounting-Hole" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/60E24895/"/>
+      <tstamp>618F69A9</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>Mounting-Hole</value>
+      <footprint>Engine-Controller:MountingHole_4.3mm_M4_DIN965</footprint>
+      <libsource lib="Engine-Controller" part="Mounting-Hole" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/60E24895/"/>
+      <tstamp>618F7698</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>Mounting-Hole</value>
+      <footprint>Engine-Controller:MountingHole_4.3mm_M4_DIN965</footprint>
+      <libsource lib="Engine-Controller" part="Mounting-Hole" description=""/>
+      <sheetpath names="/Connectors/" tstamps="/60E24895/"/>
+      <tstamp>618F7988</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>SST25VF040B-50-4I-S2AE-T</value>
+      <footprint>Engine-Controller:SST25VF040B-50-4I-S2AE-T</footprint>
+      <libsource lib="Engine-Controller" part="SST25VF040B-50-4I-S2AE-T" description=""/>
+      <sheetpath names="/Flash_SD/" tstamps="/6177D07C/"/>
+      <tstamp>617854EA</tstamp>
+    </comp>
+    <comp ref="P6">
+      <value>Micro_SD_Card</value>
+      <footprint>Engine-Controller:GCT_MEM2075-00-140-01-A</footprint>
+      <datasheet>http://katalog.we-online.de/em/datasheet/693072010801.pdf</datasheet>
+      <libsource lib="Engine-Controller" part="Micro_SD_Card" description="Micro SD Card Socket"/>
+      <sheetpath names="/Flash_SD/" tstamps="/6177D07C/"/>
+      <tstamp>617F7CCB</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Engine-Controller:RES_0603</footprint>
+      <libsource lib="Engine-Controller" part="RES_0603" description=""/>
+      <sheetpath names="/Flash_SD/" tstamps="/6177D07C/"/>
+      <tstamp>618D69C9</tstamp>
+    </comp>
+    <comp ref="TP6">
+      <value>TP</value>
+      <footprint>Engine-Controller:TP</footprint>
+      <libsource lib="Engine-Controller" part="TP" description=""/>
+      <sheetpath names="/Flash_SD/" tstamps="/6177D07C/"/>
+      <tstamp>619D48B0</tstamp>
+    </comp>
+    <comp ref="TP7">
+      <value>TP</value>
+      <footprint>Engine-Controller:TP</footprint>
+      <libsource lib="Engine-Controller" part="TP" description=""/>
+      <sheetpath names="/Flash_SD/" tstamps="/6177D07C/"/>
+      <tstamp>619D6A4E</tstamp>
+    </comp>
+    <comp ref="TP8">
+      <value>TP</value>
+      <footprint>Engine-Controller:TP</footprint>
+      <libsource lib="Engine-Controller" part="TP" description=""/>
+      <sheetpath names="/Flash_SD/" tstamps="/6177D07C/"/>
+      <tstamp>619D874E</tstamp>
+    </comp>
+    <comp ref="TP9">
+      <value>TP</value>
+      <footprint>Engine-Controller:TP</footprint>
+      <libsource lib="Engine-Controller" part="TP" description=""/>
+      <sheetpath names="/Flash_SD/" tstamps="/6177D07C/"/>
+      <tstamp>619DE8D4</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>100k</value>
+      <footprint>Engine-Controller:RES_0603</footprint>
+      <libsource lib="Engine-Controller" part="RES_0603" description=""/>
+      <sheetpath names="/Ignition/" tstamps="/618AD610/"/>
+      <tstamp>618D2C46</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>10k</value>
+      <footprint>Engine-Controller:RES_0603</footprint>
+      <libsource lib="Engine-Controller" part="RES_0603" description=""/>
+      <sheetpath names="/Ignition/" tstamps="/618AD610/"/>
+      <tstamp>618D32D3</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>Engine-Controller:RES_0603</footprint>
+      <libsource lib="Engine-Controller" part="RES_0603" description=""/>
+      <sheetpath names="/Ignition/" tstamps="/618AD610/"/>
+      <tstamp>618D3522</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>1k</value>
+      <footprint>Engine-Controller:RES_0603</footprint>
+      <libsource lib="Engine-Controller" part="RES_0603" description=""/>
+      <sheetpath names="/Ignition/" tstamps="/618AD610/"/>
+      <tstamp>618D38B4</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>3k</value>
+      <footprint>Engine-Controller:RES_0603</footprint>
+      <libsource lib="Engine-Controller" part="RES_0603" description=""/>
+      <sheetpath names="/Ignition/" tstamps="/618AD610/"/>
+      <tstamp>618D3CB9</tstamp>
+    </comp>
+    <comp ref="P8">
+      <value>Solid Prop Cont</value>
+      <footprint>Engine-Controller:TE_282837-6</footprint>
+      <libsource lib="Engine-Controller" part="IgnitionScrewTerminal" description=""/>
+      <sheetpath names="/Ignition/" tstamps="/618AD610/"/>
+      <tstamp>618D4545</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>QS5U17TR</value>
+      <footprint>Engine-Controller:QS5U17TR</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <libsource lib="Engine-Controller" part="QS5U17TR" description="0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"/>
+      <sheetpath names="/Ignition/" tstamps="/618AD610/"/>
+      <tstamp>618DCF9C</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>1uF</value>
+      <footprint>Engine-Controller:CAP_0603</footprint>
+      <libsource lib="Engine-Controller" part="CAP_0603" description=""/>
+      <sheetpath names="/Ignition/" tstamps="/618AD610/"/>
+      <tstamp>618E0F45</tstamp>
+    </comp>
+    <comp ref="TP13">
+      <value>TP</value>
+      <footprint>Engine-Controller:TP</footprint>
+      <libsource lib="Engine-Controller" part="TP" description=""/>
+      <sheetpath names="/Ignition/" tstamps="/618AD610/"/>
+      <tstamp>61C07856</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Engine-Controller" part="0901471110">
+      <footprints>
+        <fp>66953-005LF_AMP</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">0901471110</field>
+        <field name="Footprint">66953-005LF_AMP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Engine-Controller" part="150120AS75000">
+      <footprints>
+        <fp>LED_LTST-C150GKT_LTO</fp>
+        <fp>LED_LTST-C150GKT_LTO-M</fp>
+        <fp>LED_LTST-C150GKT_LTO-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">150120AS75000</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Engine-Controller" part="66953-005LF">
+      <footprints>
+        <fp>66953-005LF_AMP</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">66953-005LF</field>
+        <field name="Footprint">66953-005LF_AMP</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="A1" type="passive"/>
+        <pin num="A2" name="A2" type="passive"/>
+        <pin num="A3" name="A3" type="passive"/>
+        <pin num="A4" name="A4" type="passive"/>
+        <pin num="A5" name="A5" type="passive"/>
+        <pin num="B1" name="B1" type="passive"/>
+        <pin num="B2" name="B2" type="passive"/>
+        <pin num="B3" name="B3" type="passive"/>
+        <pin num="B4" name="B4" type="passive"/>
+        <pin num="B5" name="B5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Engine-Controller" part="CAP_0603">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAP_0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Engine-Controller" part="CAP_Polar">
+      <description>Polarized capacitor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAP_Polar</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Engine-Controller" part="CBC3225T220KR">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">CBC3225T220KR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Engine-Controller" part="CP2102-GMR(QFN28)">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CP2102-GMR(QFN28)</field>
+        <field name="Footprint">QFN28G_0.5-5X5MM</field>
+        <field name="MPN">CP2102-GMR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DCD" type="BiDi"/>
+        <pin num="2" name="RI" type="BiDi"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="D+" type="BiDi"/>
+        <pin num="5" name="D-" type="BiDi"/>
+        <pin num="6" name="VDD" type="BiDi"/>
+        <pin num="7" name="REGIN" type="power_in"/>
+        <pin num="8" name="VBUS" type="power_in"/>
+        <pin num="9" name="~RST" type="BiDi"/>
+        <pin num="10" name="NC" type="BiDi"/>
+        <pin num="11" name="~SUSPEND" type="BiDi"/>
+        <pin num="12" name="SUSPEND" type="BiDi"/>
+        <pin num="13" name="NC@1" type="BiDi"/>
+        <pin num="14" name="NC@2" type="BiDi"/>
+        <pin num="15" name="NC@3" type="BiDi"/>
+        <pin num="16" name="NC@4" type="BiDi"/>
+        <pin num="17" name="NC@5" type="BiDi"/>
+        <pin num="18" name="NC/VPP" type="BiDi"/>
+        <pin num="19" name="NC@6" type="BiDi"/>
+        <pin num="20" name="NC@7" type="BiDi"/>
+        <pin num="21" name="NC@8" type="BiDi"/>
+        <pin num="22" name="NC@9" type="BiDi"/>
+        <pin num="23" name="CTS" type="BiDi"/>
+        <pin num="24" name="RTS" type="BiDi"/>
+        <pin num="25" name="RXD" type="BiDi"/>
+        <pin num="26" name="TXD" type="BiDi"/>
+        <pin num="27" name="DSR" type="BiDi"/>
+        <pin num="28" name="DTR" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Engine-Controller" part="CWR11HH106KB">
+      <footprints>
+        <fp>CWR11C_KEM</fp>
+        <fp>CWR11C_KEM-M</fp>
+        <fp>CWR11C_KEM-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CWR11HH106KB</field>
+        <field name="Footprint">CWR11C_KEM</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Engine-Controller" part="EJ508A">
+      <description>DC Barrel Jack with a mounting pin</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>BarrelJack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">EJ508A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="MountPin" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Engine-Controller" part="IgnitionScrewTerminal">
+      <footprints>
+        <fp>66953-005LF_AMP</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">IgnitionScrewTerminal</field>
+        <field name="Footprint">66953-005LF_AMP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="5" type="passive"/>
+        <pin num="2" name="6" type="passive"/>
+        <pin num="3" name="5" type="passive"/>
+        <pin num="4" name="6" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Engine-Controller" part="Jumper_NO">
+      <description>Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*2Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Jumper_NO</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Engine-Controller" part="LM22672MRE-5.0_NOPB">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM22672MRE-5.0_NOPB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="BOOT" type="input"/>
+        <pin num="2" name="SS" type="input"/>
+        <pin num="3" name="RT/SYNC" type="NotConnected"/>
+        <pin num="4" name="FB" type="input"/>
+        <pin num="5" name="EN" type="input"/>
+        <pin num="6" name="GND" type="input"/>
+        <pin num="7" name="VIN" type="input"/>
+        <pin num="8" name="SW" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Engine-Controller" part="LMS8117AMP-3.3_NOPB">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LMS8117AMP-3.3_NOPB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="VOUT" type="output"/>
+        <pin num="3" name="VIN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Engine-Controller" part="Logo">
+      <fields>
+        <field name="Reference">LOGO</field>
+        <field name="Value">Logo</field>
+      </fields>
+    </libpart>
+    <libpart lib="Engine-Controller" part="Micro_SD_Card">
+      <description>Micro SD Card Socket</description>
+      <docs>http://katalog.we-online.de/em/datasheet/693072010801.pdf</docs>
+      <footprints>
+        <fp>microSD*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">Micro_SD_Card</field>
+      </fields>
+      <pins>
+        <pin num="P1" name="DAT2" type="NotConnected"/>
+        <pin num="P2" name="DAT3/CD" type="BiDi"/>
+        <pin num="P3" name="CMD" type="input"/>
+        <pin num="P4" name="VDD" type="power_in"/>
+        <pin num="P5" name="CLK" type="input"/>
+        <pin num="P6" name="VSS" type="power_in"/>
+        <pin num="P7" name="DAT0" type="BiDi"/>
+        <pin num="P8" name="DAT1" type="NotConnected"/>
+        <pin num="P9" name="DETECT" type="passive"/>
+        <pin num="SH1" name="SH1" type="passive"/>
+        <pin num="SH2" name="SH2" type="passive"/>
+        <pin num="SH3" name="SH3" type="passive"/>
+        <pin num="SH4" name="SH4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Engine-Controller" part="Mounting-Hole">
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">Mounting-Hole</field>
+      </fields>
+    </libpart>
+    <libpart lib="Engine-Controller" part="PTS647SM38SMTR2LFS">
+      <footprints>
+        <fp>SW_PTS647SM38SMTR2LFS_CNK</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">B</field>
+        <field name="Value">PTS647SM38SMTR2LFS</field>
+        <field name="Footprint">SW_PTS647SM38SMTR2LFS_CNK</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="NotConnected"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="NotConnected"/>
+      </pins>
+    </libpart>
+    <libpart lib="Engine-Controller" part="QS5U17TR">
+      <description>0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92</description>
+      <docs>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">QS5U17TR</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="G" type="input"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Engine-Controller" part="RB160VAM-60TR">
+      <footprints>
+        <fp>SOD-123FL_MCC</fp>
+        <fp>SOD-123FL_MCC-M</fp>
+        <fp>SOD-123FL_MCC-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">RB160VAM-60TR</field>
+        <field name="Footprint">SOD-123FL_MCC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Engine-Controller" part="RES_0603">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RES_0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Engine-Controller" part="SBH11-PBPC-D10-RA-BK">
+      <footprints>
+        <fp>CONN20_D10-RA-BK_SUL</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">SBH11-PBPC-D10-RA-BK</field>
+        <field name="Footprint">CONN20_D10-RA-BK_SUL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+        <pin num="17" name="17" type="passive"/>
+        <pin num="18" name="18" type="passive"/>
+        <pin num="19" name="19" type="passive"/>
+        <pin num="20" name="20" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Engine-Controller" part="SM5819PL-TP">
+      <footprints>
+        <fp>SOD-123FL_MCC</fp>
+        <fp>SOD-123FL_MCC-M</fp>
+        <fp>SOD-123FL_MCC-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SM5819PL-TP</field>
+        <field name="Footprint">SOD-123FL_MCC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Engine-Controller" part="SML-LX1206GC-TR">
+      <footprints>
+        <fp>LED_LTST-C150GKT_LTO</fp>
+        <fp>LED_LTST-C150GKT_LTO-M</fp>
+        <fp>LED_LTST-C150GKT_LTO-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SML-LX1206GC-TR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Engine-Controller" part="SN74LV07ADR">
+      <description>Hex Buffer</description>
+      <docs>http://www.ti.com/lit/ds/symlink/cd4010b-q1.pdf</docs>
+      <footprints>
+        <fp>DIP?16*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74LV07ADR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="output"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="output"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="output"/>
+        <pin num="7" name="~" type="power_in"/>
+        <pin num="8" name="~" type="output"/>
+        <pin num="9" name="~" type="input"/>
+        <pin num="10" name="~" type="output"/>
+        <pin num="11" name="~" type="input"/>
+        <pin num="12" name="~" type="output"/>
+        <pin num="13" name="~" type="input"/>
+        <pin num="14" name="~" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Engine-Controller" part="SP0504BAHTG">
+      <footprints>
+        <fp>SOD-123FL_MCC</fp>
+        <fp>SOD-123FL_MCC-M</fp>
+        <fp>SOD-123FL_MCC-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SP0504BAHTG</field>
+        <field name="Footprint">SOD-123FL_MCC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Engine-Controller" part="SST25VF040B-50-4I-S2AE-T">
+      <footprints>
+        <fp>SOIC8_S2A_SST_MCH</fp>
+        <fp>SOIC8_S2A_SST_MCH-M</fp>
+        <fp>SOIC8_S2A_SST_MCH-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SST25VF040B-50-4I-S2AE-T</field>
+        <field name="Footprint">SOIC8_S2A_SST_MCH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="*CE" type="input"/>
+        <pin num="2" name="SO" type="output"/>
+        <pin num="3" name="*WP" type="input"/>
+        <pin num="4" name="VSS" type="power_in"/>
+        <pin num="5" name="SI" type="input"/>
+        <pin num="6" name="SCK" type="input"/>
+        <pin num="7" name="*HOLD" type="input"/>
+        <pin num="8" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Engine-Controller" part="STM32H750VBTx">
+      <description>ARM Cortex-M7 MCU, 128KB flash, 864KB RAM, 480MHz, 1.7-3.6V, 82 GPIO, LQFP-100</description>
+      <docs>https://www.st.com/resource/en/datasheet/stm32h750ib.pdf</docs>
+      <footprints>
+        <fp>LQFP*14x14mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32H750VBTx</field>
+        <field name="Footprint">Package_QFP:LQFP-100_14x14mm_P0.5mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PE2" type="BiDi"/>
+        <pin num="2" name="PE3" type="BiDi"/>
+        <pin num="3" name="PE4" type="BiDi"/>
+        <pin num="4" name="PE5" type="BiDi"/>
+        <pin num="5" name="PE6" type="BiDi"/>
+        <pin num="6" name="VBAT" type="power_in"/>
+        <pin num="7" name="PC13" type="BiDi"/>
+        <pin num="8" name="PC14" type="BiDi"/>
+        <pin num="9" name="PC15" type="BiDi"/>
+        <pin num="10" name="VSS" type="power_in"/>
+        <pin num="11" name="VDD" type="power_in"/>
+        <pin num="12" name="PH0" type="input"/>
+        <pin num="13" name="PH1" type="input"/>
+        <pin num="14" name="NRST" type="input"/>
+        <pin num="15" name="PC0" type="BiDi"/>
+        <pin num="16" name="PC1" type="BiDi"/>
+        <pin num="17" name="PC2_C" type="BiDi"/>
+        <pin num="18" name="PC3_C" type="BiDi"/>
+        <pin num="19" name="VSSA" type="power_in"/>
+        <pin num="20" name="VREF+" type="BiDi"/>
+        <pin num="21" name="VDDA" type="power_in"/>
+        <pin num="22" name="PA0" type="BiDi"/>
+        <pin num="23" name="PA1" type="BiDi"/>
+        <pin num="24" name="PA2" type="BiDi"/>
+        <pin num="25" name="PA3" type="BiDi"/>
+        <pin num="26" name="VSS" type="power_in"/>
+        <pin num="27" name="VDD" type="power_in"/>
+        <pin num="28" name="PA4" type="BiDi"/>
+        <pin num="29" name="PA5" type="BiDi"/>
+        <pin num="30" name="PA6" type="BiDi"/>
+        <pin num="31" name="PA7" type="BiDi"/>
+        <pin num="32" name="PC4" type="BiDi"/>
+        <pin num="33" name="PC5" type="BiDi"/>
+        <pin num="34" name="PB0" type="BiDi"/>
+        <pin num="35" name="PB1" type="BiDi"/>
+        <pin num="36" name="PB2" type="BiDi"/>
+        <pin num="37" name="PE7" type="BiDi"/>
+        <pin num="38" name="PE8" type="BiDi"/>
+        <pin num="39" name="PE9" type="BiDi"/>
+        <pin num="40" name="PE10" type="BiDi"/>
+        <pin num="41" name="PE11" type="BiDi"/>
+        <pin num="42" name="PE12" type="BiDi"/>
+        <pin num="43" name="PE13" type="BiDi"/>
+        <pin num="44" name="PE14" type="BiDi"/>
+        <pin num="45" name="PE15" type="BiDi"/>
+        <pin num="46" name="PB10" type="BiDi"/>
+        <pin num="47" name="PB11" type="BiDi"/>
+        <pin num="48" name="VCAP1" type="passive"/>
+        <pin num="49" name="VSS" type="power_in"/>
+        <pin num="50" name="VDD" type="power_in"/>
+        <pin num="51" name="PB12" type="BiDi"/>
+        <pin num="52" name="PB13" type="BiDi"/>
+        <pin num="53" name="PB14" type="BiDi"/>
+        <pin num="54" name="PB15" type="BiDi"/>
+        <pin num="55" name="PD8" type="BiDi"/>
+        <pin num="56" name="PD9" type="BiDi"/>
+        <pin num="57" name="PD10" type="BiDi"/>
+        <pin num="58" name="PD11" type="BiDi"/>
+        <pin num="59" name="PD12" type="BiDi"/>
+        <pin num="60" name="PD13" type="BiDi"/>
+        <pin num="61" name="PD14" type="BiDi"/>
+        <pin num="62" name="PD15" type="BiDi"/>
+        <pin num="63" name="PC6" type="BiDi"/>
+        <pin num="64" name="PC7" type="BiDi"/>
+        <pin num="65" name="PC8" type="BiDi"/>
+        <pin num="66" name="PC9" type="BiDi"/>
+        <pin num="67" name="PA8" type="BiDi"/>
+        <pin num="68" name="PA9" type="BiDi"/>
+        <pin num="69" name="PA10" type="BiDi"/>
+        <pin num="70" name="PA11" type="BiDi"/>
+        <pin num="71" name="PA12" type="BiDi"/>
+        <pin num="72" name="PA13" type="BiDi"/>
+        <pin num="73" name="VCAP2" type="passive"/>
+        <pin num="74" name="VSS" type="power_in"/>
+        <pin num="75" name="VDD" type="power_in"/>
+        <pin num="76" name="PA14" type="BiDi"/>
+        <pin num="77" name="PA15" type="BiDi"/>
+        <pin num="78" name="PC10" type="BiDi"/>
+        <pin num="79" name="PC11" type="BiDi"/>
+        <pin num="80" name="PC12" type="BiDi"/>
+        <pin num="81" name="PD0" type="BiDi"/>
+        <pin num="82" name="PD1" type="BiDi"/>
+        <pin num="83" name="PD2" type="BiDi"/>
+        <pin num="84" name="PD3" type="BiDi"/>
+        <pin num="85" name="PD4" type="BiDi"/>
+        <pin num="86" name="PD5" type="BiDi"/>
+        <pin num="87" name="PD6" type="BiDi"/>
+        <pin num="88" name="PD7" type="BiDi"/>
+        <pin num="89" name="PB3" type="BiDi"/>
+        <pin num="90" name="PB4" type="BiDi"/>
+        <pin num="91" name="PB5" type="BiDi"/>
+        <pin num="92" name="PB6" type="BiDi"/>
+        <pin num="93" name="PB7" type="BiDi"/>
+        <pin num="94" name="BOOT0" type="input"/>
+        <pin num="95" name="PB8" type="BiDi"/>
+        <pin num="96" name="PB9" type="BiDi"/>
+        <pin num="97" name="PE0" type="BiDi"/>
+        <pin num="98" name="PE1" type="BiDi"/>
+        <pin num="99" name="VSS" type="power_in"/>
+        <pin num="100" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Engine-Controller" part="TP">
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Engine-Controller" part="TPS2115APWR">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS2115APWR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="STAT" type="input"/>
+        <pin num="2" name="D0" type="input"/>
+        <pin num="3" name="D1" type="input"/>
+        <pin num="4" name="ILIM" type="input"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="IN2" type="input"/>
+        <pin num="7" name="OUT" type="power_out"/>
+        <pin num="8" name="IN1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Engine-Controller" part="UKL1C220KDDANATD">
+      <description>Polarized capacitor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">UKL1C220KDDANATD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Engine-Controller" part="USB">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">USB</field>
+        <field name="Footprint">BEL_SS-52300-001</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_out"/>
+        <pin num="2" name="D-" type="BiDi"/>
+        <pin num="3" name="D+" type="BiDi"/>
+        <pin num="4" name="GND" type="power_out"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+        <pin num="S2" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Engine-Controller">
+      <uri>/home/olsport/Documents/SDR/PCB/Liquids-Engine-Controller/lib/Engine-Controller.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="~USB_RST">
+      <node ref="U1" pin="66"/>
+      <node ref="R4" pin="1"/>
+      <node ref="U7" pin="9"/>
+    </net>
+    <net code="2" name="Net-(U1-Pad65)">
+      <node ref="U1" pin="65"/>
+    </net>
+    <net code="3" name="Net-(U1-Pad64)">
+      <node ref="U1" pin="64"/>
+    </net>
+    <net code="4" name="Net-(U1-Pad63)">
+      <node ref="U1" pin="63"/>
+    </net>
+    <net code="5" name="Net-(U1-Pad62)">
+      <node ref="U1" pin="62"/>
+    </net>
+    <net code="6" name="Net-(U1-Pad61)">
+      <node ref="U1" pin="61"/>
+    </net>
+    <net code="7" name="Net-(U1-Pad60)">
+      <node ref="U1" pin="60"/>
+    </net>
+    <net code="8" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="9" name="Net-(U1-Pad59)">
+      <node ref="U1" pin="59"/>
+    </net>
+    <net code="10" name="Net-(U1-Pad58)">
+      <node ref="U1" pin="58"/>
+    </net>
+    <net code="11" name="Net-(U1-Pad57)">
+      <node ref="U1" pin="57"/>
+    </net>
+    <net code="12" name="Net-(U1-Pad67)">
+      <node ref="U1" pin="67"/>
+    </net>
+    <net code="13" name="FLASH_MOSI">
+      <node ref="TP9" pin="1"/>
+      <node ref="P6" pin="P3"/>
+      <node ref="U1" pin="54"/>
+      <node ref="U5" pin="5"/>
+    </net>
+    <net code="14" name="FLASH_MISO">
+      <node ref="TP7" pin="1"/>
+      <node ref="P6" pin="P7"/>
+      <node ref="U5" pin="2"/>
+      <node ref="U1" pin="53"/>
+    </net>
+    <net code="15" name="Net-(U1-Pad52)">
+      <node ref="U1" pin="52"/>
+    </net>
+    <net code="16" name="FIRE">
+      <node ref="TP13" pin="1"/>
+      <node ref="U1" pin="5"/>
+      <node ref="C20" pin="2"/>
+      <node ref="R13" pin="1"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="17" name="Net-(U1-Pad47)">
+      <node ref="U1" pin="47"/>
+    </net>
+    <net code="18" name="Net-(U1-Pad45)">
+      <node ref="U1" pin="45"/>
+    </net>
+    <net code="19" name="Net-(U1-Pad44)">
+      <node ref="U1" pin="44"/>
+    </net>
+    <net code="20" name="Net-(U1-Pad78)">
+      <node ref="U1" pin="78"/>
+    </net>
+    <net code="21" name="SWO">
+      <node ref="U1" pin="89"/>
+      <node ref="P3" pin="13"/>
+    </net>
+    <net code="22" name="PD5">
+      <node ref="U4" pin="13"/>
+      <node ref="U1" pin="86"/>
+    </net>
+    <net code="23" name="PD4">
+      <node ref="U1" pin="85"/>
+      <node ref="U4" pin="11"/>
+    </net>
+    <net code="24" name="PD3">
+      <node ref="U1" pin="84"/>
+      <node ref="U4" pin="9"/>
+    </net>
+    <net code="25" name="PD1">
+      <node ref="U4" pin="3"/>
+      <node ref="U1" pin="82"/>
+    </net>
+    <net code="26" name="PD0">
+      <node ref="U4" pin="1"/>
+      <node ref="U1" pin="81"/>
+    </net>
+    <net code="27" name="Net-(U1-Pad80)">
+      <node ref="U1" pin="80"/>
+    </net>
+    <net code="28" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="29" name="~USB_SUSPEND">
+      <node ref="R10" pin="1"/>
+      <node ref="TP12" pin="1"/>
+      <node ref="U7" pin="11"/>
+      <node ref="U1" pin="79"/>
+    </net>
+    <net code="30" name="Net-(U1-Pad43)">
+      <node ref="U1" pin="43"/>
+    </net>
+    <net code="31" name="Net-(U1-Pad77)">
+      <node ref="U1" pin="77"/>
+    </net>
+    <net code="32" name="Net-(U1-Pad71)">
+      <node ref="U1" pin="71"/>
+    </net>
+    <net code="33" name="Net-(U1-Pad70)">
+      <node ref="U1" pin="70"/>
+    </net>
+    <net code="34" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="35" name="TX_USB">
+      <node ref="U7" pin="26"/>
+      <node ref="U1" pin="69"/>
+    </net>
+    <net code="36" name="RX_USB">
+      <node ref="U1" pin="68"/>
+      <node ref="U7" pin="25"/>
+    </net>
+    <net code="37" name="Net-(U1-Pad18)">
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="38" name="Net-(U1-Pad17)">
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="39" name="A1">
+      <node ref="U1" pin="16"/>
+      <node ref="P7" pin="2"/>
+    </net>
+    <net code="40" name="Net-(U1-Pad13)">
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="41" name="Net-(U1-Pad12)">
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="42" name="Net-(U1-Pad42)">
+      <node ref="U1" pin="42"/>
+    </net>
+    <net code="43" name="Net-(U1-Pad41)">
+      <node ref="U1" pin="41"/>
+    </net>
+    <net code="44" name="Net-(U1-Pad40)">
+      <node ref="U1" pin="40"/>
+    </net>
+    <net code="45" name="NOZ_CONT">
+      <node ref="R14" pin="2"/>
+      <node ref="U1" pin="39"/>
+      <node ref="P8" pin="3"/>
+    </net>
+    <net code="46" name="SP_CONT">
+      <node ref="P8" pin="5"/>
+      <node ref="R15" pin="2"/>
+      <node ref="U1" pin="38"/>
+    </net>
+    <net code="47" name="E_CONT">
+      <node ref="R12" pin="1"/>
+      <node ref="U1" pin="37"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="48" name="Net-(U1-Pad36)">
+      <node ref="U1" pin="36"/>
+    </net>
+    <net code="49" name="Net-(U1-Pad34)">
+      <node ref="U1" pin="34"/>
+    </net>
+    <net code="50" name="A5">
+      <node ref="P7" pin="6"/>
+      <node ref="U1" pin="33"/>
+    </net>
+    <net code="51" name="SS">
+      <node ref="P5" pin="B5"/>
+      <node ref="U1" pin="32"/>
+    </net>
+    <net code="52" name="Net-(U1-Pad9)">
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="53" name="A4">
+      <node ref="U1" pin="28"/>
+      <node ref="P7" pin="5"/>
+    </net>
+    <net code="54" name="Earth">
+      <node ref="P2" pin="4"/>
+      <node ref="U7" pin="3"/>
+      <node ref="D7" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="P2" pin="S2"/>
+      <node ref="C17" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="D6" pin="1"/>
+      <node ref="P2" pin="S1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="TP3" pin="1"/>
+      <node ref="P1" pin="2"/>
+      <node ref="P1" pin="3"/>
+      <node ref="U2" pin="6"/>
+      <node ref="R5" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="U3" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C20" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U5" pin="4"/>
+      <node ref="P8" pin="4"/>
+      <node ref="P8" pin="6"/>
+      <node ref="P6" pin="SH3"/>
+      <node ref="U4" pin="7"/>
+      <node ref="U4" pin="7"/>
+      <node ref="U4" pin="7"/>
+      <node ref="P3" pin="8"/>
+      <node ref="U4" pin="7"/>
+      <node ref="R12" pin="2"/>
+      <node ref="U4" pin="7"/>
+      <node ref="P6" pin="SH2"/>
+      <node ref="P6" pin="SH4"/>
+      <node ref="P6" pin="SH1"/>
+      <node ref="P6" pin="P6"/>
+      <node ref="R13" pin="2"/>
+      <node ref="P5" pin="B1"/>
+      <node ref="C19" pin="1"/>
+      <node ref="D8" pin="2"/>
+      <node ref="U4" pin="7"/>
+      <node ref="P7" pin="10"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="P3" pin="6"/>
+      <node ref="P3" pin="5"/>
+      <node ref="P3" pin="4"/>
+      <node ref="P3" pin="3"/>
+      <node ref="P3" pin="20"/>
+      <node ref="P3" pin="18"/>
+      <node ref="P3" pin="16"/>
+      <node ref="P3" pin="14"/>
+      <node ref="P3" pin="12"/>
+      <node ref="P3" pin="10"/>
+      <node ref="C16" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C23" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="U1" pin="10"/>
+      <node ref="U1" pin="99"/>
+      <node ref="C14" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C27" pin="1"/>
+      <node ref="C24" pin="1"/>
+      <node ref="U1" pin="26"/>
+      <node ref="C26" pin="1"/>
+      <node ref="C25" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="U1" pin="74"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C22" pin="1"/>
+      <node ref="U1" pin="49"/>
+      <node ref="U6" pin="3"/>
+      <node ref="U1" pin="19"/>
+      <node ref="R9" pin="2"/>
+      <node ref="C21" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="U6" pin="5"/>
+    </net>
+    <net code="55" name="Net-(C26-Pad2)">
+      <node ref="C27" pin="2"/>
+      <node ref="C26" pin="2"/>
+      <node ref="U1" pin="73"/>
+    </net>
+    <net code="56" name="RX">
+      <node ref="U1" pin="25"/>
+      <node ref="P5" pin="A2"/>
+    </net>
+    <net code="57" name="3.3V">
+      <node ref="C9" pin="2"/>
+      <node ref="P7" pin="9"/>
+      <node ref="J2" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R10" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="P6" pin="P4"/>
+      <node ref="C11" pin="2"/>
+      <node ref="U5" pin="8"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="U4" pin="14"/>
+      <node ref="U4" pin="14"/>
+      <node ref="U1" pin="27"/>
+      <node ref="D3" pin="2"/>
+      <node ref="U4" pin="14"/>
+      <node ref="R14" pin="1"/>
+      <node ref="R15" pin="1"/>
+      <node ref="U1" pin="21"/>
+      <node ref="U3" pin="2"/>
+      <node ref="U1" pin="75"/>
+      <node ref="U4" pin="14"/>
+      <node ref="U1" pin="20"/>
+      <node ref="U1" pin="100"/>
+      <node ref="U1" pin="11"/>
+      <node ref="U4" pin="14"/>
+      <node ref="R8" pin="2"/>
+      <node ref="U4" pin="14"/>
+      <node ref="TP5" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="U1" pin="50"/>
+      <node ref="C24" pin="2"/>
+      <node ref="C21" pin="2"/>
+    </net>
+    <net code="58" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2"/>
+      <node ref="U1" pin="94"/>
+    </net>
+    <net code="59" name="Net-(C23-Pad2)">
+      <node ref="C23" pin="2"/>
+      <node ref="U1" pin="48"/>
+      <node ref="C25" pin="2"/>
+    </net>
+    <net code="60" name="Net-(D1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="61" name="NRST">
+      <node ref="U1" pin="14"/>
+      <node ref="B1" pin="1"/>
+      <node ref="R6" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="P3" pin="15"/>
+      <node ref="TP1" pin="1"/>
+    </net>
+    <net code="62" name="Net-(U1-Pad90)">
+      <node ref="U1" pin="90"/>
+    </net>
+    <net code="63" name="Net-(U1-Pad97)">
+      <node ref="U1" pin="97"/>
+    </net>
+    <net code="64" name="Net-(U1-Pad95)">
+      <node ref="U1" pin="95"/>
+    </net>
+    <net code="65" name="SDA">
+      <node ref="P5" pin="A5"/>
+      <node ref="U1" pin="93"/>
+    </net>
+    <net code="66" name="SCL">
+      <node ref="U1" pin="92"/>
+      <node ref="P5" pin="A4"/>
+    </net>
+    <net code="67" name="Net-(U1-Pad91)">
+      <node ref="U1" pin="91"/>
+    </net>
+    <net code="68" name="TX">
+      <node ref="P5" pin="A3"/>
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="69" name="5V_SRC">
+      <node ref="U6" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="TP10" pin="1"/>
+    </net>
+    <net code="70" name="SD_DETECT">
+      <node ref="P6" pin="P9"/>
+      <node ref="R7" pin="1"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="71" name="FLASH_HOLD">
+      <node ref="U1" pin="2"/>
+      <node ref="U5" pin="7"/>
+    </net>
+    <net code="72" name="FLASH_WP">
+      <node ref="U5" pin="3"/>
+      <node ref="U1" pin="98"/>
+    </net>
+    <net code="73" name="Net-(B1-Pad3)">
+      <node ref="B1" pin="3"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="74" name="A3">
+      <node ref="P7" pin="4"/>
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="75" name="SWCLK">
+      <node ref="U1" pin="76"/>
+      <node ref="P3" pin="9"/>
+    </net>
+    <net code="76" name="SWDIO">
+      <node ref="P3" pin="7"/>
+      <node ref="U1" pin="72"/>
+    </net>
+    <net code="77" name="FLASH_SCK">
+      <node ref="U5" pin="6"/>
+      <node ref="P6" pin="P5"/>
+      <node ref="U1" pin="46"/>
+      <node ref="TP8" pin="1"/>
+    </net>
+    <net code="78" name="FLASH_SS">
+      <node ref="U5" pin="1"/>
+      <node ref="U1" pin="51"/>
+      <node ref="TP6" pin="1"/>
+    </net>
+    <net code="79" name="A0">
+      <node ref="U1" pin="15"/>
+      <node ref="P7" pin="1"/>
+    </net>
+    <net code="80" name="A2">
+      <node ref="U1" pin="22"/>
+      <node ref="P7" pin="3"/>
+    </net>
+    <net code="81" name="A6">
+      <node ref="U1" pin="35"/>
+      <node ref="P7" pin="7"/>
+    </net>
+    <net code="82" name="SD_SS">
+      <node ref="P6" pin="P2"/>
+      <node ref="U1" pin="96"/>
+    </net>
+    <net code="83" name="PD2">
+      <node ref="U1" pin="83"/>
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="84" name="PD9">
+      <node ref="P4" pin="10"/>
+      <node ref="U1" pin="56"/>
+    </net>
+    <net code="85" name="PD8">
+      <node ref="U1" pin="55"/>
+      <node ref="P4" pin="9"/>
+    </net>
+    <net code="86" name="PD7">
+      <node ref="U1" pin="88"/>
+      <node ref="P4" pin="8"/>
+    </net>
+    <net code="87" name="PD6">
+      <node ref="U1" pin="87"/>
+      <node ref="P4" pin="7"/>
+    </net>
+    <net code="88" name="Net-(B1-Pad4)">
+      <node ref="B1" pin="4"/>
+    </net>
+    <net code="89" name="Net-(B1-Pad2)">
+      <node ref="B1" pin="2"/>
+    </net>
+    <net code="90" name="/MCU_STATUS">
+      <node ref="D1" pin="2"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="91" name="MOSI">
+      <node ref="U1" pin="31"/>
+      <node ref="P5" pin="B4"/>
+    </net>
+    <net code="92" name="MISO">
+      <node ref="U1" pin="30"/>
+      <node ref="P5" pin="B3"/>
+    </net>
+    <net code="93" name="SCK">
+      <node ref="U1" pin="29"/>
+      <node ref="P5" pin="B2"/>
+    </net>
+    <net code="94" name="5V_BUCK">
+      <node ref="C5" pin="1"/>
+      <node ref="U6" pin="8"/>
+      <node ref="L1" pin="2"/>
+      <node ref="TP11" pin="1"/>
+      <node ref="C15" pin="2"/>
+      <node ref="U2" pin="4"/>
+      <node ref="C17" pin="2"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="95" name="5V_USB">
+      <node ref="C16" pin="2"/>
+      <node ref="U7" pin="8"/>
+      <node ref="U7" pin="7"/>
+      <node ref="C19" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="P2" pin="1"/>
+      <node ref="U6" pin="6"/>
+      <node ref="D8" pin="1"/>
+    </net>
+    <net code="96" name="Net-(U6-Pad2)">
+      <node ref="U6" pin="2"/>
+    </net>
+    <net code="97" name="Net-(R9-Pad1)">
+      <node ref="R9" pin="1"/>
+      <node ref="U6" pin="4"/>
+    </net>
+    <net code="98" name="Net-(D6-Pad2)">
+      <node ref="R2" pin="2"/>
+      <node ref="D6" pin="2"/>
+    </net>
+    <net code="99" name="Net-(D7-Pad2)">
+      <node ref="R3" pin="2"/>
+      <node ref="D7" pin="2"/>
+    </net>
+    <net code="100" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="101" name="Net-(U2-Pad5)">
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="102" name="Net-(C4-Pad1)">
+      <node ref="U2" pin="8"/>
+      <node ref="L1" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="103" name="Net-(C4-Pad2)">
+      <node ref="C4" pin="2"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="104" name="/power/5V">
+      <node ref="C6" pin="1"/>
+      <node ref="U6" pin="7"/>
+      <node ref="U3" pin="3"/>
+      <node ref="TP4" pin="1"/>
+    </net>
+    <net code="105" name="Net-(C3-Pad2)">
+      <node ref="U2" pin="2"/>
+      <node ref="C3" pin="2"/>
+    </net>
+    <net code="106" name="/power/V_JACK">
+      <node ref="P1" pin="1"/>
+      <node ref="D5" pin="2"/>
+    </net>
+    <net code="107" name="VIN">
+      <node ref="D5" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="U2" pin="7"/>
+      <node ref="D4" pin="1"/>
+      <node ref="TP2" pin="1"/>
+      <node ref="P8" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="108" name="V_HEAD">
+      <node ref="P5" pin="A1"/>
+      <node ref="D4" pin="2"/>
+    </net>
+    <net code="109" name="Net-(U2-Pad3)">
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="110" name="Net-(D8-Pad5)">
+      <node ref="D8" pin="5"/>
+    </net>
+    <net code="111" name="/USB/D-">
+      <node ref="U7" pin="5"/>
+      <node ref="P2" pin="2"/>
+      <node ref="D8" pin="3"/>
+    </net>
+    <net code="112" name="Net-(U7-Pad27)">
+      <node ref="U7" pin="27"/>
+    </net>
+    <net code="113" name="Net-(U7-Pad24)">
+      <node ref="U7" pin="24"/>
+    </net>
+    <net code="114" name="Net-(U7-Pad23)">
+      <node ref="U7" pin="23"/>
+    </net>
+    <net code="115" name="Net-(U7-Pad1)">
+      <node ref="U7" pin="1"/>
+    </net>
+    <net code="116" name="Net-(U7-Pad2)">
+      <node ref="U7" pin="2"/>
+    </net>
+    <net code="117" name="Net-(U7-Pad28)">
+      <node ref="U7" pin="28"/>
+    </net>
+    <net code="118" name="/USB/D+">
+      <node ref="U7" pin="4"/>
+      <node ref="D8" pin="4"/>
+      <node ref="P2" pin="3"/>
+    </net>
+    <net code="119" name="Net-(U7-Pad6)">
+      <node ref="U7" pin="6"/>
+    </net>
+    <net code="120" name="Net-(U7-Pad12)">
+      <node ref="U7" pin="12"/>
+    </net>
+    <net code="121" name="Net-(U7-Pad21)">
+      <node ref="U7" pin="21"/>
+    </net>
+    <net code="122" name="Net-(U7-Pad14)">
+      <node ref="U7" pin="14"/>
+    </net>
+    <net code="123" name="Net-(U7-Pad15)">
+      <node ref="U7" pin="15"/>
+    </net>
+    <net code="124" name="Net-(U7-Pad16)">
+      <node ref="U7" pin="16"/>
+    </net>
+    <net code="125" name="Net-(U7-Pad17)">
+      <node ref="U7" pin="17"/>
+    </net>
+    <net code="126" name="Net-(U7-Pad18)">
+      <node ref="U7" pin="18"/>
+    </net>
+    <net code="127" name="Net-(U7-Pad19)">
+      <node ref="U7" pin="19"/>
+    </net>
+    <net code="128" name="Net-(U7-Pad20)">
+      <node ref="U7" pin="20"/>
+    </net>
+    <net code="129" name="Net-(U7-Pad13)">
+      <node ref="U7" pin="13"/>
+    </net>
+    <net code="130" name="Net-(U7-Pad22)">
+      <node ref="U7" pin="22"/>
+    </net>
+    <net code="131" name="Net-(U7-Pad10)">
+      <node ref="U7" pin="10"/>
+    </net>
+    <net code="132" name="PD0_BUF">
+      <node ref="U4" pin="2"/>
+      <node ref="P4" pin="1"/>
+    </net>
+    <net code="133" name="PD1_BUF">
+      <node ref="P4" pin="2"/>
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="134" name="PD2_BUF">
+      <node ref="P4" pin="3"/>
+      <node ref="U4" pin="6"/>
+    </net>
+    <net code="135" name="PD3_BUF">
+      <node ref="P4" pin="4"/>
+      <node ref="U4" pin="8"/>
+    </net>
+    <net code="136" name="PD4_BUF">
+      <node ref="P4" pin="5"/>
+      <node ref="U4" pin="10"/>
+    </net>
+    <net code="137" name="PD5_BUF">
+      <node ref="P4" pin="6"/>
+      <node ref="U4" pin="12"/>
+    </net>
+    <net code="138" name="Net-(P3-Pad11)">
+      <node ref="P3" pin="11"/>
+    </net>
+    <net code="139" name="Net-(P3-Pad17)">
+      <node ref="P3" pin="17"/>
+    </net>
+    <net code="140" name="Net-(P3-Pad19)">
+      <node ref="P3" pin="19"/>
+    </net>
+    <net code="141" name="Net-(P3-Pad1)">
+      <node ref="P3" pin="1"/>
+    </net>
+    <net code="142" name="Net-(P3-Pad2)">
+      <node ref="P3" pin="2"/>
+    </net>
+    <net code="143" name="Net-(P7-Pad8)">
+      <node ref="P7" pin="8"/>
+    </net>
+    <net code="144" name="Net-(P6-PadP1)">
+      <node ref="P6" pin="P1"/>
+    </net>
+    <net code="145" name="Net-(P6-PadP8)">
+      <node ref="P6" pin="P8"/>
+    </net>
+    <net code="146" name="Net-(P8-Pad2)">
+      <node ref="Q1" pin="3"/>
+      <node ref="P8" pin="2"/>
+      <node ref="R11" pin="1"/>
+    </net>
+  </nets>
+</export>
