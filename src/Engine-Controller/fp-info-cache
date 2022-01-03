@@ -1,4 +1,4 @@
-71876472304722
+70268409158450
 Engine-Controller
 12V_power_jack
 
@@ -204,13 +204,6 @@ SST25VF040B-50-4I-S2AE-T
 8
 Engine-Controller
 STM32H750VBT6
-
-
-0
-100
-100
-Engine-Controller
-STM32L443VCT6
 
 
 0

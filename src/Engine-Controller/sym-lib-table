@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name Engine-Controller)(type Legacy)(uri /home/olsport/Documents/SDR/PCB/Liquids-Engine-Controller/lib/Engine-Controller.lib)(options "")(descr ""))
   (lib (name Instrumentation-Amplifier_L-0001)(type Legacy)(uri /home/olsport/Documents/SDR/PCB/Instrumentation-Amplifier/lib/Instrumentation-Amplifier_L-0001.lib)(options "")(descr ""))
+  (lib (name Device)(type Legacy)(uri /home/olsport/Software/kicad/kicad-symbols-master/Device.lib)(options "")(descr ""))
 )
