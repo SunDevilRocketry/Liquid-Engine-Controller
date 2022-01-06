@@ -60,7 +60,7 @@
 
 <h3>Ignition: </h3>
 
-<img src"img/Ignition-Schematic.png">
+<img src="img/Ignition-Schematic.png">
 
 <h2>PCB: </h2>
 
