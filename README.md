@@ -14,7 +14,7 @@
  consisting of an ignition e-match and two continuity wires. The board supplies 2A 
  to the ignition e-match using a power MOSFET, and the continuity wires provide 
  feedback to the controller on the status of the solid propellant slug and main 
- propellant ignition statues. Additionally, the board includes a reset button 
+ propellant ignition statuses. Additionally, the board includes a reset button 
  and several LEDs for visual indication of the power and firmware status of the 
  controller. </p>
 
@@ -29,7 +29,7 @@
 
    production: files needed for pcb fabrication, e.g. gerbers, profile, drill file
 
-   sim: simulation files 
+   sim: simulation models/files 
 
    cad: 3d models
   
