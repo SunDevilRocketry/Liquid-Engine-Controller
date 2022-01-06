@@ -36,7 +36,7 @@
    img: images of circuit/footprints for github display 
 </p>
 
-<h2>PCB: </h2>
+<h2>3D Model: </h2>
 
 <img src="img/Engine-Controller-TOP.jpg">
 <img src="img/Engine-Controller-BOTTOM.jpg">
