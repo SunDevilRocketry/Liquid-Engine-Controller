@@ -36,6 +36,11 @@
    img: images of circuit/footprints for github display 
 </p>
 
+<h2>PCB: </h2>
+
+<img src="img/Engine-Controller-TOP.jpg">
+<img src="img/Engine-Controller-BOTTOM.jpg">
+
 <h2>Schematic: </h2>
 
 <h3>Microcontroller:</h3>
@@ -61,8 +66,3 @@
 <h3>Ignition: </h3>
 
 <img src="img/Ignition-Schematic.png">
-
-<h2>PCB: </h2>
-
-<img src="img/Engine-Controller-TOP.jpg">
-<img src="img/Engine-Controller-BOTTOM.jpg">
