@@ -3898,7 +3898,7 @@
     (property "Footprint" "" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4010b-q1.pdf" (id 3) (at 0 0 0)
+    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4010b-q1.pdf" (id 3) (at -0.635 -15.875 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_locked" "" (id 4) (at 0 0 0)
