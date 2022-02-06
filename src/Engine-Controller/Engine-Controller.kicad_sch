@@ -1749,6 +1749,11 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 4924e957-7cbf-4e25-bf58-9af9067ba55f)
   )
+  (polyline (pts (xy 11.43 161.29) (xy 68.58 161.29))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 4c164d3a-ccc9-4358-b1c8-6c002c8b2fdf)
+  )
+
   (wire (pts (xy 76.2 111.76) (xy 73.025 111.76))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 4cc0e615-05a0-4f42-a208-4011ba8ef841)
@@ -2013,6 +2018,11 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid d1c19c11-0a13-4237-b6b4-fb2ef1db7c6d)
   )
+  (polyline (pts (xy 68.58 161.29) (xy 68.58 199.39))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid d2546b71-e5d3-4081-8764-73f6a22918f5)
+  )
+
   (wire (pts (xy 175.26 93.98) (xy 177.8 93.98))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid d68e5ddb-039c-483f-88a3-1b0b7964b482)
@@ -2141,6 +2151,11 @@
   (text "Microcontroller Decoupling Caps" (at 29.21 44.45 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e0c7ddff-8c90-465f-be62-21fb49b059fa)
+  )
+
+  (label "RGB Status LED" (at 25.4 165.1 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 165e991a-44e8-467a-931a-a38bad89dfae)
   )
 
   (global_label "TX_USB" (shape input) (at 73.025 111.76 180) (fields_autoplaced)
