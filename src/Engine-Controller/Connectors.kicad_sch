@@ -2623,7 +2623,7 @@
     (pin "7" (uuid e02b47af-92a8-4b6e-841f-f88d0fa73eb7))
   )
 
-  (symbol (lib_id "Engine-Controller:Earth") (at 143.51 146.685 0)
+  (symbol (lib_id "Engine-Controller:Earth") (at 143.51 146.685 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006193d92b)
     (property "Reference" "#PWR06" (id 0) (at 143.51 153.035 0)
