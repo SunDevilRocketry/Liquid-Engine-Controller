@@ -10,7 +10,8 @@
  for flexible use of the controller during testing and normal operation. These 
  inlcude a 12V power jack, a USB Type B connector, and female header pins which 
  are regulated down to 5V and 3.3V with a buck converter and linear regulator 
- power supply. The screw terminals on the board connect to the ignition wires, 
+ power supply. The board includes a UART to USB transceiver for easy PC interfacing. 
+ The screw terminals on the board connect to the ignition wires, 
  consisting of an ignition e-match and two continuity wires. The board supplies 2A 
  to the ignition e-match using a power MOSFET, and the continuity wires provide 
  feedback to the controller on the status of the solid propellant slug and main 
