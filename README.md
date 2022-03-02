@@ -4,11 +4,11 @@
 <p>PCB Part Number: L0002</p>
 
 <p>The Liquids Engine Controller PCB is the main embedded processor of SDR's 
- Liquid Engine. The Controller is equipped wth an STM32 ARM Cortex M7 processor 
+ Liquid Engine. The Controller is equipped with an STM32 ARM Cortex M7 processor 
  and 4Mb of external flash for data logging. The board includes a micro-SD card 
  jack for easy access to the logged data. The board includes many power sources 
  for flexible use of the controller during testing and normal operation. These 
- inlcude a 12V power jack, a USB Type B connector, and female header pins which 
+ include a 12V power jack, a USB Type B connector, and female header pins which 
  are regulated down to 5V and 3.3V with a buck converter and linear regulator 
  power supply. The board includes a UART to USB transceiver for easy PC interfacing. 
  The screw terminals on the board connect to the ignition wires, 
