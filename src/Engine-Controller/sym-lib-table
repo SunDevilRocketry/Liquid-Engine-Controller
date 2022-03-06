@@ -1,4 +1,4 @@
 (sym_lib_table
   (lib (name "Device")(type "Legacy")(uri "/home/olsport/Software/kicad/kicad-symbols-master/Device.lib")(options "")(descr "")(disabled))
-  (lib (name "Engine-Controller")(type "KiCad")(uri "C:/Users/gza12/OneDrive/Documents/GitHub/L0002-Liquids-Engine-Controller/lib/Engine-Controller.kicad_sym")(options "")(descr ""))
+  (lib (name "Engine-Controller")(type "KiCad")(uri "/home/olsport/Documents/SDR/PCB/L0002-Liquids-Engine-Controller/lib/Engine-Controller.kicad_sym")(options "")(descr ""))
 )

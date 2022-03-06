@@ -1,44 +1,4 @@
 (kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
-  (symbol "+VIN" (power) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "None" (id 0) (at 0 2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "+VIN" (id 1) (at 3.81 -3.81 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (id 2) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "+VIN_0_0"
-      (pin power_in line (at 0 -3.81 90) (length 5.08)
-        (name "~" (effects (font (size 1.016 1.016))))
-        (number "~" (effects (font (size 1.016 1.016))))
-      )
-    )
-    (symbol "+VIN_0_1"
-      (polyline
-        (pts
-          (xy -2.54 1.27)
-          (xy 2.54 1.27)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 -1.27)
-          (xy 0 1.27)
-          (xy -1.27 1.27)
-          (xy 1.27 1.27)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-  )
   (symbol "0901471110" (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
     (property "Reference" "P" (id 0) (at 8.89 6.35 0)
       (effects (font (size 1.524 1.524)))
@@ -55,23 +15,13 @@
     (property "ki_fp_filters" "66953-005LF_AMP" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "0901471110_0_1"
+      (rectangle (start 5.08 2.54) (end 12.7 -25.4)
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
+    )
     (symbol "0901471110_1_1"
-      (polyline
-        (pts
-          (xy 5.08 -25.4)
-          (xy 12.7 -25.4)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 5.08 2.54)
-          (xy 5.08 -25.4)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
       (polyline
         (pts
           (xy 10.16 -22.86)
@@ -312,22 +262,6 @@
         (stroke (width 0.127) (type default) (color 0 0 0 0))
         (fill (type none))
       )
-      (polyline
-        (pts
-          (xy 12.7 -25.4)
-          (xy 12.7 2.54)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 12.7 2.54)
-          (xy 5.08 2.54)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
       (pin passive line (at 0 0 0) (length 5.08)
         (name "1" (effects (font (size 1.4986 1.4986))))
         (number "1" (effects (font (size 1.4986 1.4986))))
@@ -367,46 +301,6 @@
       (pin passive line (at 0 -20.32 0) (length 5.08)
         (name "9" (effects (font (size 1.4986 1.4986))))
         (number "9" (effects (font (size 1.4986 1.4986))))
-      )
-    )
-  )
-  (symbol "12V" (power) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "None" (id 0) (at 0 2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "12V" (id 1) (at 3.81 -3.81 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (id 2) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "12V_0_0"
-      (pin power_in line (at 0 -3.81 90) (length 5.08)
-        (name "~" (effects (font (size 1.016 1.016))))
-        (number "~" (effects (font (size 1.016 1.016))))
-      )
-    )
-    (symbol "12V_0_1"
-      (polyline
-        (pts
-          (xy -2.54 1.27)
-          (xy 2.54 1.27)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 -1.27)
-          (xy 0 1.27)
-          (xy -1.27 1.27)
-          (xy 1.27 1.27)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
       )
     )
   )
@@ -592,48 +486,8 @@
       )
     )
   )
-  (symbol "3.3V" (power) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "None" (id 0) (at 0 2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "3.3V" (id 1) (at 3.81 -3.81 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (id 2) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "3.3V_0_0"
-      (pin power_in line (at 0 -3.81 90) (length 5.08)
-        (name "~" (effects (font (size 1.016 1.016))))
-        (number "~" (effects (font (size 1.016 1.016))))
-      )
-    )
-    (symbol "3.3V_0_1"
-      (polyline
-        (pts
-          (xy -2.54 1.27)
-          (xy 2.54 1.27)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 -1.27)
-          (xy 0 1.27)
-          (xy -1.27 1.27)
-          (xy 1.27 1.27)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-  )
   (symbol "4840.2201" (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "J" (id 0) (at 7.62 5.08 0)
+    (property "Reference" "P" (id 0) (at 7.62 5.08 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "4840.2201" (id 1) (at 8.89 -11.43 0)
@@ -645,29 +499,10 @@
     (property "Datasheet" "" (id 3) (at 0 0 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "ki_locked" "" (id 4) (at 0 0 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "ki_fp_filters" "CONN_4840.2201_SCH" (id 5) (at 0 0 0)
+    (property "ki_fp_filters" "CONN_4840.2201_SCH" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "4840.2201_1_1"
-      (polyline
-        (pts
-          (xy 5.08 -7.62)
-          (xy 12.7 -7.62)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 5.08 2.54)
-          (xy 5.08 -7.62)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
       (polyline
         (pts
           (xy 10.16 -5.08)
@@ -740,21 +575,9 @@
         (stroke (width 0.127) (type default) (color 0 0 0 0))
         (fill (type none))
       )
-      (polyline
-        (pts
-          (xy 12.7 -7.62)
-          (xy 12.7 2.54)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 12.7 2.54)
-          (xy 5.08 2.54)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
+      (rectangle (start 5.08 2.54) (end 12.7 -7.62)
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin passive line (at 0 0 0) (length 5.08)
         (name "+12V" (effects (font (size 1.4986 1.4986))))
@@ -764,380 +587,9 @@
         (name "GND" (effects (font (size 1.4986 1.4986))))
         (number "2" (effects (font (size 1.4986 1.4986))))
       )
-      (pin no_connect line (at 0 -5.08 0) (length 5.08)
+      (pin passive line (at 0 -5.08 0) (length 5.08)
         (name "3" (effects (font (size 1.4986 1.4986))))
         (number "3" (effects (font (size 1.4986 1.4986))))
-      )
-    )
-  )
-  (symbol "5V" (power) (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-    (property "Reference" "None" (id 0) (at 0 2.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "5V" (id 1) (at 3.81 -3.81 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (id 2) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "5V_0_0"
-      (pin power_in line (at 0 -3.81 90) (length 5.08)
-        (name "~" (effects (font (size 1.016 1.016))))
-        (number "~" (effects (font (size 1.016 1.016))))
-      )
-    )
-    (symbol "5V_0_1"
-      (polyline
-        (pts
-          (xy -2.54 1.27)
-          (xy 2.54 1.27)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 -1.27)
-          (xy 0 1.27)
-          (xy -1.27 1.27)
-          (xy 1.27 1.27)
-        )
-        (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-    )
-  )
-  (symbol "66953-005LF" (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
-    (property "Reference" "P" (id 0) (at 8.89 6.35 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Value" "66953-005LF" (id 1) (at 5.08 -27.94 0)
-      (effects (font (size 1.524 1.524)))
-    )
-    (property "Footprint" "66953-005LF_AMP" (id 2) (at 3.81 -30.48 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 0 0 0)
-      (effects (font (size 1.524 1.524)) hide)
-    )
-    (property "ki_fp_filters" "66953-005LF_AMP" (id 4) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "66953-005LF_1_1"
-      (polyline
-        (pts
-          (xy 5.08 -25.4)
-          (xy 12.7 -25.4)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 5.08 2.54)
-          (xy 5.08 -25.4)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 10.16 -22.86)
-          (xy 5.08 -22.86)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 10.16 -22.86)
-          (xy 8.89 -23.6982)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 10.16 -22.86)
-          (xy 8.89 -22.0218)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 10.16 -20.32)
-          (xy 5.08 -20.32)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 10.16 -20.32)
-          (xy 8.89 -21.1582)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 10.16 -20.32)
-          (xy 8.89 -19.4818)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 10.16 -17.78)
-          (xy 5.08 -17.78)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 10.16 -17.78)
-          (xy 8.89 -18.6182)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 10.16 -17.78)
-          (xy 8.89 -16.9418)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 10.16 -15.24)
-          (xy 5.08 -15.24)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 10.16 -15.24)
-          (xy 8.89 -16.0782)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 10.16 -15.24)
-          (xy 8.89 -14.4018)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 10.16 -12.7)
-          (xy 5.08 -12.7)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 10.16 -12.7)
-          (xy 8.89 -13.5382)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 10.16 -12.7)
-          (xy 8.89 -11.8618)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 10.16 -10.16)
-          (xy 5.08 -10.16)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 10.16 -10.16)
-          (xy 8.89 -10.9982)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 10.16 -10.16)
-          (xy 8.89 -9.3218)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 10.16 -7.62)
-          (xy 5.08 -7.62)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 10.16 -7.62)
-          (xy 8.89 -8.4582)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 10.16 -7.62)
-          (xy 8.89 -6.7818)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 10.16 -5.08)
-          (xy 5.08 -5.08)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 10.16 -5.08)
-          (xy 8.89 -5.9182)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 10.16 -5.08)
-          (xy 8.89 -4.2418)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 10.16 -2.54)
-          (xy 5.08 -2.54)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 10.16 -2.54)
-          (xy 8.89 -3.3782)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 10.16 -2.54)
-          (xy 8.89 -1.7018)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 10.16 0)
-          (xy 5.08 0)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 10.16 0)
-          (xy 8.89 -0.8382)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 10.16 0)
-          (xy 8.89 0.8382)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 12.7 -25.4)
-          (xy 12.7 2.54)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 12.7 2.54)
-          (xy 5.08 2.54)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (pin passive line (at 0 0 0) (length 5.08)
-        (name "A1" (effects (font (size 1.4986 1.4986))))
-        (number "A1" (effects (font (size 1.4986 1.4986))))
-      )
-      (pin passive line (at 0 -2.54 0) (length 5.08)
-        (name "A2" (effects (font (size 1.4986 1.4986))))
-        (number "A2" (effects (font (size 1.4986 1.4986))))
-      )
-      (pin passive line (at 0 -5.08 0) (length 5.08)
-        (name "A3" (effects (font (size 1.4986 1.4986))))
-        (number "A3" (effects (font (size 1.4986 1.4986))))
-      )
-      (pin passive line (at 0 -7.62 0) (length 5.08)
-        (name "A4" (effects (font (size 1.4986 1.4986))))
-        (number "A4" (effects (font (size 1.4986 1.4986))))
-      )
-      (pin passive line (at 0 -10.16 0) (length 5.08)
-        (name "A5" (effects (font (size 1.4986 1.4986))))
-        (number "A5" (effects (font (size 1.4986 1.4986))))
-      )
-      (pin passive line (at 0 -12.7 0) (length 5.08)
-        (name "B1" (effects (font (size 1.4986 1.4986))))
-        (number "B1" (effects (font (size 1.4986 1.4986))))
-      )
-      (pin passive line (at 0 -15.24 0) (length 5.08)
-        (name "B2" (effects (font (size 1.4986 1.4986))))
-        (number "B2" (effects (font (size 1.4986 1.4986))))
-      )
-      (pin passive line (at 0 -17.78 0) (length 5.08)
-        (name "B3" (effects (font (size 1.4986 1.4986))))
-        (number "B3" (effects (font (size 1.4986 1.4986))))
-      )
-      (pin passive line (at 0 -20.32 0) (length 5.08)
-        (name "B4" (effects (font (size 1.4986 1.4986))))
-        (number "B4" (effects (font (size 1.4986 1.4986))))
-      )
-      (pin passive line (at 0 -22.86 0) (length 5.08)
-        (name "B5" (effects (font (size 1.4986 1.4986))))
-        (number "B5" (effects (font (size 1.4986 1.4986))))
       )
     )
   )
@@ -2200,15 +1652,13 @@
     (property "ki_fp_filters" "66953-005LF_AMP" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "IgnitionScrewTerminal_1_1"
-      (polyline
-        (pts
-          (xy 5.08 2.54)
-          (xy 5.08 -4.826)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
+    (symbol "IgnitionScrewTerminal_0_1"
+      (rectangle (start 5.08 2.54) (end 12.7 -4.826)
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
+    )
+    (symbol "IgnitionScrewTerminal_1_1"
       (polyline
         (pts
           (xy 10.16 -2.54)
@@ -2253,31 +1703,6 @@
         (pts
           (xy 10.16 0)
           (xy 8.89 0.8382)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 12.7 -4.826)
-          (xy 12.7 2.54)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 12.7 2.54)
-          (xy 5.08 2.54)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 5.08 -4.826)
-          (xy 8.382 -4.826)
-          (xy 12.7 -4.826)
         )
         (stroke (width 0.127) (type default) (color 0 0 0 0))
         (fill (type none))
@@ -2539,7 +1964,7 @@
     (symbol "LM22672MRE-5.0_NOPB_0_1"
       (rectangle (start -5.08 6.35) (end 5.08 -3.81)
         (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
+        (fill (type background))
       )
     )
     (symbol "LM22672MRE-5.0_NOPB_1_1"
@@ -2593,7 +2018,7 @@
     (symbol "LMS8117AMP-3.3_NOPB_0_1"
       (rectangle (start -6.35 3.81) (end 6.35 -3.81)
         (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
+        (fill (type background))
       )
     )
     (symbol "LMS8117AMP-3.3_NOPB_1_1"
@@ -2998,17 +2423,15 @@
     (property "ki_fp_filters" "SW_PTS647SM38SMTR2LFS_CNK" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "PTS647SM38SMTR2LFS_0_1"
+      (rectangle (start -3.81 6.35) (end 3.81 -6.35)
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
+    )
     (symbol "PTS647SM38SMTR2LFS_1_1"
       (circle (center 0 -1.27) (radius 0.127)
         (stroke (width 0.254) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -3.81 -6.35)
-          (xy 3.81 -6.35)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
         (fill (type none))
       )
       (polyline
@@ -3023,14 +2446,6 @@
         (pts
           (xy -3.81 3.81)
           (xy 3.81 3.81)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -3.81 6.35)
-          (xy -3.81 -6.35)
         )
         (stroke (width 0.127) (type default) (color 0 0 0 0))
         (fill (type none))
@@ -3059,22 +2474,6 @@
         (stroke (width 0.127) (type default) (color 0 0 0 0))
         (fill (type none))
       )
-      (polyline
-        (pts
-          (xy 3.81 -6.35)
-          (xy 3.81 6.35)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 3.81 6.35)
-          (xy -3.81 6.35)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
       (circle (center 0 1.27) (radius 0.127)
         (stroke (width 0.254) (type default) (color 0 0 0 0))
         (fill (type none))
@@ -3091,7 +2490,7 @@
         (name "1" (effects (font (size 1.4986 1.4986))))
         (number "1" (effects (font (size 1.4986 1.4986))))
       )
-      (pin no_connect line (at 6.35 3.81 180) (length 2.54)
+      (pin passive line (at 6.35 3.81 180) (length 2.54)
         (name "2" (effects (font (size 1.4986 1.4986))))
         (number "2" (effects (font (size 1.4986 1.4986))))
       )
@@ -3099,7 +2498,7 @@
         (name "3" (effects (font (size 1.4986 1.4986))))
         (number "3" (effects (font (size 1.4986 1.4986))))
       )
-      (pin no_connect line (at 6.35 -3.81 180) (length 2.54)
+      (pin passive line (at 6.35 -3.81 180) (length 2.54)
         (name "4" (effects (font (size 1.4986 1.4986))))
         (number "4" (effects (font (size 1.4986 1.4986))))
       )
@@ -3541,34 +2940,24 @@
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "SBH11-PBPC-D10-RA-BK" (id 1) (at 10.16 3.81 0)
-      (effects (font (size 1.524 1.524)))
+      (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Footprint" "CONN20_D10-RA-BK_SUL" (id 2) (at 10.16 -26.924 0)
+    (property "Footprint" "CONN20_D10-RA-BK_SUL" (id 2) (at 33.528 -4.318 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 0 0 0)
-      (effects (font (size 1.524 1.524)))
+      (effects (font (size 1.524 1.524)) hide)
     )
     (property "ki_fp_filters" "CONN20_D10-RA-BK_SUL" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (symbol "SBH11-PBPC-D10-RA-BK_0_1"
+      (rectangle (start 5.08 2.54) (end 12.7 -50.8)
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type background))
+      )
+    )
     (symbol "SBH11-PBPC-D10-RA-BK_1_1"
-      (polyline
-        (pts
-          (xy 5.08 -50.8)
-          (xy 12.7 -50.8)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 5.08 2.54)
-          (xy 5.08 -50.8)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
       (polyline
         (pts
           (xy 10.16 -48.26)
@@ -4045,22 +3434,6 @@
         (pts
           (xy 10.16 0)
           (xy 8.89 0.8382)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 12.7 -50.8)
-          (xy 12.7 2.54)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 12.7 2.54)
-          (xy 5.08 2.54)
         )
         (stroke (width 0.127) (type default) (color 0 0 0 0))
         (fill (type none))
@@ -4654,7 +4027,7 @@
     (symbol "SP0504BAHTG_0_1"
       (rectangle (start -14.224 5.334) (end 14.224 -3.302)
         (stroke (width 0.1524) (type default) (color 0 0 0 0))
-        (fill (type none))
+        (fill (type background))
       )
       (polyline
         (pts
@@ -4886,52 +4259,21 @@
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "SST25VF040B-50-4I-S2AE-T" (id 1) (at 0 -13.97 0)
-      (effects (font (size 1.524 1.524)))
+      (effects (font (size 1.524 1.524)) hide)
     )
     (property "Footprint" "SOIC8_S2A_SST_MCH" (id 2) (at 0 -17.78 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at -30.48 1.27 0)
-      (effects (font (size 1.524 1.524)))
+      (effects (font (size 1.524 1.524)) hide)
     )
-    (property "ki_locked" "" (id 4) (at 0 0 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "ki_fp_filters" "SOIC8_S2A_SST_MCH SOIC8_S2A_SST_MCH-M SOIC8_S2A_SST_MCH-L" (id 5) (at 0 0 0)
+    (property "ki_fp_filters" "SOIC8_S2A_SST_MCH SOIC8_S2A_SST_MCH-M SOIC8_S2A_SST_MCH-L" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "SST25VF040B-50-4I-S2AE-T_1_1"
-      (polyline
-        (pts
-          (xy -8.89 -11.43)
-          (xy 7.62 -11.43)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -8.89 5.08)
-          (xy -8.89 -11.43)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 7.62 -11.43)
-          (xy 7.62 5.08)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 7.62 5.08)
-          (xy -8.89 5.08)
-        )
-        (stroke (width 0.127) (type default) (color 0 0 0 0))
-        (fill (type none))
+      (rectangle (start -8.89 5.08) (end 7.62 -11.43)
+        (stroke (width 0.1524) (type default) (color 0 0 0 0))
+        (fill (type background))
       )
       (pin input line (at -13.97 2.54 0) (length 5.08)
         (name "*CE" (effects (font (size 1.4986 1.4986))))
@@ -5429,7 +4771,7 @@
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TPS2115APWR" (id 1) (at 0 -6.35 0)
-      (effects (font (size 1.27 1.27)))
+      (effects (font (size 1.27 1.27)) hide)
     )
     (property "Footprint" "" (id 2) (at -3.81 1.27 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -5440,7 +4782,7 @@
     (symbol "TPS2115APWR_0_1"
       (rectangle (start -7.62 5.08) (end 7.62 -5.08)
         (stroke (width 0) (type default) (color 0 0 0 0))
-        (fill (type none))
+        (fill (type background))
       )
     )
     (symbol "TPS2115APWR_1_1"
