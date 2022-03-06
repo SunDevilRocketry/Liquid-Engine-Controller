@@ -3154,16 +3154,7 @@
       (reference "D7") (unit 1) (value "SML-LX1206GC-TR") (footprint "Engine-Controller:SML-LX1206GC-TR")
     )
     (path "/00000000-0000-0000-0000-000060daa9b3/00000000-0000-0000-0000-0000617b8701"
-      (reference "D8") (unit 1) (value "SP0504BAHTG") (footprint "Engine-Controller:SP0504BAHTG")
-    )
-    (path "/00000000-0000-0000-0000-000060e24895/00000000-0000-0000-0000-0000618f69a9"
-      (reference "H1") (unit 1) (value "Mounting-Hole") (footprint "Engine-Controller:MountingHole_4.3mm_M4_DIN965")
-    )
-    (path "/00000000-0000-0000-0000-000060e24895/00000000-0000-0000-0000-0000618f7698"
-      (reference "H2") (unit 1) (value "Mounting-Hole") (footprint "Engine-Controller:MountingHole_4.3mm_M4_DIN965")
-    )
-    (path "/00000000-0000-0000-0000-000060e24895/00000000-0000-0000-0000-0000618f7988"
-      (reference "H3") (unit 1) (value "Mounting-Hole") (footprint "Engine-Controller:MountingHole_4.3mm_M4_DIN965")
+      (reference "D8") (unit 1) (value "SP0504BAHTG") (footprint "SOD-123FL_MCC")
     )
     (path "/b5db9740-286a-48bd-90bf-52fc67cd2e7d"
       (reference "H4") (unit 1) (value "Mounting-Hole") (footprint "Engine-Controller:MountingHole_4.3mm_M4_DIN965")
@@ -3182,9 +3173,6 @@
     )
     (path "/00000000-0000-0000-0000-000060d7f309/00000000-0000-0000-0000-000060ebab6d"
       (reference "L1") (unit 1) (value "33uH") (footprint "Engine-Controller:SRP1038A-330M")
-    )
-    (path "/00000000-0000-0000-0000-000060e24895/00000000-0000-0000-0000-0000618f5f8b"
-      (reference "LOGO1") (unit 1) (value "Logo") (footprint "Engine-Controller:Logo")
     )
     (path "/e24d7889-ad4d-4538-8d3b-122e0af7b8f3"
       (reference "LOGO2") (unit 1) (value "Logo") (footprint "Engine-Controller:Logo")
@@ -3214,7 +3202,7 @@
       (reference "P8") (unit 1) (value "Solid Prop Cont") (footprint "Engine-Controller:TE_282837-6")
     )
     (path "/00000000-0000-0000-0000-0000618ad610/00000000-0000-0000-0000-0000618d75be"
-      (reference "P8") (unit 2) (value "Solid Prop Cont") (footprint "Engine-Controller:TE_282837-6")
+      (reference "P8") (unit 2) (value "Solid Prop Cont") (footprint "66953-005LF_AMP")
     )
     (path "/00000000-0000-0000-0000-0000618ad610/00000000-0000-0000-0000-0000618d56c1"
       (reference "P8") (unit 3) (value "Solid Prop Cont") (footprint "Engine-Controller:TE_282837-6")
@@ -3337,7 +3325,7 @@
       (reference "U4") (unit 6) (value "SN74LV07ADR") (footprint "Engine-Controller:SN74LV07ADR")
     )
     (path "/00000000-0000-0000-0000-00006177d07c/00000000-0000-0000-0000-0000617854ea"
-      (reference "U5") (unit 1) (value "SST25VF040B-50-4I-S2AE-T") (footprint "Engine-Controller:SST25VF040B-50-4I-S2AE-T")
+      (reference "U5") (unit 1) (value "SST25VF040B-50-4I-S2AE-T") (footprint "SOIC8_S2A_SST_MCH")
     )
     (path "/00000000-0000-0000-0000-000060d7f309/00000000-0000-0000-0000-000060f83bb7"
       (reference "U6") (unit 1) (value "TPS2115APWR") (footprint "Engine-Controller:TPS2115APWR")

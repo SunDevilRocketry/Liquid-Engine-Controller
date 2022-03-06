@@ -340,7 +340,7 @@
       (property "Reference" "D" (id 0) (at -15.748 2.54 0)
         (effects (font (size 1.524 1.524)))
       )
-      (property "Value" "Engine-Controller_SP0504BAHTG" (id 1) (at -19.05 -14.224 0)
+      (property "Value" "SP0504BAHTG" (id 1) (at -19.05 -14.224 0)
         (effects (font (size 1.524 1.524)) hide)
       )
       (property "Footprint" "SOD-123FL_MCC" (id 2) (at -20.828 -20.32 0)
@@ -355,7 +355,7 @@
       (symbol "SP0504BAHTG_0_1"
         (rectangle (start -14.224 5.334) (end 14.224 -3.302)
           (stroke (width 0.1524) (type default) (color 0 0 0 0))
-          (fill (type none))
+          (fill (type background))
         )
         (polyline
           (pts
@@ -1031,7 +1031,7 @@
     (property "Value" "SP0504BAHTG" (id 1) (at 97.155 99.695 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Footprint" "Engine-Controller:SP0504BAHTG" (id 2) (at 95.377 105.791 0)
+    (property "Footprint" "SOD-123FL_MCC" (id 2) (at 95.377 105.791 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 110.871 84.201 90)
