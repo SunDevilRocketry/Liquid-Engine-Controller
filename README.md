@@ -1,6 +1,6 @@
 <h1>Liquids Engine Controller</h1>
 
-<p>Current PCB Revision: 3.0</p>
+<p>Current PCB Revision: 4.0</p>
 <p>PCB Part Number: L0002</p>
 
 <p>The Liquids Engine Controller PCB is the main embedded processor of SDR's 
