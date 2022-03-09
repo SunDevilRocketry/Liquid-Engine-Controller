@@ -3835,6 +3835,9 @@
     (path "/00000000-0000-0000-0000-000060d7f309/00000000-0000-0000-0000-000060ed92f3"
       (reference "#PWR0109") (unit 1) (value "Earth") (footprint "")
     )
+    (path "/9f3f32e1-1873-42fa-9cca-aa278e3c01ec/f831ff66-4186-4b4d-8752-90b899f733d7"
+      (reference "#PWR?") (unit 1) (value "Earth") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-0000610156a4"
       (reference "B1") (unit 1) (value "PTS647SM38SMTR2LFS") (footprint "SW_PTS647SM38SMTR2LFS_CNK")
     )
@@ -4028,10 +4031,10 @@
       (reference "R12") (unit 1) (value "10k") (footprint "Engine-Controller:RES_0603")
     )
     (path "/9f3f32e1-1873-42fa-9cca-aa278e3c01ec/8034381d-6c64-4fc1-a254-be7e86a46edf"
-      (reference "R13") (unit 1) (value "1k") (footprint "Engine-Controller:RES_0603")
+      (reference "R13") (unit 1) (value "4.7k") (footprint "Engine-Controller:RES_0603")
     )
     (path "/9f3f32e1-1873-42fa-9cca-aa278e3c01ec/df7280ff-9bc2-4a56-9431-707f98e98266"
-      (reference "R14") (unit 1) (value "1k") (footprint "Engine-Controller:RES_0603")
+      (reference "R14") (unit 1) (value "10k") (footprint "Engine-Controller:RES_0603")
     )
     (path "/597dde7e-40f8-4545-b69b-87a6373f6984"
       (reference "R15") (unit 1) (value "100k") (footprint "")
