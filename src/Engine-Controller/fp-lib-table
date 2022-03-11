@@ -3,4 +3,5 @@
   (lib (name "logo")(type "KiCad")(uri "/home/olsport/Documents/SDR/PCB/Liquids-Engine-Controller/lib/logo.pretty")(options "")(descr "")(disabled))
   (lib (name "Engine-Controller")(type "KiCad")(uri "/home/olsport/Documents/SDR/PCB/L0002-Liquids-Engine-Controller/lib/Engine-Controller.pretty")(options "")(descr ""))
   (lib (name "L0005-Valve-Controller")(type "KiCad")(uri "/home/olsport/Documents/SDR/PCB/L0005-Valve-Controller/lib/L0005-Valve-Controller.pretty")(options "")(descr ""))
+  (lib (name "Instrumentation-Amplifier")(type "KiCad")(uri "/home/olsport/Documents/SDR/PCB/Instrumentation-Amplifier/lib/Instrumentation-Amplifier.pretty")(options "")(descr ""))
 )
