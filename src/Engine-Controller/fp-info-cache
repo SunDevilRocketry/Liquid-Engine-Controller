@@ -1,4 +1,4 @@
-121410207425334
+124704159135355
 Engine-Controller
 12V_power_jack
 
@@ -133,6 +133,13 @@ Logo
 0
 0
 Engine-Controller
+MC74HC4066ADG
+
+
+0
+14
+14
+Engine-Controller
 MPD_EJ508A
 
 
@@ -265,6 +272,13 @@ USB-TypeB
 0
 6
 6
+Engine-Controller
+max4617eue
+
+
+0
+16
+16
 Instrumentation-Amplifier
 2043-1X04G00DAU
 
