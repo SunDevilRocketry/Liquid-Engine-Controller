@@ -3838,6 +3838,9 @@
     (path "/d060135e-4b32-4403-ae1a-9301174376e1/273fbfbc-d959-4125-b84c-dc2e74c0df7a"
       (reference "#PWR?") (unit 1) (value "Earth") (footprint "")
     )
+    (path "/d060135e-4b32-4403-ae1a-9301174376e1/311009f4-4cf4-4bd8-a58c-b15d0486c263"
+      (reference "#PWR?") (unit 1) (value "Earth") (footprint "")
+    )
     (path "/d060135e-4b32-4403-ae1a-9301174376e1/5c1ae163-d154-4d85-a201-3339914dc8dc"
       (reference "#PWR?") (unit 1) (value "Earth") (footprint "")
     )
@@ -3860,6 +3863,9 @@
       (reference "#PWR?") (unit 1) (value "Earth") (footprint "")
     )
     (path "/9f3f32e1-1873-42fa-9cca-aa278e3c01ec/f831ff66-4186-4b4d-8752-90b899f733d7"
+      (reference "#PWR?") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/d060135e-4b32-4403-ae1a-9301174376e1/f8574263-096e-47ee-ad19-62dfb0418bba"
       (reference "#PWR?") (unit 1) (value "Earth") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000610156a4"
@@ -4152,6 +4158,12 @@
     )
     (path "/00000000-0000-0000-0000-000060d7f309/00000000-0000-0000-0000-000060f83bb7"
       (reference "U6") (unit 1) (value "TPS2115APWR") (footprint "Engine-Controller:TPS2115APWR")
+    )
+    (path "/d060135e-4b32-4403-ae1a-9301174376e1/60e000cc-7111-440b-8b16-e751715647a7"
+      (reference "U?") (unit 1) (value "MAX4617EUE+T") (footprint "")
+    )
+    (path "/d060135e-4b32-4403-ae1a-9301174376e1/ca978d85-e1ad-4fb6-9ac9-22c2e8105be0"
+      (reference "U?") (unit 1) (value "MAX4617EUE+T") (footprint "")
     )
   )
 )
