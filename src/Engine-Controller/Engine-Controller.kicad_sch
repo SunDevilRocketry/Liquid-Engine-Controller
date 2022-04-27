@@ -3838,6 +3838,9 @@
     (path "/e21ff2a6-c4f6-4b4d-99ee-6fa6e228cefe"
       (reference "#PWR02") (unit 1) (value "Earth") (footprint "")
     )
+    (path "/9f3f32e1-1873-42fa-9cca-aa278e3c01ec/37c2dcfa-4711-468f-8aea-4e24faf6e179"
+      (reference "#PWR03") (unit 1) (value "Earth") (footprint "")
+    )
     (path "/9f3f32e1-1873-42fa-9cca-aa278e3c01ec/0257d2fb-7c77-44df-b507-c5eaddbbcb4b"
       (reference "#PWR04") (unit 1) (value "Earth") (footprint "")
     )
@@ -3993,9 +3996,6 @@
     )
     (path "/00000000-0000-0000-0000-000060d7f309/00000000-0000-0000-0000-000060ed92f3"
       (reference "#PWR0109") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/9f3f32e1-1873-42fa-9cca-aa278e3c01ec/37c2dcfa-4711-468f-8aea-4e24faf6e179"
-      (reference "#PWR?") (unit 1) (value "Earth") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000610156a4"
       (reference "B1") (unit 1) (value "PTS647SM38SMTR2LFS") (footprint "SW_PTS647SM38SMTR2LFS_CNK")
@@ -4187,7 +4187,7 @@
       (reference "P15") (unit 1) (value "39299043") (footprint "CONN_4840.2201_SCH")
     )
     (path "/9f3f32e1-1873-42fa-9cca-aa278e3c01ec/9bdcac57-abd0-4e39-8588-ed9469771ac2"
-      (reference "Q1") (unit 1) (value "QS5U17TR") (footprint "Engine-Controller:QS5U17TR")
+      (reference "Q1") (unit 1) (value "QS5U17TR") (footprint "Package_TO_SOT_THT:TO-92_Inline")
     )
     (path "/238e6e71-e498-4e9a-ae5c-2bd7998082cd"
       (reference "R1") (unit 1) (value "68") (footprint "")
@@ -4363,14 +4363,14 @@
     (path "/00000000-0000-0000-0000-000060d7f309/2c73e679-5bfa-442d-b4e4-4c862a7c2a9e"
       (reference "U10") (unit 1) (value "LMS8117AMP-3.3_NOPB") (footprint "Engine-Controller:SOT-223")
     )
+    (path "/9f3f32e1-1873-42fa-9cca-aa278e3c01ec/53fc9498-09c7-40bc-a046-dea2644e2b0f"
+      (reference "U11") (unit 1) (value "TS391IYLT") (footprint "")
+    )
     (path "/d060135e-4b32-4403-ae1a-9301174376e1/60e000cc-7111-440b-8b16-e751715647a7"
       (reference "U12") (unit 1) (value "MAX4617EUE+T") (footprint "")
     )
     (path "/d060135e-4b32-4403-ae1a-9301174376e1/ca978d85-e1ad-4fb6-9ac9-22c2e8105be0"
       (reference "U13") (unit 1) (value "MAX4617EUE+T") (footprint "")
-    )
-    (path "/9f3f32e1-1873-42fa-9cca-aa278e3c01ec/53fc9498-09c7-40bc-a046-dea2644e2b0f"
-      (reference "U?") (unit 1) (value "TS391IYLT") (footprint "")
     )
   )
 )
