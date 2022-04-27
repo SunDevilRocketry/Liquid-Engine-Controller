@@ -1,4 +1,4 @@
-126351725354591
+131319102682851
 Engine-Controller
 12V_power_jack
 
@@ -273,6 +273,13 @@ TPS2115APWR
 8
 8
 Engine-Controller
+TS391IYLT
+
+
+0
+5
+5
+Engine-Controller
 USB-TypeB
 
 
@@ -434,13 +441,6 @@ LMS8117AMP-3.3NOPB
 4
 3
 L0005-Valve-Controller
-LPC54113J256BD64QL
-
-
-0
-64
-64
-L0005-Valve-Controller
 Logo
 
 
@@ -454,6 +454,13 @@ MAX3370EXK&plus_T
 0
 5
 5
+L0005-Valve-Controller
+MC74HCT138ADR2G
+
+
+0
+16
+16
 L0005-Valve-Controller
 MOLEX_35362-0650
 
@@ -517,6 +524,20 @@ SML-LX1206GC-TR
 0
 2
 2
+L0005-Valve-Controller
+SN74LVC1G139DCTR
+
+
+0
+8
+8
+L0005-Valve-Controller
+STM32H750VBT6
+
+
+0
+100
+100
 L0005-Valve-Controller
 T491A106K010AT
 10 microFarad Tantalum Capacitor
