@@ -3931,6 +3931,9 @@
     (path "/d060135e-4b32-4403-ae1a-9301174376e1/cf4ff288-e05a-447e-ac62-45b14872a517"
       (reference "#PWR033") (unit 1) (value "Earth") (footprint "")
     )
+    (path "/9f3f32e1-1873-42fa-9cca-aa278e3c01ec/deb9ebef-314a-4c99-adb7-ab285004007d"
+      (reference "#PWR034") (unit 1) (value "Earth") (footprint "")
+    )
     (path "/d060135e-4b32-4403-ae1a-9301174376e1/311009f4-4cf4-4bd8-a58c-b15d0486c263"
       (reference "#PWR036") (unit 1) (value "Earth") (footprint "")
     )
@@ -4197,6 +4200,9 @@
     )
     (path "/00000000-0000-0000-0000-000060d7f309/00000000-0000-0000-0000-000061524012"
       (reference "R3") (unit 1) (value "470") (footprint "Engine-Controller:RES_0603")
+    )
+    (path "/9f3f32e1-1873-42fa-9cca-aa278e3c01ec/6f54539e-2f87-4e43-b4de-0f9afc3c2450"
+      (reference "R4") (unit 1) (value "100k") (footprint "Engine-Controller:RES_0603")
     )
     (path "/00000000-0000-0000-0000-000060d7f309/00000000-0000-0000-0000-000060ed1bd1"
       (reference "R5") (unit 1) (value "240") (footprint "Engine-Controller:RES_0603")

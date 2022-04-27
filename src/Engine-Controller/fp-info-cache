@@ -1,4 +1,4 @@
-131319102735031
+132970183529605
 Engine-Controller
 12V_power_jack
 
@@ -146,6 +146,13 @@ MC74HC4066ADG
 0
 14
 14
+Engine-Controller
+MCP96L01T-E_MX
+
+
+0
+30
+30
 Engine-Controller
 MPD_EJ508A
 
