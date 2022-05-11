@@ -2227,7 +2227,6 @@
   (no_connect (at 91.44 44.45) (uuid 4f35b4f6-e51f-49fb-a576-8e518cc29804))
   (no_connect (at 207.01 137.795) (uuid 57ebe15f-b682-49a7-a00e-67626accd1e1))
   (no_connect (at 34.29 121.92) (uuid 5f312b85-6822-40a3-b417-2df49696ca2d))
-  (no_connect (at 91.44 138.43) (uuid 6155d9fa-e0b0-4a4d-8324-26f7b83d4818))
   (no_connect (at 34.29 168.91) (uuid 725cdf26-4b92-46db-bca9-10d930002dda))
   (no_connect (at 91.44 95.25) (uuid 7758107a-408c-4825-9436-335374958e94))
   (no_connect (at 91.44 171.45) (uuid 79451892-db6b-4999-916d-6392174ee493))
@@ -2733,6 +2732,10 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid c294cc50-b50f-4bf0-baba-a751d465a9d9)
   )
+  (wire (pts (xy 91.44 138.43) (xy 95.25 138.43))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid c312f653-568b-46cd-816a-815dcbcd4bc8)
+  )
   (wire (pts (xy 204.47 109.855) (xy 207.01 109.855))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid c3a4ad68-799d-467e-888f-cc2f97c679e0)
@@ -3069,6 +3072,13 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 48f79888-32b1-4e39-a33b-1f860dbfdd56)
     (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 106.2828 72.4694 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "LC" (shape input) (at 95.25 138.43 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 531d9d76-64a8-450d-bee6-f01efe0f2ac7)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 99.8723 138.3506 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -4038,6 +4048,15 @@
     (path "/d060135e-4b32-4403-ae1a-9301174376e1/d967cfa5-70ff-4b50-886d-a6c33c8bdc1e"
       (reference "#PWR052") (unit 1) (value "Earth") (footprint "")
     )
+    (path "/d060135e-4b32-4403-ae1a-9301174376e1/b6455abf-6892-4ba2-96f8-74bd15e80e11"
+      (reference "#PWR053") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/d060135e-4b32-4403-ae1a-9301174376e1/30cac1fc-e440-467c-bc94-aa40961428e6"
+      (reference "#PWR054") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/d060135e-4b32-4403-ae1a-9301174376e1/f100c547-fc8a-4b00-a3ac-4f12626af3b8"
+      (reference "#PWR055") (unit 1) (value "Earth") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000060d7f309/00000000-0000-0000-0000-000060ec7bcd"
       (reference "#PWR0103") (unit 1) (value "Earth") (footprint "")
     )
@@ -4257,6 +4276,9 @@
     (path "/d060135e-4b32-4403-ae1a-9301174376e1/f522b30d-8c9e-4581-bf36-a1c3dd30a138"
       (reference "P16") (unit 1) (value "647676-2") (footprint "CONN_2043-1X04G00DAU_OUP")
     )
+    (path "/d060135e-4b32-4403-ae1a-9301174376e1/e30475f6-56da-4577-b0b3-cf6110aeb27c"
+      (reference "P17") (unit 1) (value "0530470410") (footprint "CONN_4840.2201_SCH")
+    )
     (path "/9f3f32e1-1873-42fa-9cca-aa278e3c01ec/9bdcac57-abd0-4e39-8588-ed9469771ac2"
       (reference "Q1") (unit 1) (value "QS5U17TR") (footprint "Package_TO_SOT_THT:TO-92_Inline")
     )
@@ -4355,6 +4377,9 @@
     )
     (path "/d060135e-4b32-4403-ae1a-9301174376e1/636e7b9d-05e2-499a-9ed4-87c44b1e7337"
       (reference "R32") (unit 1) (value "2k") (footprint "")
+    )
+    (path "/d060135e-4b32-4403-ae1a-9301174376e1/35597eb6-6556-4764-bc73-5b820a4b0a74"
+      (reference "R33") (unit 1) (value "470") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000060e1cd7c"
       (reference "TP1") (unit 1) (value "TPNRST") (footprint "Engine-Controller:TP")
@@ -4460,6 +4485,9 @@
     )
     (path "/d060135e-4b32-4403-ae1a-9301174376e1/358effcc-2b2c-433f-9441-044c8f2263c8"
       (reference "U14") (unit 1) (value "MCP96L01T-E_MX") (footprint "")
+    )
+    (path "/d060135e-4b32-4403-ae1a-9301174376e1/470ee255-87ec-4295-9b7c-f5b2c97903d6"
+      (reference "U15") (unit 1) (value "AD623ARZ-R7") (footprint "R_8_ADI")
     )
   )
 )
