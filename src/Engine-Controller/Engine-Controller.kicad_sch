@@ -4057,6 +4057,9 @@
     (path "/d060135e-4b32-4403-ae1a-9301174376e1/f100c547-fc8a-4b00-a3ac-4f12626af3b8"
       (reference "#PWR055") (unit 1) (value "Earth") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-000060d7f309/115cd8c6-f6ea-435e-a72e-14b432b967c2"
+      (reference "#PWR056") (unit 1) (value "Earth") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000060d7f309/00000000-0000-0000-0000-000060ec7bcd"
       (reference "#PWR0103") (unit 1) (value "Earth") (footprint "")
     )
@@ -4278,6 +4281,9 @@
     )
     (path "/d060135e-4b32-4403-ae1a-9301174376e1/e30475f6-56da-4577-b0b3-cf6110aeb27c"
       (reference "P17") (unit 1) (value "0530470410") (footprint "CONN_4840.2201_SCH")
+    )
+    (path "/00000000-0000-0000-0000-000060d7f309/44eb02b5-9a34-4694-8d88-19d075095fa6"
+      (reference "P18") (unit 1) (value "PPTC041LFBN-RC") (footprint "CONN_4840.2201_SCH")
     )
     (path "/9f3f32e1-1873-42fa-9cca-aa278e3c01ec/9bdcac57-abd0-4e39-8588-ed9469771ac2"
       (reference "Q1") (unit 1) (value "QS5U17TR") (footprint "Package_TO_SOT_THT:TO-92_Inline")

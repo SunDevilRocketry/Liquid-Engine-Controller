@@ -1,4 +1,4 @@
-132970183529605
+136274638716708
 Engine-Controller
 12V_power_jack
 
@@ -154,6 +154,13 @@ MCP96L01T-E_MX
 30
 30
 Engine-Controller
+MOLEX_0530470410
+
+
+0
+4
+4
+Engine-Controller
 MPD_EJ508A
 
 
@@ -167,6 +174,13 @@ mounting hole 4.3mm no annular m4 din965
 0
 0
 0
+Engine-Controller
+PPTC041LFBN-RC
+
+
+0
+4
+4
 Engine-Controller
 PTS647SM38SMTR2LFS
 
