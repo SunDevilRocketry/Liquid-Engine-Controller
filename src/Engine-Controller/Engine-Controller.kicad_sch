@@ -4003,6 +4003,9 @@
     (path "/d060135e-4b32-4403-ae1a-9301174376e1/f8574263-096e-47ee-ad19-62dfb0418bba"
       (reference "#PWR037") (unit 1) (value "Earth") (footprint "")
     )
+    (path "/9f3f32e1-1873-42fa-9cca-aa278e3c01ec/96407963-aab5-4b3e-8311-b9146f9282af"
+      (reference "#PWR038") (unit 1) (value "Earth") (footprint "")
+    )
     (path "/d060135e-4b32-4403-ae1a-9301174376e1/d956dac0-8bd1-4477-b1bf-f0a5ee02c975"
       (reference "#PWR045") (unit 1) (value "Earth") (footprint "")
     )
@@ -4344,6 +4347,12 @@
     )
     (path "/d060135e-4b32-4403-ae1a-9301174376e1/35597eb6-6556-4764-bc73-5b820a4b0a74"
       (reference "R33") (unit 1) (value "470") (footprint "")
+    )
+    (path "/9f3f32e1-1873-42fa-9cca-aa278e3c01ec/775ce8e1-98ac-4d45-904f-115b9bbd7962"
+      (reference "R34") (unit 1) (value "10k") (footprint "Engine-Controller:RES_0603")
+    )
+    (path "/9f3f32e1-1873-42fa-9cca-aa278e3c01ec/d4963244-4e7c-4cc8-a210-7c0a9d7752fe"
+      (reference "R35") (unit 1) (value "10k") (footprint "Engine-Controller:RES_0603")
     )
     (path "/00000000-0000-0000-0000-000060e1cd7c"
       (reference "TP1") (unit 1) (value "TPNRST") (footprint "Engine-Controller:TP")
