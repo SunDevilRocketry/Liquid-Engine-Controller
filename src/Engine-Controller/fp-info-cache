@@ -1,4 +1,4 @@
-137926877353488
+139579274300043
 Engine-Controller
 12V_power_jack
 
@@ -46,8 +46,8 @@ Engine-Controller
 .050" (1,27mm) Shrouded Header for FFSD Series without Strain Relief.
 
 0
-20
-20
+26
+26
 Engine-Controller
 39299043
 
@@ -314,6 +314,13 @@ USB-TypeB
 0
 6
 6
+Engine-Controller
+XTAL_ECS-240-12-37B-CKY-TR
+
+
+0
+4
+4
 Engine-Controller
 max4617eue
 
