@@ -1,4 +1,4 @@
-139579274300043
+139579277365283
 Engine-Controller
 12V_power_jack
 
@@ -104,6 +104,13 @@ CWR11HH106KB
 0
 2
 2
+Engine-Controller
+ECS-240-18-33-JGN-TR
+
+
+0
+4
+4
 Engine-Controller
 EEEFPV680XAP
 
@@ -314,13 +321,6 @@ USB-TypeB
 0
 6
 6
-Engine-Controller
-XTAL_ECS-240-12-37B-CKY-TR
-
-
-0
-4
-4
 Engine-Controller
 max4617eue
 
