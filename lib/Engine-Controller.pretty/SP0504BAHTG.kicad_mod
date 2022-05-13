@@ -6,7 +6,7 @@
     (effects (font (size 0.8128 0.8128) (thickness 0.15)))
     (tstamp 5c509cad-ab90-4dc2-b329-f83628209f6d)
   )
-  (fp_text value "SP0504BAHTG_LTF" (at -0.254 3.429) (layer "F.SilkS")
+  (fp_text value "SP0504BAHTG_LTF" (at -0.254 3.429) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 9e35a425-56f4-4fd0-be46-0c694cfbde32)
   )
