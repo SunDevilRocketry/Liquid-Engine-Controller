@@ -1,4 +1,4 @@
-141231689474195
+141271263981338
 Engine-Controller
 12V_power_jack
 
@@ -35,6 +35,13 @@ Engine-Controller
 2
 2
 Engine-Controller
+282837-6
+
+
+0
+6
+6
+Engine-Controller
 647676-2
 
 
@@ -50,6 +57,13 @@ Engine-Controller
 26
 Engine-Controller
 39299043
+
+
+0
+4
+4
+Engine-Controller
+0530470410
 
 
 0
@@ -84,19 +98,19 @@ CAP_0603
 2
 2
 Engine-Controller
-CAP_EEEFP1E151AL
-
-
-0
-2
-2
-Engine-Controller
 CBC3225T220KR
 
 
 0
 2
 2
+Engine-Controller
+CLMVC-FKA-CL1D1L71BB7C3C3
+
+
+0
+4
+4
 Engine-Controller
 CP2012-GMR
 
@@ -119,6 +133,13 @@ ECS-240-18-33-JGN-TR
 4
 4
 Engine-Controller
+EEEFP1E151AL
+
+
+0
+2
+2
+Engine-Controller
 EEEFPV680XAP
 
 
@@ -126,26 +147,12 @@ EEEFPV680XAP
 2
 2
 Engine-Controller
-GCT_MEM2075-00-140-01-A
-
-
-0
-13
-13
-Engine-Controller
 Jumper-NO
 <b>CAPACITOR</b>
 
 0
 2
 2
-Engine-Controller
-LED_CLMVC-FKA-CL1D1L71BB7C3C3
-
-
-0
-4
-4
 Engine-Controller
 LM22672MRE-5.0_NOPB
 
@@ -175,12 +182,12 @@ MCP96L01T-E_MX
 30
 30
 Engine-Controller
-MOLEX_0530470410
+MEM2075-00-140-01-A
 
 
 0
-4
-4
+13
+13
 Engine-Controller
 MPD_EJ508A
 
@@ -293,13 +300,6 @@ STM32H750VBT6
 0
 100
 100
-Engine-Controller
-TE_282837-6
-
-
-0
-6
-6
 Engine-Controller
 TP
 
