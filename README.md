@@ -46,19 +46,19 @@
 
 <h3>Microcontroller:</h3>
 
-<img src="img/Micro-Schematic.png">
+<img src="img/MCU-Schematic.png">
 
-<h3>Power Supply: </h3>
+<h3>5V Buck Converter: </h3>
 
-<img src="img/power-Schematic.png">
+<img src="img/Buck-Converter-Schematic.png">
 
-<h3>Data Logger: </h3>
+<h3>3.3V Linear Regulator: </h3>
 
-<img src="img/Flash-Schematic.png">
+<img src="img/3V3-Schematic.png">
 
-<h3>Connectors: </h3>
+<h3>SD Card: </h3>
 
-<img src="img/Connectors-Schematic.png">
+<img src="img/SDcard-Schematic.png">
 
 <h3>USB: </h3>
 
@@ -67,3 +67,15 @@
 <h3>Ignition: </h3>
 
 <img src="img/Ignition-Schematic.png">
+
+<h3>Pressure Transducer Programmable Amplifier: </h3>
+
+<img src="img/PT-Amplifier-Schematic.png">
+
+<h3>Thermocouple Cold Junction Compensation: </h3>
+
+<img src="img/Thermocouple-Schematic.png">
+
+<h3>Load Cell Amplifier: </h3>
+
+<img src="img/Load-Cell-Schematic.png">
