@@ -46,7 +46,7 @@
 
 <h3>Microcontroller:</h3>
 
-<img src="img/MCU-Schematic.png">
+<img src="img/MCU-Schematic-2.png">
 
 <h3>5V Buck Converter: </h3>
 
