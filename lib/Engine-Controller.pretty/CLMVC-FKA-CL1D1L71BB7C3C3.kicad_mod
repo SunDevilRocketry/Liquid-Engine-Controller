@@ -24,4 +24,9 @@
   (pad "2" smd rect (at 0.75 -0.55 270) (size 0.8 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e1535036-5d36-405f-bb86-3819621c4f23))
   (pad "3" smd rect (at 0.75 0.55 270) (size 0.8 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp d9c6d5d2-0b49-49ba-a970-cd2c32f74c54))
   (pad "4" smd rect (at -0.75 0.55 270) (size 0.8 1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a9b3f6e4-7a6d-4ae8-ad28-3d8458e0ca1a))
+  (model "/home/olsport/Documents/SDR/PCB/L0002-Liquids-Engine-Controller/CAD/3Dfiles/CLMVC-FKA-CL1D1L71BB7C3C3.STEP"
+    (offset (xyz 0 0 0.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 -180))
+  )
 )
