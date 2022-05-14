@@ -2526,8 +2526,8 @@
   (no_connect (at 34.29 104.14) (uuid 0df390b8-f1d1-44d3-b74f-3a673a277ada))
   (no_connect (at 34.29 106.68) (uuid 0df390b8-f1d1-44d3-b74f-3a673a277adb))
   (no_connect (at 34.29 111.76) (uuid 2b64d2cb-d62a-4762-97ea-f1b0d4293c4f))
+  (no_connect (at 91.44 41.91) (uuid 33bfb1af-1c59-4169-a173-923c753333b4))
   (no_connect (at 91.44 113.03) (uuid 35c09d1f-2914-4d1e-a002-df30af772f3b))
-  (no_connect (at 34.29 166.37) (uuid 3e3d55c8-e0ea-48fb-8421-a84b7cb7055b))
   (no_connect (at 160.655 43.815) (uuid 460e763b-39db-4181-a1bc-5b34916847ce))
   (no_connect (at 160.655 36.195) (uuid 460e763b-39db-4181-a1bc-5b34916847cf))
   (no_connect (at 34.29 39.37) (uuid 475ed8b3-90bf-48cd-bce5-d8f48b689541))
@@ -3231,10 +3231,6 @@
     (uuid e5edca18-2ad5-4ded-b30e-af5c8f6a2d7c)
   )
 
-  (wire (pts (xy 91.44 41.91) (xy 95.25 41.91))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid e8f04971-dba3-452f-8388-a1ffd822d27f)
-  )
   (wire (pts (xy 201.295 97.155) (xy 204.47 97.155))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid e9bc4e11-a5ee-4061-840e-f8dc66f8dd4c)
@@ -3250,6 +3246,10 @@
   (wire (pts (xy 91.44 67.31) (xy 95.25 67.31))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid ec413e46-db62-4f00-9215-19d128bca461)
+  )
+  (wire (pts (xy 31.75 166.37) (xy 34.29 166.37))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid ec43a990-cd60-4765-8385-9a18faf0b91d)
   )
   (wire (pts (xy 204.47 125.095) (xy 207.01 125.095))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -3850,10 +3850,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "FLASH_WP" (shape input) (at 95.25 41.91 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
+  (global_label "FLASH_WP" (shape input) (at 31.75 166.37 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
     (uuid f6983918-fe05-46ea-b355-bc522ec53440)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at -43.18 5.08 0)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 170.18 203.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -4675,6 +4675,12 @@
     (path "/00000000-0000-0000-0000-000060d7f309/00000000-0000-0000-0000-000060ed92f3"
       (reference "#PWR0109") (unit 1) (value "Earth") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-000060d7f309/59b043bf-a20d-42bd-97fc-7a18b415d9ac"
+      (reference "#PWR?") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060d7f309/64a6fbd3-18d0-41d3-87fa-96e96c558542"
+      (reference "#PWR?") (unit 1) (value "Earth") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-0000610156a4"
       (reference "B1") (unit 1) (value "PTS647SM38SMTR2LFS") (footprint "Engine-Controller:PTS647SM38SMTR2LFS")
     )
@@ -4746,12 +4752,6 @@
     )
     (path "/00000000-0000-0000-0000-000060d7f309/66f033d4-7f4d-4d8b-8047-3c7c415b0219"
       (reference "C23") (unit 1) (value "2.2uF") (footprint "Engine-Controller:CAP_0603")
-    )
-    (path "/00000000-0000-0000-0000-000060d7f309/b8efbc02-3ff5-4b40-a4ff-aeeb345b51c7"
-      (reference "C24") (unit 1) (value "2.2uF") (footprint "Engine-Controller:CAP_0603")
-    )
-    (path "/00000000-0000-0000-0000-000060d7f309/3782e2ce-c2e6-4a26-97ce-a9ab47298b0b"
-      (reference "C25") (unit 1) (value "2.2uF") (footprint "Engine-Controller:CAP_0603")
     )
     (path "/00000000-0000-0000-0000-000060d7f309/24701c54-6890-4a0a-8a9b-3ce9dde41556"
       (reference "C26") (unit 1) (value "2.2uF") (footprint "Engine-Controller:CAP_0603")
