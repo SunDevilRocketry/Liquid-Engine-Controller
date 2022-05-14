@@ -11,38 +11,38 @@
     (tstamp c010f62a-c7f8-416f-a904-641a11211732)
   )
   (fp_text user "*" (at -2.7178 -3.6068) (layer "F.SilkS") hide
-    (effects (font (size 0 0)))
+    (effects (font (size 0 0) (thickness 0.15)))
     (tstamp 21df9cf4-ee37-4eee-9e69-edb257038a26)
   )
   (fp_text user "*" (at -2.7178 -3.6068) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 86c0e592-4620-4330-9ef5-3f678bacf8c7)
   )
-  (fp_text user "0.05in/1.27mm" (at 0 5.08) (layer "Dwgs.User")
+  (fp_text user "0.05in/1.27mm" (at 0 5.08) (layer "Dwgs.User") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 037add00-be79-400f-ac5d-e2d0bb977be3)
   )
-  (fp_text user "0.194in/4.928mm" (at 0 7.62) (layer "Dwgs.User")
+  (fp_text user "0.194in/4.928mm" (at 0 7.62) (layer "Dwgs.User") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 08a74ac8-5bcd-426f-b5da-0fa70ebf8fcd)
   )
-  (fp_text user "0.022in/0.559mm" (at 0 8.89) (layer "Dwgs.User")
+  (fp_text user "0.022in/0.559mm" (at 0 8.89) (layer "Dwgs.User") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 6964fd78-d016-4d29-b856-70a03e182a60)
   )
-  (fp_text user "0.078in/1.981mm" (at 0 6.35) (layer "Dwgs.User")
+  (fp_text user "0.078in/1.981mm" (at 0 6.35) (layer "Dwgs.User") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp a0af5159-a8ab-401d-9e6c-c130d36841f9)
   )
-  (fp_text user "Copyright 2021 Accelerated Designs. All rights reserved." (at 0 0) (layer "Cmts.User")
+  (fp_text user "Copyright 2021 Accelerated Designs. All rights reserved." (at 0 0) (layer "Cmts.User") hide
     (effects (font (size 0.127 0.127) (thickness 0.002)))
     (tstamp 5359fec8-b978-4b0d-9f98-9284b5f3e7a7)
   )
-  (fp_text user "*" (at -1.6129 -2.4257) (layer "F.Fab")
+  (fp_text user "*" (at -1.6129 -2.4257) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 1b93ccbd-d7c1-4b24-920c-d08b82d3acd2)
   )
-  (fp_text user "*" (at -1.6129 -2.4257) (layer "F.Fab")
+  (fp_text user "*" (at -1.6129 -2.4257) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp a5d42194-44b0-4b1f-88a5-d8f53f63dd0c)
   )

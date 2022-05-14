@@ -1,4 +1,4 @@
-142934759920281
+142978844540414
 Engine-Controller
 12V_power_jack
 
@@ -126,13 +126,6 @@ CP2012-GMR
 29
 29
 Engine-Controller
-CWR11HH106KB
-
-
-0
-2
-2
-Engine-Controller
 ECS-240-18-33-JGN-TR
 
 
@@ -167,6 +160,13 @@ LM22672MRE-5.0_NOPB
 0
 8
 8
+Engine-Controller
+LMS8117AMP-3.3NOPB
+
+
+0
+4
+3
 Engine-Controller
 Logo
 
@@ -273,13 +273,6 @@ SN74LV07ADR
 14
 14
 Engine-Controller
-SOT-223
-
-
-0
-4
-4
-Engine-Controller
 SP0504BAHTG
 
 
@@ -307,6 +300,13 @@ STM32H750VBT6
 0
 100
 100
+Engine-Controller
+T491A106K010AT
+10 microFarad Tantalum Capacitor
+
+0
+2
+2
 Engine-Controller
 TP
 

@@ -6,7 +6,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 0a6f4f59-7e9f-438c-99e5-e07d43318337)
   )
-  (fp_text value "SML-LX1206GC-TR" (at 0 2.6162) (layer "F.SilkS")
+  (fp_text value "SML-LX1206GC-TR" (at 0 2.6162) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 704c7396-e8ec-416e-9899-2d34278b4a54)
   )

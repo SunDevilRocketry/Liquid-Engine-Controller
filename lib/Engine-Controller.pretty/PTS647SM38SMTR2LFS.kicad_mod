@@ -6,7 +6,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp cc77dd8c-304d-4418-8696-764fa1ed0ac2)
   )
-  (fp_text value "SW_PTS647SM38SMTR2LFS_CNK" (at 0.0508 4.2164) (layer "F.SilkS")
+  (fp_text value "SW_PTS647SM38SMTR2LFS_CNK" (at 0.0508 4.2164) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 2d99b1fd-4676-4d86-a373-e48d6eb5908c)
   )

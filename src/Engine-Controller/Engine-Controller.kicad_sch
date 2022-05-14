@@ -1689,7 +1689,7 @@
         (effects (font (size 1.524 1.524)))
       )
       (property "Value" "PTS647SM38SMTR2LFS" (id 1) (at 1.27 -8.89 0)
-        (effects (font (size 1.524 1.524)))
+        (effects (font (size 1.524 1.524)) hide)
       )
       (property "Footprint" "SW_PTS647SM38SMTR2LFS_CNK" (id 2) (at 0 -11.43 0)
         (effects (font (size 1.524 1.524)) hide)
@@ -1763,7 +1763,7 @@
           (stroke (width 0.254) (type default) (color 0 0 0 0))
           (fill (type none))
         )
-        (pin passive line (at -6.35 3.81 0) (length 2.54)
+        (pin passive line (at -6.35 -3.81 0) (length 2.54)
           (name "1" (effects (font (size 1.4986 1.4986))))
           (number "1" (effects (font (size 1.4986 1.4986))))
         )
@@ -1771,7 +1771,7 @@
           (name "2" (effects (font (size 1.4986 1.4986))))
           (number "2" (effects (font (size 1.4986 1.4986))))
         )
-        (pin passive line (at -6.35 -3.81 0) (length 2.54)
+        (pin passive line (at -6.35 3.81 0) (length 2.54)
           (name "3" (effects (font (size 1.4986 1.4986))))
           (number "3" (effects (font (size 1.4986 1.4986))))
         )
@@ -4654,6 +4654,9 @@
     (path "/fc688eeb-153d-4fa2-8fa1-a1f321ab699a"
       (reference "#PWR0101") (unit 1) (value "Earth") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-000060d7f309/64a6fbd3-18d0-41d3-87fa-96e96c558542"
+      (reference "#PWR0102") (unit 1) (value "Earth") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000060d7f309/00000000-0000-0000-0000-000060ec7bcd"
       (reference "#PWR0103") (unit 1) (value "Earth") (footprint "")
     )
@@ -4676,10 +4679,10 @@
       (reference "#PWR0109") (unit 1) (value "Earth") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000060d7f309/59b043bf-a20d-42bd-97fc-7a18b415d9ac"
-      (reference "#PWR?") (unit 1) (value "Earth") (footprint "")
+      (reference "#PWR0110") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000060d7f309/64a6fbd3-18d0-41d3-87fa-96e96c558542"
-      (reference "#PWR?") (unit 1) (value "Earth") (footprint "")
+    (path "/00000000-0000-0000-0000-000060d7f309/119a8479-8714-4870-96ff-5e05b79ae5ba"
+      (reference "#PWR0111") (unit 1) (value "Earth") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000610156a4"
       (reference "B1") (unit 1) (value "PTS647SM38SMTR2LFS") (footprint "Engine-Controller:PTS647SM38SMTR2LFS")
@@ -4700,10 +4703,10 @@
       (reference "C5") (unit 1) (value "150uF") (footprint "Engine-Controller:EEEFP1E151AL")
     )
     (path "/00000000-0000-0000-0000-000060d7f309/00000000-0000-0000-0000-0000611c3d38"
-      (reference "C6") (unit 1) (value "10uF") (footprint "Engine-Controller:CWR11HH106KB")
+      (reference "C6") (unit 1) (value "10uF") (footprint "Engine-Controller:T491A106K010AT")
     )
     (path "/00000000-0000-0000-0000-000060d7f309/00000000-0000-0000-0000-0000611c7d2a"
-      (reference "C7") (unit 1) (value "10uF") (footprint "Engine-Controller:CWR11HH106KB")
+      (reference "C7") (unit 1) (value "10uF") (footprint "Engine-Controller:T491A106K010AT")
     )
     (path "/00000000-0000-0000-0000-000060de014c"
       (reference "C8") (unit 1) (value "0.1u") (footprint "Engine-Controller:CAP_0603")
@@ -4757,10 +4760,10 @@
       (reference "C26") (unit 1) (value "2.2uF") (footprint "Engine-Controller:CAP_0603")
     )
     (path "/00000000-0000-0000-0000-000060d7f309/1d006bfc-4557-4b0f-907a-1f43e64bc9f4"
-      (reference "C27") (unit 1) (value "10uF") (footprint "Engine-Controller:CWR11HH106KB")
+      (reference "C27") (unit 1) (value "10uF") (footprint "Engine-Controller:T491A106K010AT")
     )
     (path "/00000000-0000-0000-0000-000060d7f309/5718e2f7-461b-45e2-ad3c-f721d4232866"
-      (reference "C28") (unit 1) (value "10uF") (footprint "Engine-Controller:CWR11HH106KB")
+      (reference "C28") (unit 1) (value "10uF") (footprint "Engine-Controller:T491A106K010AT")
     )
     (path "/d060135e-4b32-4403-ae1a-9301174376e1/a10ee6ff-8c81-411f-9ad3-221b7916e886"
       (reference "C29") (unit 1) (value "68uF") (footprint "Engine-Controller:EEEFPV680XAP")
@@ -5024,7 +5027,7 @@
       (reference "U2") (unit 1) (value "LM22672MRE-5.0_NOPB") (footprint "Engine-Controller:LM22672MRE-5.0_NOPB")
     )
     (path "/00000000-0000-0000-0000-000060d7f309/00000000-0000-0000-0000-000061e22a22"
-      (reference "U3") (unit 1) (value "LMS8117AMP-3.3_NOPB") (footprint "Engine-Controller:SOT-223")
+      (reference "U3") (unit 1) (value "LMS8117AMP-3.3_NOPB") (footprint "Engine-Controller:LMS8117AMP-3.3NOPB")
     )
     (path "/9f3f32e1-1873-42fa-9cca-aa278e3c01ec/552318ff-73f8-43e9-bc5a-0ad33868b553"
       (reference "U4") (unit 1) (value "SST25VF040B-50-4I-S2AE-T") (footprint "Engine-Controller:SST25VF040B-50-4I-S2AE-T")
@@ -5069,7 +5072,7 @@
       (reference "U9") (unit 5) (value "MC74HC4066ADG") (footprint "Engine-Controller:MC74HC4066ADG")
     )
     (path "/00000000-0000-0000-0000-000060d7f309/2c73e679-5bfa-442d-b4e4-4c862a7c2a9e"
-      (reference "U10") (unit 1) (value "LMS8117AMP-3.3_NOPB") (footprint "Engine-Controller:SOT-223")
+      (reference "U10") (unit 1) (value "LMS8117AMP-3.3_NOPB") (footprint "Engine-Controller:LMS8117AMP-3.3NOPB")
     )
     (path "/9f3f32e1-1873-42fa-9cca-aa278e3c01ec/53fc9498-09c7-40bc-a046-dea2644e2b0f"
       (reference "U11") (unit 1) (value "TS391IYLT") (footprint "Engine-Controller:TS391IYLT")
