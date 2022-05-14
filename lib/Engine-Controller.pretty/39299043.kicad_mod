@@ -6,7 +6,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 42f4679b-2c4d-49cf-8f9e-afb5127a3112)
   )
-  (fp_text value "CON_39299043" (at -2.100001 -13.97) (layer "F.SilkS")
+  (fp_text value "CON_39299043" (at -2.100001 -13.97) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 619cf9e3-25a5-4699-bab6-469aedc62cab)
   )
@@ -14,23 +14,23 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 7da9f5c8-a062-40f4-88c6-61890bbc359f)
   )
-  (fp_text user "39299043" (at -2.100001 -18.489999) (layer "F.SilkS")
+  (fp_text user "39299043" (at -2.100001 -18.489999) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp b3d89762-54ee-4dc0-8c86-98a5d2a2dca5)
   )
-  (fp_text user "PTH_DRILL_SIZE:_1.4_MM,_TOL:_+0.05/-0.05" (at -2.100001 8.180001) (layer "Cmts.User")
+  (fp_text user "PTH_DRILL_SIZE:_1.4_MM,_TOL:_+0.05/-0.05" (at -2.100001 8.180001) (layer "Cmts.User") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 05bdee95-c42e-4b6f-9645-2ec41619b2fe)
   )
-  (fp_text user "NPTH_DRILL_SIZE:_3.0_MM,_TOL:_+0.05/-0.05" (at -2.100001 10.720001) (layer "Cmts.User")
+  (fp_text user "NPTH_DRILL_SIZE:_3.0_MM,_TOL:_+0.05/-0.05" (at -2.100001 10.720001) (layer "Cmts.User") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 0b2da3ef-2445-490e-b668-8ae41309ee36)
   )
-  (fp_text user "NPTH_DRILL_SIZE:_3.0_MM,_TOL:_+0.05/-0.05" (at -2.100001 10.720001) (layer "Cmts.User")
+  (fp_text user "NPTH_DRILL_SIZE:_3.0_MM,_TOL:_+0.05/-0.05" (at -2.100001 10.720001) (layer "Cmts.User") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 15fcf661-f7ee-4981-92aa-29fa30316a60)
   )
-  (fp_text user "PTH_DRILL_SIZE:_1.4_MM,_TOL:_+0.05/-0.05" (at -2.100001 8.180001) (layer "Cmts.User")
+  (fp_text user "PTH_DRILL_SIZE:_1.4_MM,_TOL:_+0.05/-0.05" (at -2.100001 8.180001) (layer "Cmts.User") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 55dcb42c-b26a-49b8-8a1f-cc80851d2e4d)
   )
