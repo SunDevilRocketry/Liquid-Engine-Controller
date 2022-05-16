@@ -4897,8 +4897,8 @@
     (path "/9f3f32e1-1873-42fa-9cca-aa278e3c01ec/e48b22fe-ad59-4845-9000-7e2b3d2ca476"
       (reference "P10") (unit 1) (value "282837-2") (footprint "Engine-Controller:282837-2")
     )
-    (path "/d060135e-4b32-4403-ae1a-9301174376e1/f522b30d-8c9e-4581-bf36-a1c3dd30a138"
-      (reference "P16") (unit 1) (value "647676-2") (footprint "Engine-Controller:647676-2")
+    (path "/d060135e-4b32-4403-ae1a-9301174376e1/44609f90-43c0-40ee-965c-ab9201f6f92b"
+      (reference "P11") (unit 1) (value "532580229") (footprint "Engine-Controller:532580229")
     )
     (path "/d060135e-4b32-4403-ae1a-9301174376e1/e30475f6-56da-4577-b0b3-cf6110aeb27c"
       (reference "P17") (unit 1) (value "0530470410") (footprint "Engine-Controller:0530470410")
