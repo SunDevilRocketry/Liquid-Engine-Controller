@@ -47,14 +47,9 @@
   (fp_line (start -2.488997 0) (end -3.250997 0) (layer "F.Fab") (width 0.1) (tstamp dd479a80-227b-44d6-b0fa-58cd4309c382))
   (pad "1" smd rect (at -1.3208 0 90) (size 1.778 1.27) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 65bfbec7-6fb9-4987-80c1-ff1851d54038))
   (pad "2" smd rect (at 1.3208 0 90) (size 1.778 1.27) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ad0b7577-2d20-4b4e-84d6-d463a72ffc4e))
-  (model "C:/Users/gza12/OneDrive/Documents/GitHub/L0004-Photogate/CAD/3Dfiles/partno.step"
-    (offset (xyz -1.5 -0.9 0))
+  (model "/home/olsport/Documents/SDR/PCB/Flight-Computer/CAD/3Dfiles/T491A106K010AT.step"
+    (offset (xyz 1.5875 0.9525 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
-  )
-  (model "/home/olsport/Documents/SDR/PCB/L0004-Photogate/CAD/3Dfiles/partno.step"
-    (offset (xyz -1.524 -0.9652 -0.0508))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
+    (rotate (xyz -90 0 -180))
   )
 )

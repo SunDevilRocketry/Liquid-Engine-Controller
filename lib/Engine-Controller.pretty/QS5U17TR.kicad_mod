@@ -55,12 +55,7 @@
   (pad "3" smd rect (at -1.27635 0.950001) (size 0.9525 0.4064) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 3b871e0c-ab38-4719-a2d5-ed90930aedba))
   (pad "4" smd rect (at 1.27635 0.950001) (size 0.9525 0.4064) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e666a0db-591f-48b6-8a0d-7c7a6373c0a3))
   (pad "5" smd rect (at 1.27635 -0.950001) (size 0.9525 0.4064) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 42116bfd-457d-4593-ac30-a7ae4508e2ee))
-  (model "/home/olsport/Documents/SDR/PCB/Liquids-Engine-Controller/CAD/3Dfiles/TRANS_QS5K_ROM.step"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
-  (model "/home/olsport/Documents/SDR/PCB/L0002-Liquids-Engine-Controller/CAD/3Dfiles/TRANS_QS5K_ROM.step"
+  (model "/home/olsport/Documents/SDR/PCB/L0002-Liquids-Engine-Controller/CAD/3Dfiles/QS5U17TR.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

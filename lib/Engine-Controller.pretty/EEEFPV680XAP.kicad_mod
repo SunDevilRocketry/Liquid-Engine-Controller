@@ -45,14 +45,14 @@
   (fp_circle (center -4.15 -1.35) (end -4.05 -1.35) (layer "F.Fab") (width 0.2) (fill none) (tstamp 0cd43162-d8ba-4471-8d8c-262ecff93e7b))
   (pad "1" smd rect (at -2.5 0) (size 3.2 1.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 0b9da606-9229-4112-bb23-1fa47e61fbaf))
   (pad "2" smd rect (at 2.5 0) (size 3.2 1.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f466f331-9d36-49b0-9c4d-1d6ed3415d0b))
-  (model "/home/olsport/Documents/SDR/PCB/Liquids-Engine-Controller/CAD/3Dfiles/EEEFPV680XAP.step"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
-  )
   (model "/home/olsport/Documents/SDR/PCB/L0002-Liquids-Engine-Controller/CAD/3Dfiles/EEEFPV680XAP.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -180))
+  )
+  (model "/home/olsport/Downloads/2022-05-21_19-19-19/STEP/CHEMI-F80.step" hide
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
   )
 )

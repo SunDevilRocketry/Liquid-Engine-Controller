@@ -60,12 +60,7 @@
   (pad "3" smd rect (at -1.365948 0.950001) (size 0.9793 0.5588) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 3bca4ba3-d15d-4127-bfa8-4d3e1ac23715))
   (pad "4" smd rect (at 1.365948 0.950001) (size 0.9793 0.5588) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 56a01b08-8c0e-4fbf-aae1-243baa7206b8))
   (pad "5" smd rect (at 1.365948 -0.950001) (size 0.9793 0.5588) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 942778d8-a52d-4a63-8851-45e2918af9d6))
-  (model "/home/olsport/Documents/SDR/PCB/Liquids-Engine-Controller/CAD/3Dfiles/SP0504BAHTG_LTF.step"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
-  (model "/home/olsport/Documents/SDR/PCB/L0002-Liquids-Engine-Controller/CAD/3Dfiles/SP0504BAHTG_LTF.step"
+  (model "/home/olsport/Documents/SDR/PCB/L0002-Liquids-Engine-Controller/CAD/3Dfiles/SP0504BAHTG.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

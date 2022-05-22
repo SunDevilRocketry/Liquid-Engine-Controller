@@ -3886,7 +3886,7 @@
     (property "Reference" "C8" (id 0) (at 135.3312 40.7416 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "0.1u" (id 1) (at 135.3312 43.053 90)
+    (property "Value" "0.1uF" (id 1) (at 135.3312 43.053 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Engine-Controller:CAP_0603" (id 2) (at 122.555 39.37 0)
@@ -4739,25 +4739,25 @@
       (reference "C7") (unit 1) (value "10uF") (footprint "Engine-Controller:T491A106K010AT")
     )
     (path "/00000000-0000-0000-0000-000060de014c"
-      (reference "C8") (unit 1) (value "0.1u") (footprint "Engine-Controller:CAP_0603")
+      (reference "C8") (unit 1) (value "0.1uF") (footprint "Engine-Controller:CAP_0603")
     )
     (path "/00000000-0000-0000-0000-000060d7f309/0ec16f76-8a15-42e8-be61-e23900423f9a"
-      (reference "C9") (unit 1) (value "0.1u") (footprint "Engine-Controller:CAP_0603")
+      (reference "C9") (unit 1) (value "0.1uF") (footprint "Engine-Controller:CAP_0603")
     )
     (path "/00000000-0000-0000-0000-000060d7f309/4d2ae88c-b6ef-4cb6-b179-76f9053f5b7e"
       (reference "C10") (unit 1) (value "4.7uF") (footprint "Engine-Controller:CAP_0603")
     )
     (path "/00000000-0000-0000-0000-000060d7f309/3a31ced4-1e7b-42c6-a2f1-fe4d16c32e29"
-      (reference "C11") (unit 1) (value "0.1u") (footprint "Engine-Controller:CAP_0603")
+      (reference "C11") (unit 1) (value "0.1uF") (footprint "Engine-Controller:CAP_0603")
     )
     (path "/00000000-0000-0000-0000-000060d7f309/1a1199eb-a7b0-4740-b190-e23949bfc7ec"
       (reference "C12") (unit 1) (value "1uF") (footprint "Engine-Controller:CAP_0603")
     )
     (path "/00000000-0000-0000-0000-000060d7f309/e0ce634b-7c1d-4a97-89dc-87b6beef3d86"
-      (reference "C13") (unit 1) (value "0.1u") (footprint "Engine-Controller:CAP_0603")
+      (reference "C13") (unit 1) (value "0.1uF") (footprint "Engine-Controller:CAP_0603")
     )
     (path "/00000000-0000-0000-0000-000060d7f309/af637304-63ec-4ca0-9646-3e51f519efcf"
-      (reference "C14") (unit 1) (value "0.1u") (footprint "Engine-Controller:CAP_0603")
+      (reference "C14") (unit 1) (value "0.1uF") (footprint "Engine-Controller:CAP_0603")
     )
     (path "/00000000-0000-0000-0000-000060d7f309/00000000-0000-0000-0000-000060fd414b"
       (reference "C15") (unit 1) (value "0.1uF") (footprint "Engine-Controller:CAP_0603")
@@ -4778,10 +4778,10 @@
       (reference "C20") (unit 1) (value "0.1uF") (footprint "Engine-Controller:CAP_0603")
     )
     (path "/00000000-0000-0000-0000-000060d7f309/c172997f-ac8e-44a5-a2ba-3e4cc4d99b9c"
-      (reference "C21") (unit 1) (value "0.1u") (footprint "Engine-Controller:CAP_0603")
+      (reference "C21") (unit 1) (value "0.1uF") (footprint "Engine-Controller:CAP_0603")
     )
     (path "/00000000-0000-0000-0000-000060d7f309/07894ac2-4d7e-4947-975c-a4f4124bdd22"
-      (reference "C22") (unit 1) (value "0.1u") (footprint "Engine-Controller:CAP_0603")
+      (reference "C22") (unit 1) (value "0.1uF") (footprint "Engine-Controller:CAP_0603")
     )
     (path "/00000000-0000-0000-0000-000060d7f309/66f033d4-7f4d-4d8b-8047-3c7c415b0219"
       (reference "C23") (unit 1) (value "2.2uF") (footprint "Engine-Controller:CAP_0603")
@@ -4925,7 +4925,7 @@
       (reference "R5") (unit 1) (value "240") (footprint "Engine-Controller:RES_0603")
     )
     (path "/9f3f32e1-1873-42fa-9cca-aa278e3c01ec/1843fcc5-48c4-4583-ad54-97557638cc54"
-      (reference "R6") (unit 1) (value "1k") (footprint "Engine-Controller:RES_0603")
+      (reference "R6") (unit 1) (value "10k") (footprint "Engine-Controller:RES_0603")
     )
     (path "/9f3f32e1-1873-42fa-9cca-aa278e3c01ec/72789c74-f9fc-44e0-856f-c74436508409"
       (reference "R7") (unit 1) (value "100k") (footprint "Engine-Controller:RES_0603")
