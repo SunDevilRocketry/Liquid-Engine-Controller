@@ -1,3 +1,4 @@
+from syslog import LOG_LOCAL0
 from PIL import Image,ImageTk
 import numpy as np
 from matplotlib import pyplot as plt
@@ -29,7 +30,7 @@ for i in range(2,len(R)):
 
 ## Output in the most convenient unit, error code of less than 1 ohm, more than 1 giga ohm
 for i,resistor in enumerate(R):
-    print(("Resistor " + str(i)) + " is {:.0f} ohms.".format(resistor))
+    print(("Resistor " + str(i)) + " is {:.0f} kilo ohms.".format(resistor))
 
 # Testing
 intg = 0
@@ -44,14 +45,22 @@ print(A)
 Ru = [0]*9
 y = [0]*256
 for i in range(len(Ru)):
-    Ru[i] = input("What is the value of resistor " + str(i) +" in ohms?")
+    Ru[i] = input("What is the value of resistor " + str(i) +" in kilo ohms?")
     Ru[i] = int(Ru[i])
 
 for i in range(256):
     intg = 0
-    Rstar = 100*1000
-    for n in range(len(Ru)):  
-        intg = intg + 1/Ru[n]
+    Rstar = 100
+    ib = bin(i)
+    result = list(str(ib))
+    while len(result) < 10:
+        result.insert(2,0)
+
+    for n in range(len(Ru)):
+        if n == 0:
+            intg = intg + 1/Ru[n]
+        elif int(result[10-n]) == 1:  
+            intg = intg + 1/(Ru[n])
     RGu = 1/intg
     y[i] = 1+(Rstar/RGu)
 
