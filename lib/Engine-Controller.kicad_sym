@@ -5216,7 +5216,7 @@
     (property "Value" "Micro_SD_Card" (id 1) (at 16.51 15.24 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (property "Footprint" "" (id 2) (at 29.21 7.62 0)
+    (property "Footprint" "Engine-Controller:MEM2075-00-140-01-A" (id 2) (at 29.21 7.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://katalog.we-online.de/em/datasheet/693072010801.pdf" (id 3) (at 3.302 -31.242 0)
