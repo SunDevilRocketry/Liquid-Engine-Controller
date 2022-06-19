@@ -3,73 +3,67 @@ from PIL import Image,ImageTk
 import numpy as np
 from matplotlib import pyplot as plt
 
-##### Local Variables ####
+##### LOCAL VARIABLES ####
+Rstar = 100000 #Ohms
+GigaR = 1000000000 #Ohms
+MegaR = 1000000 #Ohms
+KiloR = 1000 #Ohms
+RegaR = 1 #Ohms
+Rn = 9 # Number of resistors
+##### LOCAL VARIABLES ####
 
-#### 
-
-
-# User Inputs
+##### MAIN CODE: OUTPUT ####
+# User inputs the desired mid gain/gain range
 Amid = input("Enter the desired mid gain: ")
-Amid = int(Amid)
 dA = input("Enter the desired gain range: ")
-dA = int(dA)
 
+# Convert user input into a float number
+Amid = float(Amid)
+dA = float(dA)
+
+# Error code for nonsense inputs
 if Amid < 0 or dA < 0:
     print("Invalid Input")
     quit()
 
-# Constants
-Rstar = 100000 #Ohms
-
-# Calculated Values
+# Calculate min and max gain
 Amin = Amid - dA/2
 Amax = Amid + dA/2
 
-R = [0]*9
-
+# Calculating the resistor values
+R = [0]*Rn
 R[0] = Rstar/(Amin - 1)
 R[1] = 255*Rstar/(Amax - Amin)
-
 for i in range(2,len(R)):
     R[i] = R[1]/(2**(i-1))
 
-# Outputs
+# Array to store the units for the resistor
+unit = [0]*Rn
 
-unit = [0]*9
-
-## Output in the most convenient unit
+# Output in the most convenient unit
 for i,resistor in enumerate(R):
-    if resistor > 1000000000:
+    if resistor > GigaR:
         print("Resistor required larger than 1 GigaOhm")
         quit()
-    elif resistor > 1000000:
+    elif resistor > MegaR:
         resistor = resistor/1000000
         print(("Resistor " + str(i)) + " is {:.6f} MOhms.".format(resistor))
         unit[i] = 3
-    elif resistor > 1000:
+    elif resistor > KiloR:
         resistor = resistor/1000
         print(("Resistor " + str(i)) + " is {:.3f} kOhms.".format(resistor))
         unit[i] = 2
-    elif resistor > 1:
+    elif resistor > RegaR:
         print(("Resistor " + str(i)) + " is {:.0f} Ohms.".format(resistor))
         unit[i] = 1
     else:
         print("Resistor required smaller than 1 Ohm")
         quit()
 
+##### MAIN CODE: INPUT TO PLOT ####
 
-
-# Testing
-intg = 0
-for i in range(len(R)):
-    intg = intg + 1/R[i]
-
-RG = 1/intg
-A = 1+(Rstar/RG)
-print(A)
-
-# Plot Recorded Data
-Ru = [0]*9
+# Acquire the actual resistor values
+Ru = [0]*Rn
 y = [0]*256
 for i in range(len(Ru)):
     if unit[i] == 3:
@@ -82,22 +76,32 @@ for i in range(len(Ru)):
         Ru[i] = input("What is the value of resistor " + str(i) +" in Ohms?")
         Ru[i] = float(Ru[i])
 
+# Calculating the gain for all settings
 for i in range(256):
-    intg = 0
     Rstar = 100000
+    # Variable to store sums
+    intg = 0
+    # Converting gain setting to binary
     ib = bin(i)
+    # Separate binary number to all its digits
     result = list(str(ib))
+    # Add in 0's for binary numbers with fewer than 8 digits
     while len(result) < 10:
         result.insert(2,0)
-
+    # Sum up the reciprocal of the resistor values for the resistors turned on for a particular setting
     for n in range(len(Ru)):
+        # First resistor is always on
         if n == 0:
             intg = intg + 1/Ru[n]
+        # Variable resistors on or off
         elif int(result[10-n]) == 1:  
             intg = intg + 1/(Ru[n])
+    # Calculating the equivalent resistance of the circuit
     RGu = 1/intg
+    # Calculating the gain
     y[i] = 1+(Rstar/RGu)
 
+# Plotting the gain vs gain setting
 plt.figure(1)
 plt.plot(range(256),y)
 plt.xlabel('Gain Setting')
