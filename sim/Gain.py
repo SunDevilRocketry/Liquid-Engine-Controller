@@ -3,6 +3,11 @@ from PIL import Image,ImageTk
 import numpy as np
 from matplotlib import pyplot as plt
 
+##### Local Variables ####
+
+#### 
+
+
 # User Inputs
 Amid = input("Enter the desired mid gain: ")
 Amid = int(Amid)
@@ -39,11 +44,11 @@ for i,resistor in enumerate(R):
         quit()
     elif resistor > 1000000:
         resistor = resistor/1000000
-        print(("Resistor " + str(i)) + " is {:.6f} MegaOhms.".format(resistor))
+        print(("Resistor " + str(i)) + " is {:.6f} MOhms.".format(resistor))
         unit[i] = 3
     elif resistor > 1000:
         resistor = resistor/1000
-        print(("Resistor " + str(i)) + " is {:.3f} KiloOhms.".format(resistor))
+        print(("Resistor " + str(i)) + " is {:.3f} kOhms.".format(resistor))
         unit[i] = 2
     elif resistor > 1:
         print(("Resistor " + str(i)) + " is {:.0f} Ohms.".format(resistor))
@@ -68,14 +73,14 @@ Ru = [0]*9
 y = [0]*256
 for i in range(len(Ru)):
     if unit[i] == 3:
-        Ru[i] = input("What is the value of resistor " + str(i) +" in MegaOhms?")
-        Ru[i] = int(Ru[i])*1000000
+        Ru[i] = input("What is the value of resistor " + str(i) +" in MOhms?")
+        Ru[i] = float(Ru[i])*1000000
     elif unit[i] == 2:
-        Ru[i] = input("What is the value of resistor " + str(i) +" in KiloOhms?")
-        Ru[i] = int(Ru[i])*1000
+        Ru[i] = input("What is the value of resistor " + str(i) +" in kOhms?")
+        Ru[i] = float(Ru[i])*1000
     elif unit[i] == 1:
         Ru[i] = input("What is the value of resistor " + str(i) +" in Ohms?")
-        Ru[i] = int(Ru[i])
+        Ru[i] = float(Ru[i])
 
 for i in range(256):
     intg = 0
