@@ -4,15 +4,17 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 # User Inputs
-Amid = input("Enter the desired mid gain:")
+Amid = input("Enter the desired mid gain: ")
 Amid = int(Amid)
-dA = input("Enter the desired gain range:")
+dA = input("Enter the desired gain range: ")
 dA = int(dA)
 
-# #Error Code if input not correct
+if Amid < 0 or dA < 0:
+    print("Invalid Input")
+    quit()
 
 # Constants
-Rstar = 100 #kilo ohms
+Rstar = 100000 #Ohms
 
 # Calculated Values
 Amin = Amid - dA/2
@@ -28,9 +30,29 @@ for i in range(2,len(R)):
 
 # Outputs
 
-## Output in the most convenient unit, error code of less than 1 ohm, more than 1 giga ohm
+unit = [0]*9
+
+## Output in the most convenient unit
 for i,resistor in enumerate(R):
-    print(("Resistor " + str(i)) + " is {:.0f} kilo ohms.".format(resistor))
+    if resistor > 1000000000:
+        print("Resistor required larger than 1 GigaOhm")
+        quit()
+    elif resistor > 1000000:
+        resistor = resistor/1000000
+        print(("Resistor " + str(i)) + " is {:.6f} MegaOhms.".format(resistor))
+        unit[i] = 3
+    elif resistor > 1000:
+        resistor = resistor/1000
+        print(("Resistor " + str(i)) + " is {:.3f} KiloOhms.".format(resistor))
+        unit[i] = 2
+    elif resistor > 1:
+        print(("Resistor " + str(i)) + " is {:.0f} Ohms.".format(resistor))
+        unit[i] = 1
+    else:
+        print("Resistor required smaller than 1 Ohm")
+        quit()
+
+
 
 # Testing
 intg = 0
@@ -45,12 +67,19 @@ print(A)
 Ru = [0]*9
 y = [0]*256
 for i in range(len(Ru)):
-    Ru[i] = input("What is the value of resistor " + str(i) +" in kilo ohms?")
-    Ru[i] = int(Ru[i])
+    if unit[i] == 3:
+        Ru[i] = input("What is the value of resistor " + str(i) +" in MegaOhms?")
+        Ru[i] = int(Ru[i])*1000000
+    elif unit[i] == 2:
+        Ru[i] = input("What is the value of resistor " + str(i) +" in KiloOhms?")
+        Ru[i] = int(Ru[i])*1000
+    elif unit[i] == 1:
+        Ru[i] = input("What is the value of resistor " + str(i) +" in Ohms?")
+        Ru[i] = int(Ru[i])
 
 for i in range(256):
     intg = 0
-    Rstar = 100
+    Rstar = 100000
     ib = bin(i)
     result = list(str(ib))
     while len(result) < 10:
