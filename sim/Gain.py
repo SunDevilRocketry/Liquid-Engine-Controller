@@ -47,7 +47,11 @@ for i,resistor in enumerate(R):
         quit()
     elif resistor > MegaR:
         resistor = resistor/1000000
-        print(("Resistor " + str(i)) + " is {:.6f} MOhms.".format(resistor))
+        print(
+             ("Resistor " + 
+              str(i))     + 
+              " is {:.6f} MOhms.".format(resistor)
+             )
         unit[i] = 3
     elif resistor > KiloR:
         resistor = resistor/1000
