@@ -46,7 +46,7 @@
   (pad "24" thru_hole circle (at 6.35 -0.635) (size 1.0668 1.0668) (drill 0.7366) (layers *.Cu *.Mask) (tstamp 63731323-9ec6-410c-ae18-3b5b31d15b84))
   (pad "25" thru_hole circle (at 7.62 0.635) (size 1.0668 1.0668) (drill 0.7366) (layers *.Cu *.Mask) (tstamp 7c824ad5-d080-4b55-b007-3e4d487a2936))
   (pad "26" thru_hole circle (at 7.62 -0.635) (size 1.0668 1.0668) (drill 0.7366) (layers *.Cu *.Mask) (tstamp 4bac7491-5b5c-4d77-8430-e7594d6a7913))
-  (model "/home/olsport/Documents/SDR/PCB/L0002-Liquids-Engine-Controller/CAD/3Dfiles/20021511-00026XXLFC.step"
+  (model "/home/olsport/Documents/SDR/PCB/Liquid-Engine-Controller/CAD/3Dfiles/20021511-00026XXLFC.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
