@@ -1,5 +1,5 @@
 (sym_lib_table
-  (lib (name "Engine-Controller")(type "KiCad")(uri "/home/olsport/Documents/SDR/PCB/L0002-Liquids-Engine-Controller/lib/Engine-Controller.kicad_sym")(options "")(descr ""))
-  (lib (name "L0005-Valve-Controller")(type "KiCad")(uri "/home/olsport/Documents/SDR/PCB/L0005-Valve-Controller/lib/L0005-Valve-Controller.kicad_sym")(options "")(descr ""))
-  (lib (name "Instrumentation-Amplifier_L-0001")(type "KiCad")(uri "/home/olsport/Documents/SDR/PCB/Instrumentation-Amplifier/lib/Instrumentation-Amplifier_L-0001.kicad_sym")(options "")(descr ""))
+  (version 7)
+  (lib (name "Engine-Controller")(type "KiCad")(uri "/home/olsport/Documents/SDR/PCB/Liquid-Engine-Controller/lib/Engine-Controller.kicad_sym")(options "")(descr ""))
+  (lib (name "RTD-Engine-Controller")(type "KiCad")(uri "/home/olsport/Downloads/Liquid-Engine-Controller-main/lib/RTD-Engine-Controller.kicad_sym")(options "")(descr ""))
 )
