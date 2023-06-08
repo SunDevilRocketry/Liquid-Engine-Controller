@@ -7371,7 +7371,7 @@
     (property "Value" "SN65HVD71DR" (at 1.778 11.176 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Footprint" "RS485-Module:SN65HVD71DR" (at 4.318 -16.002 0)
+    (property "Footprint" "Engine-Controller:SN65HVD71DR" (at 4.318 -16.002 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "SN65HVD71DR" (at 5.334 -13.462 0)
