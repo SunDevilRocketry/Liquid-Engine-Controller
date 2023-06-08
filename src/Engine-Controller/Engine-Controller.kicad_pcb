@@ -13009,7 +13009,7 @@
   (gr_text "-\n\n" (at 130.8862 150.3934 180) (layer "F.SilkS") (tstamp 3d8920b4-a9cd-4ea6-9581-3f5ba6bfc4e3)
     (effects (font (size 1.016 1.016) (thickness 0.15)))
   )
-  (gr_text "L0002 Rev 4.0" (at 104.2162 149.7584) (layer "F.SilkS") (tstamp 3f1d3b22-3ba1-4783-af8d-526bce7c36db)
+  (gr_text "L0002 Rev 5.0" (at 104.2162 149.7584) (layer "F.SilkS") (tstamp 3f1d3b22-3ba1-4783-af8d-526bce7c36db)
     (effects (font (size 1.3 1.3) (thickness 0.2)))
   )
   (gr_text "RESET" (at 143.3322 132.08) (layer "F.SilkS") (tstamp 43f41a7b-6dde-4d5c-9524-aa823a18a9f6)
