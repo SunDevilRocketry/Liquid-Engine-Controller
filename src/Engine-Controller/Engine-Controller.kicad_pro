@@ -524,7 +524,7 @@
       "idf": "",
       "netlist": "Engine-Controller.net",
       "specctra_dsn": "",
-      "step": "../../CAD/Engine-Controller_Rev4.0.step",
+      "step": "../../CAD/Engine-Controller_Rev5.1.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
